@@ -1,0 +1,153 @@
+{
+  "oppdatert": "2026-08-25",
+  "beskrivelse": "Graf over selskaper → domener → verifiserte kilder. Brukes av /konkurrent-loop som hukommelse mellom kjøringer: send hvert selskaps 'kilder' med til research-agenten, og legg nye kilder tilbake hit. Kanter er implisitte (selskap → domene, selskap → kilde).",
+  "felleskilder": [
+    {"url": "https://adstransparency.google.com/?region=NO&domain={domene}", "type": "adlib", "beskrivelse": "Google Ads Transparency Center per domene. KUN via browser (WebFetch blokkeres). Bruk datofilter for å isolere nye annonser siden forrige kjøring."},
+    {"url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=NO&q={navn}&search_type=keyword_unordered", "type": "adlib", "beskrivelse": "Meta Ad Library. KUN via browser. Generiske navn (f.eks. 'Lyse') må søkes via annonsørside, ikke nøkkelord."},
+    {"url": "https://www.globenewswire.com/en/search/organization/{selskap}", "type": "presse", "beskrivelse": "GlobeNewswire-arkiv — dekker børsmeldinger for Statkraft, Nordkraft, Eviny m.fl."},
+    {"url": "https://kommunikasjon.ntb.no/", "type": "presse", "beskrivelse": "NTB Kommunikasjon — presserom for Å Energi, Lyse, Eviny, Akershus Energi m.fl."},
+    {"url": "https://www.kampanje.com/ og https://www.m24.no/", "type": "annet", "beskrivelse": "Byrå-/kampanjenyheter — sekundærkilde for konkurrenters reklamekampanjer og byråvalg."},
+    {"url": "https://www.europower.no/ og https://www.energiaktuelt.no/", "type": "annet", "beskrivelse": "Bransjemedier som dekker norsk kraftsektor tett."},
+    {"url": "https://www.finansavisen.no/energi/", "type": "annet", "beskrivelse": "Finansavisen Energi — kritisk finansiell dekning (brøt NTE-vindsaken)."}
+  ],
+  "selskaper": {
+    "Hafslund (egen baseline)": {
+      "domener": ["hafslund.no", "hafslundeco.no", "celsio.no", "hafslundmagnorasol.no"],
+      "some": {"linkedin": "linkedin.com/company/hafslund", "facebook": "facebook.com/hafslund.no", "instagram": "instagram.com/hafslund", "youtube": "youtube.com/@hafslundAS"},
+      "kilder": [
+        {"url": "https://www.similarweb.com/website/hafslund.no", "type": "seo", "beskrivelse": "Offentlige trafikkestimater (NO-rank ~12138 aug 2026)."},
+        {"url": "adstransparency: hafslund.no", "type": "adlib", "beskrivelse": "39 annonser (aug 2026) via Trakken GmbH og Channel Factory Nordics AB."}
+      ]
+    },
+    "Statkraft": {
+      "domener": ["statkraft.no", "statkraft.com", "statkraftventures.com", "fosenvind.no"],
+      "some": {"linkedin": "linkedin.com/company/statkraft", "facebook": "facebook.com/statkraft", "instagram": "instagram.com/statkraft", "x": "x.com/Statkraft", "youtube": "youtube.com/Statkraft"},
+      "kilder": [
+        {"url": "https://www.statkraft.com/newsroom/press-releases/", "type": "presse", "beskrivelse": "Primærkilde pressemeldinger."},
+        {"url": "https://www.statkraft.com/newsroom/news-and-stories/", "type": "nyhetsrom", "beskrivelse": "Organisert per år."},
+        {"url": "https://www.statkraft.com/IR/stock-exchange-notices/", "type": "ir", "beskrivelse": "Børsmeldinger."},
+        {"url": "https://www.statkraft.com/IR/financial-calender/", "type": "ir", "beskrivelse": "Finanskalender — planlegg kjøringer rundt kvartalstall."},
+        {"url": "https://www.statkraft.no/presserom/arendalsuka/", "type": "presse", "beskrivelse": "Arendalsuka-tilstedeværelse, sjekk august."},
+        {"url": "https://www.statkraft.com/about-statkraft/strategy/", "type": "annet", "beskrivelse": "Strategiside."},
+        {"url": "adstransparency: statkraft.no (~400 annonser via OMD AS) + statkraft.com (20)", "type": "adlib", "beskrivelse": "Annonserer tungt via OMD."}
+      ]
+    },
+    "Å Energi": {
+      "domener": ["aenergi.no", "glitrenett.no", "vibb.no", "entelios.no"],
+      "some": {"linkedin": "linkedin.com/company/å-energi", "instagram": "instagram.com/aenergi"},
+      "kilder": [
+        {"url": "https://kommunikasjon.ntb.no/presseroom/a-energi?publisherId=17848371", "type": "presse", "beskrivelse": "Primærkilde pressemeldinger (NTB)."},
+        {"url": "https://www.aenergi.no/no/om-oss/finansiell-info", "type": "ir", "beskrivelse": "Kvartals-/årsrapporter. Q2 2026 ventet 27. aug 2026."},
+        {"url": "https://www.aenergi.no/no/prosjekter", "type": "annet", "beskrivelse": "Pågående vannkraft-/nett-/solprosjekter."},
+        {"url": "Oslo Børs utstederkode 6772", "type": "ir", "beskrivelse": "Obligasjonsmeldinger/Green Financing."},
+        {"url": "adstransparency: aenergi.no (1 annonse)", "type": "adlib", "beskrivelse": "Minimal Google-annonsering."}
+      ]
+    },
+    "Lyse": {
+      "domener": ["lyse.no", "lysekonsern.no", "l-nett.no", "altibox.no", "ice.no", "roldal-suldal.no", "midgardinfra.com"],
+      "some": {"linkedin": "no.linkedin.com/company/lyse-as", "facebook": "facebook.com/LyseAS", "instagram": "instagram.com/lyse.as"},
+      "kilder": [
+        {"url": "https://www.lysekonsern.no/om-oss/nyhetsarkiv/", "type": "nyhetsrom", "beskrivelse": "Fullt nyhetsarkiv (459+ artikler)."},
+        {"url": "https://kommunikasjon.ntb.no/presserom/lyse/r?publisherId=6131895", "type": "presse", "beskrivelse": "NTB-presserom med tidsstempler."},
+        {"url": "https://www.lysekonsern.no/finans/rapporter-og-presentasjoner-1/", "type": "ir", "beskrivelse": "IR-side. H1 2026 presenteres 27. aug 2026."},
+        {"url": "https://roldal-suldal.no/", "type": "annet", "beskrivelse": "Prosjektside for Røldal-Suldal (620→1320 MW m/Hydro)."},
+        {"url": "https://www.l-nett.no/nyheter", "type": "annet", "beskrivelse": "Nettleie/nettutvikling."},
+        {"url": "adstransparency: lyse.no (75 annonser, LYSE MARKED AS)", "type": "adlib", "beskrivelse": "Meta: søk via annonsørside, ikke nøkkelord ('Lyse' er for generisk)."}
+      ]
+    },
+    "Eviny": {
+      "domener": ["eviny.no"],
+      "some": {"linkedin": "linkedin.com/company/eviny", "facebook": "facebook.com/eviny.no", "instagram": "instagram.com/eviny.no"},
+      "kilder": [
+        {"url": "https://kommunikasjon.ntb.no/presserom/17847929/eviny/r", "type": "presse", "beskrivelse": "NTB-presserom."},
+        {"url": "https://www.eviny.no/nyheter", "type": "nyhetsrom", "beskrivelse": "Eget nyhetsarkiv."},
+        {"url": "https://www.eviny.no/om-eviny/finansiell-informasjon", "type": "ir", "beskrivelse": "IR (obligasjonsutsteder)."},
+        {"url": "adstransparency: eviny.no (25 annonser, Eviny AS)", "type": "adlib", "beskrivelse": "Meta: 0 aktive aug 2026."}
+      ]
+    },
+    "Skagerak Energi": {
+      "domener": ["skagerakenergi.no", "skagerakkraft.no", "lede.no", "skagerakvarme.no"],
+      "some": {"linkedin": "linkedin.com/company/skagerak-energi", "facebook": "facebook.com/SkagerakEnergi", "instagram": "instagram.com/skagerak_energi", "youtube": "youtube.com/@skagerakenergi3838"},
+      "kilder": [
+        {"url": "https://www.skagerakenergi.no/presse/pressemeldinger/", "type": "presse", "beskrivelse": "Primærkilde."},
+        {"url": "https://www.skagerakenergi.no/finansielt/arsrapport/", "type": "ir", "beskrivelse": "Års-/halvårsrapporter."},
+        {"url": "https://lede.no/presse/pressemeldinger/", "type": "presse", "beskrivelse": "Nettselskapet Lede (medaksjonær-prosess pågår)."},
+        {"url": "https://www.skagerakvarme.no/nyhetsarkiv/", "type": "nyhetsrom", "beskrivelse": "Fjernvarme."},
+        {"url": "https://www.skagerakkraft.no/nyhetsarkiv/", "type": "nyhetsrom", "beskrivelse": "Produksjon, sol/vind-prosjekter (Skien Vind)."},
+        {"url": "https://www.pd.no/ og https://www.ta.no/", "type": "annet", "beskrivelse": "Lokalaviser — dekker eierkonflikten Statkraft vs Grenland-kommunene."}
+      ]
+    },
+    "Aneo": {
+      "domener": ["aneo.com", "tronderenergi.no"],
+      "some": {"linkedin": "linkedin.com/company/aneoas", "instagram": "instagram.com/aneorenewable"},
+      "kilder": [
+        {"url": "https://www.aneo.com/en/news", "type": "nyhetsrom", "beskrivelse": "Primærkilde."},
+        {"url": "https://www.mynewsdesk.com/no/aneo", "type": "presse", "beskrivelse": "Mynewsdesk-arkiv (norsk)."},
+        {"url": "https://tronderenergi.no/nyheter", "type": "nyhetsrom", "beskrivelse": "Morselskap (50%)."},
+        {"url": "https://hitecvision.com/story/aneo/", "type": "annet", "beskrivelse": "Medeier HitecVision — følg exit-planer."}
+      ]
+    },
+    "NTE": {
+      "domener": ["nte.no"],
+      "some": {"linkedin": "linkedin.com/company/nte-no", "facebook": "facebook.com/ntegrontforsprang", "instagram": "instagram.com/ntegrontforsprang", "x": "x.com/ntepresse"},
+      "kilder": [
+        {"url": "https://nte.no/blogg/kategori/pressemeldinger", "type": "presse", "beskrivelse": "Primærkilde."},
+        {"url": "https://www.t-a.no/", "type": "annet", "beskrivelse": "Trønder-Avisa — dekker NTE-vindkonflikten tett."},
+        {"url": "https://montelnews.com/", "type": "annet", "beskrivelse": "PPA-avtaler med industri."},
+        {"url": "adstransparency: nte.no (~200 annonser, mest telekom via NTE Telekom AS/NTE Marked AS)", "type": "adlib", "beskrivelse": "Skill kraft fra telekom i analysen."}
+      ]
+    },
+    "Hydro Energi": {
+      "domener": ["hydro.com", "hydrorein.com"],
+      "some": {"linkedin": "linkedin.com/company/norsk-hydro", "instagram": "instagram.com/norskhydroasa", "youtube": "youtube.com/channel/UCEOwf5jNlgcSFdjxEZootow"},
+      "kilder": [
+        {"url": "https://www.hydro.com/en/global/media/news/", "type": "nyhetsrom", "beskrivelse": "PPA-annonseringer og kraftnyheter."},
+        {"url": "https://www.hydro.com/en/global/energy/", "type": "annet", "beskrivelse": "Energy-landingsside, kraftportefølje."},
+        {"url": "https://www.hydro.com/en/investor-relations/", "type": "ir", "beskrivelse": "Kvartalsrapporter (kraftproduksjonseffekter)."},
+        {"url": "adstransparency: hydro.com (64 annonser, mest konsern/aluminium)", "type": "adlib", "beskrivelse": "Lite energispesifikt."}
+      ]
+    },
+    "Fortum": {
+      "domener": ["fortum.com", "fortum.no (redirect)", "bedrift.fortum.no", "chargedrive.com"],
+      "some": {"linkedin": "linkedin.com/company/fortum", "facebook": "facebook.com/FortumNorge (~152k)", "instagram": "instagram.com/fortum_norge", "x": "x.com/FortumNorge"},
+      "kilder": [
+        {"url": "https://www.fortum.com/about-us/newsroom/all-news-and-releases", "type": "nyhetsrom", "beskrivelse": "Globalt nyhetsrom."},
+        {"url": "https://news.cision.com/fortum", "type": "presse", "beskrivelse": "Cision-arkiv, god for automatisering."},
+        {"url": "https://www.fortum.com/investors/calendar-and-events/results-news-conferences", "type": "ir", "beskrivelse": "IR-kalender."},
+        {"url": "https://www.ksindeks.no/", "type": "annet", "beskrivelse": "Kundeservicerangering strømbransjen (benchmark)."},
+        {"url": "adstransparency: fortum.no (81 annonser, Fortum Markets AB) + Meta ~97 aktive", "type": "adlib", "beskrivelse": "Mest aggressive annonsør i settet."}
+      ]
+    },
+    "Cloudberry Clean Energy": {
+      "domener": ["cloudberry.no"],
+      "some": {"linkedin": "linkedin.com/company/cloudberrycleanenergy", "youtube": "youtube.com/channel/UCBGrCpl692NAvIjUCNpoVGg"},
+      "kilder": [
+        {"url": "https://www.cloudberry.no/about/news", "type": "nyhetsrom", "beskrivelse": "Primærkilde. Følg Orrön-closing H2 2026 og Dingelsundet BESS-idriftsettelse Q3 2026 (50/50 med Hafslund Vekst!)."},
+        {"url": "https://www.cloudberry.no/investor-relations", "type": "ir", "beskrivelse": "IR-hub."},
+        {"url": "https://news.cision.com/cloudberry-clean-energy-asa", "type": "presse", "beskrivelse": "Cision-arkiv."},
+        {"url": "https://www.cloudberry.no/about/career", "type": "annet", "beskrivelse": "Rekrutteringstakt som vekstindikator."}
+      ]
+    },
+    "Vattenfall": {"domener": ["vattenfall.no", "group.vattenfall.com"], "kilder": [{"url": "https://www.vattenfall.no/nyheter-prosjekter/", "type": "nyhetsrom"}, {"url": "https://group.vattenfall.com/press-and-media/pressreleases", "type": "presse"}]},
+    "Equinor": {"domener": ["equinor.com"], "kilder": [{"url": "https://www.equinor.com/news", "type": "nyhetsrom"}, {"url": "https://www.equinor.com/investors", "type": "ir"}]},
+    "Zephyr": {"domener": ["zephyr.no", "zephyrenergi.se"], "kilder": [{"url": "https://www.zephyr.no/aktuelt", "type": "nyhetsrom"}, {"url": "https://zephyrenergi.se/nyheter/", "type": "nyhetsrom", "beskrivelse": "Svensk portefølje mest aktiv."}]},
+    "Magnora ASA": {"domener": ["magnoraasa.com", "hafslundmagnorasol.no"], "kilder": [{"url": "https://magnoraasa.com/press-releases/", "type": "ir", "beskrivelse": "JV-partner i Hafslund Magnora Sol. Følg datasenter-IPO-prosessen (Arctic Securities)."}]},
+    "Fred. Olsen Renewables": {"domener": ["fredolsenrenewables.com"], "kilder": [{"url": "https://press.fredolsenrenewables.com/pressreleases", "type": "presse"}]},
+    "Norsk Vind / Valinor": {"domener": ["valinor.no", "vind.no", "norskhavvind.no"], "kilder": [{"url": "https://valinor.no/en/portfolio/", "type": "nyhetsrom", "beskrivelse": "Lite datert nyhetsflyt — sjekk direkte hver kjøring."}, {"url": "https://vind.no/", "type": "nyhetsrom"}]},
+    "Scatec": {"domener": ["scatec.com"], "kilder": [{"url": "https://www.scatec.com/en/investors/press-releases/", "type": "ir"}]},
+    "Helgeland Kraft": {"domener": ["helgelandkraft.no"], "kilder": [{"url": "https://www.helgelandkraft.no/konsern/forside/mediaogpresse/", "type": "presse"}]},
+    "Salten Kraftsamband": {"domener": ["sks.no"], "kilder": [{"url": "https://www.sks.no/nyheter/", "type": "nyhetsrom", "beskrivelse": "Finnmark-vindallianse m/NTE+Nordkraft."}]},
+    "Nordkraft": {"domener": ["nordkraft.no"], "kilder": [{"url": "https://www.nordkraft.no/media/pressemeldinger/", "type": "presse", "beskrivelse": "Nordscale (AI-datasenter Narvik) og Finnmark-vind."}]},
+    "Sognekraft": {"domener": ["sognekraft.no"], "kilder": [{"url": "https://www.sognekraft.no/fleiresaker", "type": "nyhetsrom"}]},
+    "Istad Kraft": {"domener": ["istadkraft.no"], "kilder": [{"url": "https://www.istadkraft.no/nyheter", "type": "nyhetsrom", "beskrivelse": "Lavt nyhetsvolum."}]},
+    "Østfold Energi": {"domener": ["ostfoldenergi.no"], "kilder": [{"url": "https://www.ostfoldenergi.no/nyheter-og-presse/", "type": "nyhetsrom", "beskrivelse": "Gravdalen kraftverk ferdig høsten 2026."}]},
+    "Vardar": {"domener": ["vardar.no"], "kilder": [{"url": "https://www.vardar.no/nyheter", "type": "nyhetsrom", "beskrivelse": "NB: driftsportefølje overtatt av Å Energi juni 2026 — nå holdingselskap."}]},
+    "Akershus Energi": {"domener": ["akershusenergi.no"], "kilder": [{"url": "https://akershusenergi.no/nyheter/", "type": "nyhetsrom"}, {"url": "https://www.mynewsdesk.com/no/akershus-energi", "type": "presse"}]},
+    "Eidsiva Bioenergi": {"domener": ["eidsiva.no"], "kilder": [{"url": "https://www.eidsiva.no/fjernvarme/", "type": "nyhetsrom", "beskrivelse": "Kun varme-siden er konkurranse (Elvia sameid med Hafslund)."}]},
+    "Tafjord": {"domener": ["tafjord.no"], "kilder": [{"url": "https://www.tafjord.no/aktuelt/", "type": "nyhetsrom"}]},
+    "Lunera Energi": {"domener": ["luneraenergi.no"], "kilder": [{"url": "https://www.luneraenergi.no/nyheter/", "type": "nyhetsrom", "beskrivelse": "Ny (des 2025), PATRIZIA-eid. Tidl. Statkraft Varme Trondheim/Stjørdal."}]},
+    "Nordic Bioenergy": {"domener": ["nordicbioenergy.no"], "kilder": [{"url": "https://www.nordicbioenergy.no/", "type": "nyhetsrom", "beskrivelse": "Ny (des 2025). Gardermoen-anlegget nær Hafslunds influensområde."}]},
+    "Eco Stor": {"domener": ["eco-stor.com"], "kilder": [{"url": "https://eco-stor.com/newsroom", "type": "nyhetsrom", "beskrivelse": "Nå eid av X-Elio/NIC (Å Energi solgt ut)."}, {"url": "https://www.ess-news.com/", "type": "annet", "beskrivelse": "Energy Storage News dekker Eco Stor tett."}]},
+    "Pixii": {"domener": ["pixii.com"], "kilder": [{"url": "https://pixii.com/news", "type": "nyhetsrom"}]}
+  }
+}

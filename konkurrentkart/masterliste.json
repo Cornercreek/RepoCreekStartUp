@@ -1,0 +1,323 @@
+{
+  "generert": "2026-08-25",
+  "sist_kjort": "2026-08-25",
+  "endringslogg": [
+    {"dato": "2026-08-25", "endring": "Vardar: driftsporteføljen (fjernvarme/sol/vind) overtatt av Å Energi juni 2026 — Vardar er nå rent holdingselskap. Beholdes på listen som eier-/kapitalaktør, men research-fokus flyttes til Å Energi."},
+    {"dato": "2026-08-25", "endring": "Eco Stor: Å Energi solgte seg helt ut (nov 2025/jan 2026) — nå eid av X-Elio (Brookfield) og Nature Infrastructure Capital. Eierskap-feltet i listen er utdatert."},
+    {"dato": "2026-08-25", "endring": "Følg til neste kjøring: Fortum/Elmera-oppkjøpet (5,1 mrd NOK, annonsert juni 2026, under godkjenning), Cloudberry/Orrön-transaksjonen (closing H2 2026), Eviny Elektrifisering (Eviny+Mer-fusjon, Konkurransetilsynet), Aneo/Arise-integrasjonen."}
+  ],
+  "metode": "Systematisk websøk (Google via WebSearch) på norsk og engelsk mot offisielle selskapssider, Store norske leksikon, NVE, Energifaktanorge, bransjeorganisasjonen Norsk Fjernvarme/fjernkontrollen.no, samt finans- og nyhetskilder (Europower, EnergiAktuelt, kommune-eierskapssider). Kartlagt i fire runder: (1) generell konkurrentkartlegging og Hafslunds forretningsområder, (2) kraftprodusenter og eierskapsstruktur (NVE-rangering), (3) fjernvarme/avfallsenergi-aktører, (4) fornybar-utbygging (sol/vind/havvind) og batterilagring. Domener er så langt mulig verifisert mot treff i søkeresultatene; noen mindre/regionale aktørers domener er basert på standard navnekonvensjon og bør dobbeltsjekkes ved videre bruk. E-CO Energi ble bevisst utelatt fra listen da selskapet ble en del av Hafslund selv (nå Hafslund Eco Vannkraft) og ikke er en ekstern konkurrent. Morrow Batteries ble utelatt etter bekreftet konkursbegjæring i mai 2026.",
+  "segmenter": ["kraftproduksjon", "fjernvarme", "fornybar-utbygging", "batterilagring", "nordiske-storaktorer"],
+  "konkurrenter": [
+    {
+      "navn": "Statkraft",
+      "tier": 1,
+      "segmenter": ["kraftproduksjon", "fornybar-utbygging"],
+      "hovedomene": "statkraft.no",
+      "andre_domener": ["statkraft.com"],
+      "eierskap": "100% eid av den norske stat (Statkraft SF), underlagt Nærings- og fiskeridepartementet",
+      "beskrivelse": "Norges og Europas største produsent av fornybar energi. Dominerende innen vannkraft i Norge, samt betydelig eier/utbygger av vindkraft og internasjonal fjernvarmevirksomhet. Eier også store andeler i regionale kraftselskaper som Å Energi, Eviny og Skagerak Energi.",
+      "hvorfor_konkurrent": "Klart størst i norsk kraftproduksjon (ca. 45 TWh/år, ca. en tredjedel av all norsk vannkraft), direkte konkurrent til Hafslund Eco Vannkraft. Solgte nylig sin fjernvarmevirksomhet (Statkraft Varme), men er fortsatt den dominerende aktøren å måle Hafslund mot i alle produksjonssegmenter."
+    },
+    {
+      "navn": "Å Energi",
+      "tier": 1,
+      "segmenter": ["kraftproduksjon", "fjernvarme", "fornybar-utbygging", "batterilagring"],
+      "hovedomene": "aenergi.no",
+      "andre_domener": [],
+      "eierskap": "Kommuner i Agder og Buskerud, samt Statkraft (ca. 32,6%)",
+      "beskrivelse": "Kraftkonsern dannet ved fusjon av Agder Energi og Glitre Energi (2022/2023). Ca. 13 TWh vannkraftproduksjon fra 83 kraftverk, forvalter/handler over 30 TWh i Norden, og har satset stort på batteriverdikjeden (Morrow Batteries, Eco Stor).",
+      "hvorfor_konkurrent": "Blant Norges tre-fire største vannkraftprodusenter og dermed en direkte konkurrent til Hafslund Eco Vannkraft. Tidlig og aktiv satsing på batteri/energilagring gjør selskapet også relevant for Hafslunds vekstambisjoner."
+    },
+    {
+      "navn": "Lyse",
+      "tier": 1,
+      "segmenter": ["kraftproduksjon", "fjernvarme"],
+      "hovedomene": "lyse.no",
+      "andre_domener": ["lysekonsern.no"],
+      "eierskap": "Eid av 15 kommuner i Rogaland",
+      "beskrivelse": "Kommunalt eid energikonsern i Rogaland. Kraftproduksjon skjer gjennom det felleseide selskapet Lyse Kraft DA (sammen med Hydro), og selskapet driver fjernvarme/-kjøling gjennom Lyse Neo.",
+      "hvorfor_konkurrent": "Norges fjerde største vannkraftprodusent og en fjernvarmeleverandør - direkte overlapp med begge Hafslunds kjerneområder (Eco Vannkraft og Celsio)."
+    },
+    {
+      "navn": "Eviny",
+      "tier": 1,
+      "segmenter": ["kraftproduksjon", "fornybar-utbygging"],
+      "hovedomene": "eviny.no",
+      "andre_domener": [],
+      "eierskap": "Statkraft Industrial Holding (43,4%), Bergen kommune (37,75%), øvrige Vestland-kommuner og kraftlag",
+      "beskrivelse": "Tidligere BKK (Bergenshalvøens kommunale kraftselskap), omdøpt til Eviny i 2021. Vestlandets største kraftselskap med vannkraft, vindkraft og landets største ladenett for elbil.",
+      "hvorfor_konkurrent": "Norges femte største fornybarprodusent (ca. 10-13 TWh inkl. deleide selskaper), konkurrerer direkte med Hafslund om vannkraftproduksjon og vindkraftutbygging på Vestlandet."
+    },
+    {
+      "navn": "Skagerak Energi",
+      "tier": 1,
+      "segmenter": ["kraftproduksjon"],
+      "hovedomene": "skagerakenergi.no",
+      "andre_domener": [],
+      "eierskap": "Statkraft Industrial Holding (66,62%), kommuner i Grenland (33,38%)",
+      "beskrivelse": "Regionalt kraftkonsern i Telemark/Grenland med vannkraftproduksjon, nettvirksomhet og kraftverksdrift.",
+      "hvorfor_konkurrent": "Betydelig vannkraftprodusent i Sør-Norge (samme prisområder som mye av Hafslunds produksjon), og et eksempel på hvordan Statkraft konsoliderer regional kraftproduksjon."
+    },
+    {
+      "navn": "Aneo",
+      "tier": 1,
+      "segmenter": ["fornybar-utbygging", "kraftproduksjon"],
+      "hovedomene": "aneo.com",
+      "andre_domener": [],
+      "eierskap": "TrønderEnergi (50%) og HitecVision (50%)",
+      "beskrivelse": "Nordisk fornybarkonsern etablert i 2022 av TrønderEnergi og HitecVision. Eier og driver ni vindparker i Norge samt vindkraft i Sverige og Finland, med bred fornybarsatsing i Norden.",
+      "hvorfor_konkurrent": "En av de mest aktive og velfinansierte utbyggerne av vind- og solkraft i Norden, og dermed en direkte konkurrent til Hafslunds vekstsatsing innen fornybar utbygging."
+    },
+    {
+      "navn": "NTE (Nord-Trøndelag Elektrisitetsverk)",
+      "tier": 1,
+      "segmenter": ["kraftproduksjon", "fornybar-utbygging"],
+      "hovedomene": "nte.no",
+      "andre_domener": [],
+      "eierskap": "100% eid av Trøndelag fylkeskommune",
+      "beskrivelse": "Trøndelagsbasert energikonsern med vann- og vindkraftproduksjon (ca. 4,4 TWh i 2024) samt bredbånd- og entreprenørvirksomhet.",
+      "hvorfor_konkurrent": "Regional vannkraft- og vindkraftprodusent som konkurrerer om kraftsalg, kraftverksdrift og nye utbyggingsprosjekter i Trøndelag."
+    },
+    {
+      "navn": "Hydro Energi (Norsk Hydro)",
+      "tier": 1,
+      "segmenter": ["kraftproduksjon"],
+      "hovedomene": "hydro.com",
+      "andre_domener": [],
+      "eierskap": "Forretningsområde i Norsk Hydro ASA (børsnotert; norsk stat er største eier med ca. 34%)",
+      "beskrivelse": "Norsk Hydros kraftvirksomhet. Eier/driver, alene eller sammen med Lyse (Lyse Kraft DA), rundt 40 vannkraftverk med samlet produksjon på ca. 13,7 TWh i et normalår, hovedsakelig til egne aluminiumsverk men også med kraftsalg i markedet.",
+      "hvorfor_konkurrent": "Norges tredje største vannkraftprodusent og en betydelig aktør i kraftmarkedet i Sør-Norge, med delt kraftverksdrift sammen med en av Hafslunds andre konkurrenter (Lyse)."
+    },
+    {
+      "navn": "Fortum",
+      "tier": 1,
+      "segmenter": ["fjernvarme", "kraftproduksjon", "nordiske-storaktorer"],
+      "hovedomene": "fortum.com",
+      "andre_domener": ["fortum.no"],
+      "eierskap": "Børsnotert; finske staten er største eier (ca. 51%)",
+      "beskrivelse": "Finsk energikonsern med nordisk kraftproduksjon (vann-, vind- og kjernekraft), strømsalg og ladeinfrastruktur (Fortum Charge & Drive) i Norge. Solgte sin norske fjernvarmevirksomhet Fortum Oslo Varme til Hafslund i 2022 (nå Hafslund Celsio).",
+      "hvorfor_konkurrent": "Nordisk storaktør som konkurrerer med Hafslund om strømsalg og kraftproduksjon i det nordiske kraftmarkedet, og er historisk direkte knyttet til Celsios opphav - relevant referansepunkt for fjernvarme/energigjenvinning."
+    },
+    {
+      "navn": "Cloudberry Clean Energy",
+      "tier": 1,
+      "segmenter": ["fornybar-utbygging", "kraftproduksjon"],
+      "hovedomene": "cloudberry.no",
+      "andre_domener": [],
+      "eierskap": "Børsnotert på Oslo Børs (Cloudberry Clean Energy ASA)",
+      "beskrivelse": "Utvikler, eier og drifter vannkraft- og vindkraftverk i Norge og Sverige, med kontorer i Oslo og Karlstad.",
+      "hvorfor_konkurrent": "Ren fornybarspiller som konkurrerer direkte med Hafslunds vekstambisjoner innen vann-, vind- og solkraftutbygging, og om kapital/prosjekttilganger i samme marked."
+    },
+    {
+      "navn": "Vattenfall",
+      "tier": 2,
+      "segmenter": ["nordiske-storaktorer", "fornybar-utbygging"],
+      "hovedomene": "vattenfall.no",
+      "andre_domener": ["group.vattenfall.com"],
+      "eierskap": "100% eid av den svenske stat",
+      "beskrivelse": "Svensk statlig energikonsern med filial i Norge (Vattenfall AB Filial Norge). Selger kraft til storkunder og utvikler havvindprosjekter i Norden.",
+      "hvorfor_konkurrent": "Nordisk storaktør som konkurrerer om kraftkontrakter for storkunder og om fremtidige havvindprosjekter i norske/nordiske farvann."
+    },
+    {
+      "navn": "Equinor",
+      "tier": 2,
+      "segmenter": ["fornybar-utbygging"],
+      "hovedomene": "equinor.com",
+      "andre_domener": [],
+      "eierskap": "Børsnotert; norsk stat eier ca. 67%",
+      "beskrivelse": "Olje- og gasskonsern med økende satsing på havvind (bl.a. Hywind Tampen, verdens største flytende havvindpark) og annen fornybar energi.",
+      "hvorfor_konkurrent": "Voksende konkurrent innen havvindutbygging - et område Hafslund også vurderer å satse på - samt generell konkurranse om fornybarkapital, areal og kompetanse."
+    },
+    {
+      "navn": "Zephyr AS",
+      "tier": 2,
+      "segmenter": ["fornybar-utbygging"],
+      "hovedomene": "zephyr.no",
+      "andre_domener": [],
+      "eierskap": "Østfold Energi (50%) og Vardar (50%)",
+      "beskrivelse": "Vindkraftutvikler med prosjekter innen landbasert vindkraft i Norge, Sverige og Island, samt engasjement i solkraft og fjernvarme.",
+      "hvorfor_konkurrent": "En av de største og mest omtalte vindkraftutviklerne i Norge, og konkurrerer med Hafslunds vekstsatsing om vindkraftprosjekter og arealer."
+    },
+    {
+      "navn": "Magnora ASA",
+      "tier": 2,
+      "segmenter": ["fornybar-utbygging"],
+      "hovedomene": "magnoraasa.com",
+      "andre_domener": ["hafslundmagnorasol.no"],
+      "eierskap": "Børsnotert på Oslo Børs",
+      "beskrivelse": "Utvikler av sol-, vind- og havvindprosjekter internasjonalt (Norge, Sverige, UK, Tyskland, Italia, Sør-Afrika). Er samtidig 40% partner (sammen med Hafslund 40% og Helios 20%) i solkraftselskapet Hafslund Magnora Sol.",
+      "hvorfor_konkurrent": "Delvis partner, delvis konkurrent: utvikler solkraft- og havvindprosjekter utenfor fellesforetaket i konkurranse med andre fornybaraktører (inkl. Statkraft, Aker Horizons, Ørsted, Scatec), og representerer et parallelt investeringsalternativ innen fornybarutbygging til Hafslund."
+    },
+    {
+      "navn": "Fred. Olsen Renewables",
+      "tier": 2,
+      "segmenter": ["fornybar-utbygging"],
+      "hovedomene": "fredolsenrenewables.com",
+      "andre_domener": [],
+      "eierskap": "Del av det familieeide Fred. Olsen-konsernet",
+      "beskrivelse": "Norsk-eid utbygger og operatør av vind- og solkraft, med 12 vindkraftverk i drift i Norge, Sverige og Skottland (over 2,1 TWh produsert i 2022), samt solkraftprosjekter i Norge.",
+      "hvorfor_konkurrent": "Erfaren norsk fornybarutbygger som konkurrerer om vind- og solkraftprosjekter i samme markeder som Hafslunds vekstsatsing (bl.a. Hafslund Magnora Sol)."
+    },
+    {
+      "navn": "Norsk Vind Energi / Valinor (inkl. Norsk Solar)",
+      "tier": 2,
+      "segmenter": ["fornybar-utbygging"],
+      "hovedomene": "valinor.no",
+      "andre_domener": ["norskrenewables.com"],
+      "eierskap": "Familieeid investeringsselskap (Valinor AS, tidligere Norsk Vind AS)",
+      "beskrivelse": "Norges største private vindkraftaktør (Norsk Vind Energi) med tilhørende solkraftselskap Norsk Solar under investeringsselskapet Valinor. Over 900 MW vind- og solkraft realisert i Norge og internasjonalt.",
+      "hvorfor_konkurrent": "Betydelig privat utbygger av vind- og solkraft som konkurrerer om prosjekter, arealer og kapital med Hafslunds fornybarsatsinger."
+    },
+    {
+      "navn": "Scatec",
+      "tier": 2,
+      "segmenter": ["fornybar-utbygging"],
+      "hovedomene": "scatec.com",
+      "andre_domener": [],
+      "eierskap": "Børsnotert på Oslo Børs",
+      "beskrivelse": "Norskbasert fornybarselskap med hovedvekt på solkraft (og noe vind/vannkraft) internasjonalt, særlig i Afrika, Asia og Latin-Amerika; begrenset direkte produksjon i Norge.",
+      "hvorfor_konkurrent": "Norsk-hjemmehørende konkurrent om fornybarkapital, kompetanse og investorinteresse innen sol- og fornybarutbygging, selv om hoveddelen av virksomheten er utenfor Norge."
+    },
+    {
+      "navn": "Helgeland Kraft",
+      "tier": 2,
+      "segmenter": ["kraftproduksjon"],
+      "hovedomene": "helgelandkraft.no",
+      "andre_domener": [],
+      "eierskap": "Kommuner på Helgeland (Nordland)",
+      "beskrivelse": "Regional kraftprodusent med 18 vannkraftverk på Helgeland, med nye anlegg under bygging i samarbeid med Salten Kraftsamband.",
+      "hvorfor_konkurrent": "Regional vannkraftkonkurrent i Nord-Norge, med egen kraftverksdrift og -utbygging."
+    },
+    {
+      "navn": "Salten Kraftsamband (SKS)",
+      "tier": 2,
+      "segmenter": ["kraftproduksjon"],
+      "hovedomene": "sks.no",
+      "andre_domener": [],
+      "eierskap": "Eid av kommuner/kraftselskaper i Nordland, inkludert Nordkraft",
+      "beskrivelse": "Nord-Norges ledende produsent og forvalter av fornybar energi, med 21 vannkraftverk i Nordland og en årsproduksjon på ca. 2,1 TWh.",
+      "hvorfor_konkurrent": "Betydelig regional vannkraftprodusent i Nord-Norge og en av de større aktørene utenfor de nasjonale storselskapene."
+    },
+    {
+      "navn": "Nordkraft",
+      "tier": 2,
+      "segmenter": ["kraftproduksjon"],
+      "hovedomene": "nordkraft.no",
+      "andre_domener": [],
+      "eierskap": "Del av Narvik Energi-konsernet",
+      "beskrivelse": "Energikonsern i Narvik-regionen og medeier (ca. 15%) i Salten Kraftsamband.",
+      "hvorfor_konkurrent": "Regional vannkraftaktør i Nord-Norge med eierandeler i konkurrerende kraftsamarbeid."
+    },
+    {
+      "navn": "Sognekraft",
+      "tier": 2,
+      "segmenter": ["kraftproduksjon"],
+      "hovedomene": "sognekraft.no",
+      "andre_domener": [],
+      "eierskap": "Kommuner i Sogn",
+      "beskrivelse": "Regional vannkraftprodusent og nettselskap i Sogn-regionen.",
+      "hvorfor_konkurrent": "Mindre, men etablert regional vannkraftkonkurrent på Vestlandet."
+    },
+    {
+      "navn": "Istad Kraft",
+      "tier": 2,
+      "segmenter": ["kraftproduksjon"],
+      "hovedomene": "istadkraft.no",
+      "andre_domener": [],
+      "eierskap": "Molde kommune (34%), Statkraft Industrial Holding (49%), Moldekraft AS (17%)",
+      "beskrivelse": "Kraftselskap med kraftproduksjon og strømsalg i Molde-regionen (Møre og Romsdal).",
+      "hvorfor_konkurrent": "Regional vannkraftkonkurrent på Nordvestlandet, delvis eid av Statkraft."
+    },
+    {
+      "navn": "Østfold Energi",
+      "tier": 2,
+      "segmenter": ["kraftproduksjon", "fornybar-utbygging"],
+      "hovedomene": "ostfoldenergi.no",
+      "andre_domener": [],
+      "eierskap": "Kommuner i Østfold (tidligere Viken fylkeskommune)",
+      "beskrivelse": "Regionalt kraftselskap med vannkraftproduksjon i Indre Sogn, Salten og Østfold, samt medeier (50%) i vindkraftutvikleren Zephyr.",
+      "hvorfor_konkurrent": "Regional vannkraftprodusent og medeier i en av de største vindkraftutviklerne i Norge."
+    },
+    {
+      "navn": "Vardar",
+      "tier": 2,
+      "segmenter": ["fornybar-utbygging", "kraftproduksjon"],
+      "hovedomene": "vardar.no",
+      "andre_domener": [],
+      "eierskap": "19 kommuner i tidligere Buskerud fylke",
+      "beskrivelse": "Kommunalt eid investeringsselskap med eierandeler i Å Energi (vannkraft) og Zephyr (vindkraft).",
+      "hvorfor_konkurrent": "Indirekte konkurrent gjennom eierandeler i flere av de kraft- og vindkraftselskapene som konkurrerer med Hafslund."
+    },
+    {
+      "navn": "Akershus Energi",
+      "tier": 2,
+      "segmenter": ["kraftproduksjon", "fjernvarme"],
+      "hovedomene": "akershusenergi.no",
+      "andre_domener": [],
+      "eierskap": "Offentlig eid (Akershus/kommuner)",
+      "beskrivelse": "Regionalt energiselskap med kraftproduksjon og fjernvarmevirksomhet (Akershus Energi Varme, basert på bioenergi, varmepumper og solvarme).",
+      "hvorfor_konkurrent": "Direkte konkurrent til Hafslund Celsio i fjernvarmemarkedet i Akershus, og vannkraftkonkurrent."
+    },
+    {
+      "navn": "Eidsiva (Eidsiva Bioenergi)",
+      "tier": 2,
+      "segmenter": ["fjernvarme"],
+      "hovedomene": "eidsiva.no",
+      "andre_domener": [],
+      "eierskap": "Kommuner og fylkeskommune i Innlandet (nettvirksomheten Elvia er felleseid med Hafslund via Eidsiva Energi)",
+      "beskrivelse": "Leverer fjernvarme flere steder i Innlandet gjennom Eidsiva Bioenergi. Nettvirksomheten (Elvia) er felleseid med Hafslund og et regulert naturlig monopol, ikke et konkurransearena.",
+      "hvorfor_konkurrent": "Fjernvarmedelen (Eidsiva Bioenergi) konkurrerer med Hafslund Celsio i varmemarkedet, uavhengig av det felleseide nettselskapet Elvia."
+    },
+    {
+      "navn": "Tafjord (Tafjord Kraft / Tafjord Kraftvarme)",
+      "tier": 2,
+      "segmenter": ["fjernvarme", "kraftproduksjon"],
+      "hovedomene": "tafjord.no",
+      "andre_domener": [],
+      "eierskap": "Ålesund kommune og øvrige regionale eiere",
+      "beskrivelse": "Regionalt energikonsern på Nordvestlandet med både kraftproduksjon og fjernvarme (Tafjord Kraftvarme) i Ålesund-området.",
+      "hvorfor_konkurrent": "Regional konkurrent i både vannkraft og fjernvarme, med direkte overlapp mot begge Hafslunds kjerneområder."
+    },
+    {
+      "navn": "Lunera Energi",
+      "tier": 2,
+      "segmenter": ["fjernvarme"],
+      "hovedomene": "luneraenergi.no",
+      "andre_domener": ["statkraftvarme.no"],
+      "eierskap": "Patrizia SE / Nordic Infrastructure AG (kjøpt fra Statkraft desember 2025)",
+      "beskrivelse": "Fjernvarmeselskap i Trondheim og Stjørdal, videreført fra Statkraft Varme etter at Statkraft solgte hele fjernvarmevirksomheten til et konsortium eid av Patrizia SE og Nordic Infrastructure AG.",
+      "hvorfor_konkurrent": "Del av det som var Norges nest største fjernvarmeaktør (Statkraft Varme), og en direkte konkurrent til Hafslund Celsio i fjernvarmesegmentet."
+    },
+    {
+      "navn": "Nordic Bioenergy",
+      "tier": 2,
+      "segmenter": ["fjernvarme"],
+      "hovedomene": "nordicbioenergy.no",
+      "andre_domener": ["statkraftvarme.no"],
+      "eierskap": "Patrizia SE / Nordic Infrastructure AG (kjøpt fra Statkraft desember 2025)",
+      "beskrivelse": "Driver fjernvarmeanlegg på Gardermoen, i Harstad, Ås, Moss, Sandefjord, Namsos og Nannestad - resten av den tidligere Statkraft Varme-porteføljen (utenom Trondheim/Stjørdal, se Lunera Energi).",
+      "hvorfor_konkurrent": "Direkte konkurrent til Hafslund Celsio i flere fjernvarmemarkeder i Øst- og Nord-Norge."
+    },
+    {
+      "navn": "Eco Stor",
+      "tier": 2,
+      "segmenter": ["batterilagring"],
+      "hovedomene": "eco-stor.com",
+      "andre_domener": [],
+      "eierskap": "Privat selskap, bygget opp med investeringsstøtte fra bl.a. Å Energi",
+      "beskrivelse": "Leverandør av batterilagringsløsninger basert på gjenbrukte (second-life) EV-batterier, en av Europas ledende aktører innen denne typen energilagring.",
+      "hvorfor_konkurrent": "Direkte konkurrent i batterilagringssegmentet, et av Hafslunds erklærte vekstområder."
+    },
+    {
+      "navn": "Pixii",
+      "tier": 2,
+      "segmenter": ["batterilagring"],
+      "hovedomene": "pixii.com",
+      "andre_domener": [],
+      "eierskap": "Privat norsk teknologiselskap (Drammen)",
+      "beskrivelse": "Utvikler modulære batteri- og styringssystemer for energilagring, med sterk internasjonal vekst (bl.a. Australia, Singapore, USA, Japan).",
+      "hvorfor_konkurrent": "Norsk teknologikonkurrent innen batteri- og energilagringsløsninger, relevant for Hafslunds satsing på batterier."
+    }
+  ]
+}
