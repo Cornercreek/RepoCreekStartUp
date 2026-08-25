@@ -1,0 +1,1574 @@
+﻿{
+    "oppdatert":  "2026-08-25",
+    "beskrivelse":  "Graf over segmenter -\u003e overvaakingskilder og prosjekter -\u003e prosjektkilder. Hukommelse for /kraftprosjekt-loop: send hvert segments kilder med til research-agenten, og legg nye kilder tilbake hit.",
+    "segmenter":  {
+                      "batteri-hydrogen-fleks":  {
+                                                     "overvaakingskilder":  [
+                                                                                {
+                                                                                    "url":  "https://publikasjoner.nve.no/fakta/2026/fakta2026_03.pdf",
+                                                                                    "type":  "myndighet",
+                                                                                    "beskrivelse":  "NVE Fakta 2026: «Batterier i kraftmarkedet»",
+                                                                                    "segment":  "batteri-hydrogen-fleks"
+                                                                                },
+                                                                                {
+                                                                                    "url":  "https://www.statnett.no/globalassets/for-aktorer-i-kraftsystemet/marked/reservemarkeder/nordic-tsos---batteries-in-the-nordic-reserve-markets-april-2025.pdf",
+                                                                                    "type":  "tso",
+                                                                                    "beskrivelse":  "Nordiske TSO-ers fellesrapport om batterier i reservemarkedene (FCR/aFRR/mFRR)",
+                                                                                    "segment":  "batteri-hydrogen-fleks"
+                                                                                },
+                                                                                {
+                                                                                    "url":  "https://www.fingrid.fi/en/electricity-market/reserves/reserve-products/",
+                                                                                    "type":  "tso",
+                                                                                    "beskrivelse":  "Fingrids reserveproduktoversikt",
+                                                                                    "segment":  "batteri-hydrogen-fleks"
+                                                                                },
+                                                                                {
+                                                                                    "url":  "https://www.energy-storage.news/",
+                                                                                    "type":  "bransjemedie",
+                                                                                    "beskrivelse":  "Løpende dekning av europeisk/nordisk BESS-utbygging",
+                                                                                    "segment":  "batteri-hydrogen-fleks"
+                                                                                },
+                                                                                {
+                                                                                    "url":  "https://hydrogeneurope.eu/",
+                                                                                    "type":  "bransjeorganisasjon",
+                                                                                    "beskrivelse":  "Europeisk hydrogen/PtX-nyhetsstrøm",
+                                                                                    "segment":  "batteri-hydrogen-fleks"
+                                                                                },
+                                                                                {
+                                                                                    "url":  "https://faktaportalen.no/energi/sektorer/datasentre",
+                                                                                    "type":  "faktaside",
+                                                                                    "beskrivelse":  "Norsk faktaside om datasentre og kraftforbruk",
+                                                                                    "segment":  "batteri-hydrogen-fleks"
+                                                                                }
+                                                                            ],
+                                                     "prosjektkilder":  {
+                                                                            "hafslund-batt-dingelsundet":  [
+                                                                                                               {
+                                                                                                                   "url":  "https://www.cloudberry.no/news/cloudberry-and-hafslund-reach-final-investment-decision-for-dingelsundet-battery-project",
+                                                                                                                   "type":  "pressemelding",
+                                                                                                                   "beskrivelse":  "FID-annonsering"
+                                                                                                               },
+                                                                                                               {
+                                                                                                                   "url":  "https://www.hafslund.no/no/om-oss/presse/hafslund-og-cloudberry-skal-bygge-batterilager-i-sverige",
+                                                                                                                   "type":  "pressemelding",
+                                                                                                                   "beskrivelse":  "Hafslunds egen omtale"
+                                                                                                               }
+                                                                                                           ],
+                                                                            "fi-batt-yllikkala-ii":  [
+                                                                                                         {
+                                                                                                             "url":  "https://www.energy-storage.news/finland-moves-to-2-hour-durations-as-neoen-launches-largest-bess-in-nordics/",
+                                                                                                             "type":  "bransjeartikkel",
+                                                                                                             "beskrivelse":  "Markedskontekst 2-timers systemer"
+                                                                                                         }
+                                                                                                     ],
+                                                                            "no-h2-statkraft-morana":  [
+                                                                                                           {
+                                                                                                               "url":  "https://www.statkraft.com/newsroom/news-and-stories/2025/statkraft-stops-new-development-of-green-hydrogen-projects/",
+                                                                                                               "type":  "pressemelding",
+                                                                                                               "beskrivelse":  "Offisiell kunngjøring"
+                                                                                                           }
+                                                                                                       ],
+                                                                            "dk-h2-host-esbjerg":  [
+                                                                                                       {
+                                                                                                           "url":  "https://hoestptxesbjerg.dk/news/host-ptx-esbjerg-secures-environmental-approvals/",
+                                                                                                           "type":  "pressemelding",
+                                                                                                           "beskrivelse":  "Miljøgodkjenning"
+                                                                                                       }
+                                                                                                   ],
+                                                                            "no-datacenter-flekskontekst":  [
+                                                                                                                {
+                                                                                                                    "url":  "https://www.nve.no/energi/energisystem/energibruk/energibruk-i-datasenter/",
+                                                                                                                    "type":  "myndighet",
+                                                                                                                    "beskrivelse":  "NVE om datasentres energibruk"
+                                                                                                                }
+                                                                                                            ]
+                                                                        }
+                                                 },
+                      "fjernvarme-ccs":  {
+                                             "overvaakingskilder":  [
+                                                                        {
+                                                                            "url":  "https://www.hafslund.no/no/produkter-og-tjenester/oslo-ccs",
+                                                                            "type":  "selskapsside",
+                                                                            "beskrivelse":  "Hafslunds CCS-prosjektside for Klemetsrud",
+                                                                            "segment":  "fjernvarme-ccs"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://norlights.com/what-we-do/",
+                                                                            "type":  "selskapsside",
+                                                                            "beskrivelse":  "Northern Lights offisiell side med fase 1/2-status",
+                                                                            "segment":  "fjernvarme-ccs"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://greensandfuture.com/",
+                                                                            "type":  "selskapsside",
+                                                                            "beskrivelse":  "Dansk offshore CO2-lager",
+                                                                            "segment":  "fjernvarme-ccs"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://ccushub.ogci.com/focus_hubs/hynet-north-west/",
+                                                                            "type":  "bransjeside",
+                                                                            "beskrivelse":  "Britiske CCUS-klynger",
+                                                                            "segment":  "fjernvarme-ccs"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://bir.no/aktuelt/",
+                                                                            "type":  "selskapsside",
+                                                                            "beskrivelse":  "BIRs nyhetsside — følg om Rådalen CCS gjenopptas",
+                                                                            "segment":  "fjernvarme-ccs"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.fjernvarme.no/",
+                                                                            "type":  "bransjeside",
+                                                                            "beskrivelse":  "Norsk Fjernvarme — løpende nyheter om fjernvarme/CCS",
+                                                                            "segment":  "fjernvarme-ccs"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=407\u0026type=A",
+                                                                            "type":  "myndighet",
+                                                                            "beskrivelse":  "NVE konsesjonssak for Celsios fjernvarmekonsesjon",
+                                                                            "segment":  "fjernvarme-ccs"
+                                                                        }
+                                                                    ],
+                                             "prosjektkilder":  {
+                                                                    "klemetsrud-ccs":  [
+                                                                                           {
+                                                                                               "url":  "https://www.hafslund.no/no/om-oss/presse/karbonfangst-i-oslo-realiseres",
+                                                                                               "type":  "pressemelding",
+                                                                                               "beskrivelse":  "FID-melding og prosjektdetaljer"
+                                                                                           },
+                                                                                           {
+                                                                                               "url":  "https://www.hafslund.no/no/produkter-og-tjenester/oslo-ccs",
+                                                                                               "type":  "selskapsside",
+                                                                                               "beskrivelse":  "Hafslunds CCS-prosjektside"
+                                                                                           }
+                                                                                       ],
+                                                                    "northern-lights-fase1":  [
+                                                                                                  {
+                                                                                                      "url":  "https://norlights.com/what-we-do/",
+                                                                                                      "type":  "selskapsside",
+                                                                                                      "beskrivelse":  "Northern Lights offisiell side"
+                                                                                                  }
+                                                                                              ],
+                                                                    "stockholm-exergi-beccs":  [
+                                                                                                   {
+                                                                                                       "url":  "https://www.stockholmexergi.se/en/beccs/building-beccs/project-timeline-beccs-stockholm/",
+                                                                                                       "type":  "selskapsside",
+                                                                                                       "beskrivelse":  "Prosjekttidslinje"
+                                                                                                   }
+                                                                                               ],
+                                                                    "vantaan-energia-ccs":  [
+                                                                                                {
+                                                                                                    "url":  "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/vantaan-energia-oyn-hiilidioksidin-talteenotto-vantaa-helsinki",
+                                                                                                    "type":  "myndighet",
+                                                                                                    "beskrivelse":  "YVA-prosess"
+                                                                                                }
+                                                                                            ],
+                                                                    "bir-radalen-ccs":  [
+                                                                                            {
+                                                                                                "url":  "https://bir.no/aktuelt/bergens-stoerste-klimatiltak-stanses-av-manglende-statlige-rammevilkaar/",
+                                                                                                "type":  "pressemelding",
+                                                                                                "beskrivelse":  "Pause-melding"
+                                                                                            }
+                                                                                        ],
+                                                                    "returkraft-ccs":  [
+                                                                                           {
+                                                                                               "url":  "https://www.returkraft.no/ccs-prosjekt-2025",
+                                                                                               "type":  "selskapsside",
+                                                                                               "beskrivelse":  "Prosjektstatus"
+                                                                                           }
+                                                                                       ],
+                                                                    "smeaheia-co2-lager":  [
+                                                                                               {
+                                                                                                   "url":  "https://www.equinor.com/energy/smeaheia",
+                                                                                                   "type":  "selskapsside",
+                                                                                                   "beskrivelse":  "Prosjektoversikt"
+                                                                                               }
+                                                                                           ],
+                                                                    "greensand-future":  [
+                                                                                             {
+                                                                                                 "url":  "https://greensandfuture.com/",
+                                                                                                 "type":  "selskapsside",
+                                                                                                 "beskrivelse":  "Prosjektside"
+                                                                                             }
+                                                                                         ],
+                                                                    "uk-ccs-klynger":  [
+                                                                                           {
+                                                                                               "url":  "https://ccushub.ogci.com/focus_hubs/hynet-north-west/",
+                                                                                               "type":  "bransjeside",
+                                                                                               "beskrivelse":  "Klyngestatus"
+                                                                                           }
+                                                                                       ],
+                                                                    "hafslund-celsio-varmepumper":  [
+                                                                                                        {
+                                                                                                            "url":  "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=407\u0026type=A",
+                                                                                                            "type":  "myndighet",
+                                                                                                            "beskrivelse":  "NVE konsesjonssak"
+                                                                                                        }
+                                                                                                    ],
+                                                                    "datasenter-spillvarme-norden":  [
+                                                                                                         {
+                                                                                                             "url":  "https://www.fjernvarme.no/regjeringen-vil-stille-spillvarme-krav-til-datasentre",
+                                                                                                             "type":  "nyhet",
+                                                                                                             "beskrivelse":  "Regulatoriske spillvarmekrav"
+                                                                                                         }
+                                                                                                     ]
+                                                                }
+                                         },
+                      "havvind-europa":  {
+                                             "overvaakingskilder":  [
+                                                                        {
+                                                                            "url":  "https://ore.catapult.org.uk/resource-hub/blog/allocation-round-7-ar7-results-and-analysis",
+                                                                            "type":  "analyse",
+                                                                            "beskrivelse":  "Detaljert analyse av AR7-resultater, ORE Catapult",
+                                                                            "segment":  "havvind-europa"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.aegirinsights.com/",
+                                                                            "type":  "analysebyrå",
+                                                                            "beskrivelse":  "Aegir Insights — løpende havvindanalyser for Europa, god kilde for auksjons- og FID-oppdateringer",
+                                                                            "segment":  "havvind-europa"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://windeurope.org/newsroom/",
+                                                                            "type":  "bransjeorganisasjon",
+                                                                            "beskrivelse":  "WindEurope pressemeldinger — offisielle uttalelser om auksjonsresultater og bransjestatus",
+                                                                            "segment":  "havvind-europa"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.offshorewind.biz/",
+                                                                            "type":  "nyhet",
+                                                                            "beskrivelse":  "Offshorewind.biz — daglig nyhetskilde med god dekning av FID/konsesjon/kansellering for alle europeiske havvindmarkeder",
+                                                                            "segment":  "havvind-europa"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.cleanenergywire.org/",
+                                                                            "type":  "nyhet",
+                                                                            "beskrivelse":  "Clean Energy Wire — god dekning av tysk energipolitikk inkl. havvindauksjoner",
+                                                                            "segment":  "havvind-europa"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://balticwind.eu/",
+                                                                            "type":  "nyhet",
+                                                                            "beskrivelse":  "Baltic Wind — spesialisert dekning av Østersjø/Baltikum havvindutvikling",
+                                                                            "segment":  "havvind-europa"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://english.rvo.nl/subsidies-financing/offshore-wind-energy",
+                                                                            "type":  "offisiell",
+                                                                            "beskrivelse":  "Nederlandsk RVO — offisiell status på nederlandske havvindtildelinger",
+                                                                            "segment":  "havvind-europa"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/",
+                                                                            "type":  "offisiell",
+                                                                            "beskrivelse":  "Irsk klima-/energidepartement — ORESS-auksjonsresultater",
+                                                                            "segment":  "havvind-europa"
+                                                                        }
+                                                                    ],
+                                             "prosjektkilder":  {
+                                                                    "uk-dogger-bank-abc":  [
+                                                                                               {
+                                                                                                   "url":  "https://doggerbanksouth.co.uk/",
+                                                                                                   "type":  "offisiell",
+                                                                                                   "beskrivelse":  "RWE/DBS prosjektside"
+                                                                                               },
+                                                                                               {
+                                                                                                   "url":  "https://www.energyvoice.com/renewables-energy-transition/wind/595345/dogger-bank-wind-farm-timeline/",
+                                                                                                   "type":  "nyhet",
+                                                                                                   "beskrivelse":  "Tidslinje og status"
+                                                                                               }
+                                                                                           ],
+                                                                    "uk-dogger-bank-south":  [
+                                                                                                 {
+                                                                                                     "url":  "https://www.offshorewind.biz/2026/05/15/uk-grants-development-consent-for-3-gw-dogger-bank-south-offshore-wind-project/",
+                                                                                                     "type":  "nyhet",
+                                                                                                     "beskrivelse":  "DCO-godkjenning"
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "url":  "https://www.offshorewind.biz/2026/01/08/development-consent-decision-on-3-gw-dogger-bank-south-project-postponed/",
+                                                                                                     "type":  "nyhet",
+                                                                                                     "beskrivelse":  "Tidligere forsinkelse av konsesjon"
+                                                                                                 }
+                                                                                             ],
+                                                                    "uk-hornsea-3":  [
+                                                                                         {
+                                                                                             "url":  "https://hornseaproject3.co.uk/construction-updates",
+                                                                                             "type":  "offisiell",
+                                                                                             "beskrivelse":  "Ørsted byggeoppdateringer"
+                                                                                         },
+                                                                                         {
+                                                                                             "url":  "https://renews.biz/111435/orsted-hits-delays-on-hornsea-3-riffgrund-3/",
+                                                                                             "type":  "nyhet",
+                                                                                             "beskrivelse":  "Forsinkelser Hornsea 3/Riffgrund 3"
+                                                                                         }
+                                                                                     ],
+                                                                    "uk-hornsea-4":  [
+                                                                                         {
+                                                                                             "url":  "https://orsted.com/en/company-announcement-list/2025/05/orsted-to-discontinue-the-hornsea-4-offshore-wind--143901911",
+                                                                                             "type":  "offisiell",
+                                                                                             "beskrivelse":  "Ørsted børsmelding om kansellering"
+                                                                                         }
+                                                                                     ],
+                                                                    "uk-berwick-bank-b":  [
+                                                                                              {
+                                                                                                  "url":  "https://www.sse.com/news-and-views/2026/01/sse-secures-cfd-for-berwick-bank-wind-farm/",
+                                                                                                  "type":  "offisiell",
+                                                                                                  "beskrivelse":  "SSE CfD-melding"
+                                                                                              },
+                                                                                              {
+                                                                                                  "url":  "https://www.berwickbank.com/news/sse-secures-14gw-cfd-for-berwick-bank-wind-farm",
+                                                                                                  "type":  "offisiell",
+                                                                                                  "beskrivelse":  "Prosjektside"
+                                                                                              }
+                                                                                          ],
+                                                                    "uk-ar7-floating-pentland-erebus":  [
+                                                                                                            {
+                                                                                                                "url":  "https://ore.catapult.org.uk/resource-hub/blog/allocation-round-7-ar7-results-and-analysis",
+                                                                                                                "type":  "analyse",
+                                                                                                                "beskrivelse":  "AR7 resultatanalyse"
+                                                                                                            }
+                                                                                                        ],
+                                                                    "uk-ar7-general":  [
+                                                                                           {
+                                                                                               "url":  "https://www.osborneclarke.com/insights/energy-transition-uk-government-announces-results-record-breaking-cfd-ar7-auction",
+                                                                                               "type":  "juridisk analyse",
+                                                                                               "beskrivelse":  "Osborne Clarke AR7-oversikt"
+                                                                                           },
+                                                                                           {
+                                                                                               "url":  "https://www.offshorewind.biz/2026/01/14/rwe-secures-almost-7-gw-as-uk-awards-8-4-gw-in-europes-biggest-ever-offshore-wind-auction/",
+                                                                                               "type":  "nyhet",
+                                                                                               "beskrivelse":  "RWE vinner nesten 7 GW"
+                                                                                           }
+                                                                                       ],
+                                                                    "de-hedreiht":  [
+                                                                                        {
+                                                                                            "url":  "https://www.enbw.com/company/topics/wind-power/offshore-wind-farm-he-dreiht/",
+                                                                                            "type":  "offisiell",
+                                                                                            "beskrivelse":  "EnBW prosjektside"
+                                                                                        },
+                                                                                        {
+                                                                                            "url":  "https://www.offshorewind.biz/2025/11/26/first-power-flows-from-enbws-960-mw-he-dreiht-offshore-wind-farm-in-germany/",
+                                                                                            "type":  "nyhet",
+                                                                                            "beskrivelse":  "Første kraft"
+                                                                                        }
+                                                                                    ],
+                                                                    "de-auction-2025-zero-bid":  [
+                                                                                                     {
+                                                                                                         "url":  "https://www.offshore-mag.com/renewable-energy/news/55308675/germany-receives-no-bids-in-zero-subsidy-offshore-wind-auction",
+                                                                                                         "type":  "nyhet",
+                                                                                                         "beskrivelse":  "Nullbud-auksjon"
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "url":  "https://oilprice.com/Latest-Energy-News/World-News/Germany-Scales-Back-Offshore-Wind-Auctions-After-Latest-Flop.html",
+                                                                                                         "type":  "nyhet",
+                                                                                                         "beskrivelse":  "Tyskland reduserer 2026-volum"
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "url":  "https://www.offshorewind.biz/2023/06/15/german-offshore-wind-auction-enters-negative-bidding-stage/",
+                                                                                                         "type":  "nyhet",
+                                                                                                         "beskrivelse":  "2023-runden med negativ budgivning (BP/TotalEnergies)"
+                                                                                                     }
+                                                                                                 ],
+                                                                    "nl-ijmuiden-ver-alpha-beta":  [
+                                                                                                       {
+                                                                                                           "url":  "https://www.gem.wiki/IJmuiden_Ver_Alpha_Offshore_wind_farm",
+                                                                                                           "type":  "database",
+                                                                                                           "beskrivelse":  "Global Energy Monitor"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "url":  "https://www.nsenergybusiness.com/company-news/sse-and-apg-advance-ijmuiden-ver-alpha-offshore-wind-project-in-netherlands/",
+                                                                                                           "type":  "nyhet",
+                                                                                                           "beskrivelse":  "SSE/APG fremdrift"
+                                                                                                       }
+                                                                                                   ],
+                                                                    "nl-ijmuiden-ver-gamma-nederwiek":  [
+                                                                                                            {
+                                                                                                                "url":  "https://www.windpowermonthly.com/article/1945498/netherlands-lowers-2026-offshore-wind-auction-ambition",
+                                                                                                                "type":  "nyhet",
+                                                                                                                "beskrivelse":  "Nederland reduserer ambisjonsnivå"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "url":  "https://windpowernl.com/2026/01/19/upcoming-dutch-offshore-wind-tender-to-be-subsidy-backed/",
+                                                                                                                "type":  "nyhet",
+                                                                                                                "beskrivelse":  "Subsidiestøttet tender"
+                                                                                                            }
+                                                                                                        ],
+                                                                    "be-princess-elisabeth-zone-1":  [
+                                                                                                         {
+                                                                                                             "url":  "https://www.offshorewind.biz/2025/07/01/belgium-delays-tender-for-offshore-wind-farm-in-princess-elisabeth-zone-until-2026/",
+                                                                                                             "type":  "nyhet",
+                                                                                                             "beskrivelse":  "Kansellering 2025"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "url":  "https://www.aegirinsights.com/has-the-belgian-princess-returned",
+                                                                                                             "type":  "analyse",
+                                                                                                             "beskrivelse":  "Analyse av relansering"
+                                                                                                         }
+                                                                                                     ],
+                                                                    "fr-eolmed":  [
+                                                                                      {
+                                                                                          "url":  "https://www.renewable-energy-industry.com/news/world/article-7409",
+                                                                                          "type":  "nyhet",
+                                                                                          "beskrivelse":  "Kommisjonering EolMed"
+                                                                                      }
+                                                                                  ],
+                                                                    "fr-provence-grand-large":  [
+                                                                                                    {
+                                                                                                        "url":  "https://provencegrandlarge.fr/en/the-floating-offshore-park/discover-the-park/",
+                                                                                                        "type":  "offisiell",
+                                                                                                        "beskrivelse":  "Prosjektside"
+                                                                                                    }
+                                                                                                ],
+                                                                    "fr-tender-2026-large":  [
+                                                                                                 {
+                                                                                                     "url":  "https://constructionreviewonline.com/netherlands-sets-aside-e3-9-billion-for-ijmuiden-ver-gamma-offshore-wind-as-france-simultaneously-launches-10-gw-tender/",
+                                                                                                     "type":  "nyhet",
+                                                                                                     "beskrivelse":  "Samtidig NL/FR-tender"
+                                                                                                 }
+                                                                                             ],
+                                                                    "pl-baltic-power":  [
+                                                                                            {
+                                                                                                "url":  "https://balticpower.pl/about-the-project/",
+                                                                                                "type":  "offisiell",
+                                                                                                "beskrivelse":  "Prosjektside"
+                                                                                            },
+                                                                                            {
+                                                                                                "url":  "https://www.northlandpower.com/en/projects-and-updates/baltic-power-polish-offshore-wind.aspx",
+                                                                                                "type":  "offisiell",
+                                                                                                "beskrivelse":  "Northland Power"
+                                                                                            }
+                                                                                        ],
+                                                                    "pl-baltica-2":  [
+                                                                                         {
+                                                                                             "url":  "https://pgebaltica.pl/en/press-office/press-releases/fid_eng",
+                                                                                             "type":  "offisiell",
+                                                                                             "beskrivelse":  "FID-melding"
+                                                                                         }
+                                                                                     ],
+                                                                    "baltic-lithuania-second-auction":  [
+                                                                                                            {
+                                                                                                                "url":  "https://www.aegirinsights.com/uptake-in-offshore-wind-efforts-in-the-baltic-states-with-multiple-projects-applications-auctions-and-initial-permits",
+                                                                                                                "type":  "analyse",
+                                                                                                                "beskrivelse":  "Baltisk havvindstatus"
+                                                                                                            }
+                                                                                                        ],
+                                                                    "baltic-elwind-estonia-latvia":  [
+                                                                                                         {
+                                                                                                             "url":  "https://www.rvo.nl/files/file/2023-07/2023-Export-Markets-Offshore-Wind-in-the-Baltic-States.pdf",
+                                                                                                             "type":  "rapport",
+                                                                                                             "beskrivelse":  "Baltikum havvind markedsrapport"
+                                                                                                         }
+                                                                                                     ],
+                                                                    "ie-oress-2-tonn-nua":  [
+                                                                                                {
+                                                                                                    "url":  "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-welcomes-successful-result-of-states-second-offshore-wind-auction/",
+                                                                                                    "type":  "offisiell",
+                                                                                                    "beskrivelse":  "Irsk regjeringsmelding"
+                                                                                                }
+                                                                                            ]
+                                                                }
+                                         },
+                      "havvind-norden":  {
+                                             "overvaakingskilder":  [
+                                                                        {
+                                                                            "url":  "https://www.nve.no/energi/energisystem/havvind/utsira-nord/",
+                                                                            "type":  "tso",
+                                                                            "beskrivelse":  "NVE hovedside for Utsira Nord-konsesjonsprosessen",
+                                                                            "segment":  "havvind-norden"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://veiledere.nve.no/havvind/identifisering-av-utredningsomrader-for-havvind/nye-omrader-for-havvind/",
+                                                                            "type":  "tso",
+                                                                            "beskrivelse":  "NVE veileder om alle identifiserte nye havvindområder i Norge",
+                                                                            "segment":  "havvind-norden"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.regjeringen.no/en/topics/energy/renewable-energy/havvind/id2000155/",
+                                                                            "type":  "konsesjon",
+                                                                            "beskrivelse":  "Regjeringens samleside om norsk havvindsatsing",
+                                                                            "segment":  "havvind-norden"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://ens.dk/energikilder/havvindmoeller/kommende-havvindmoelleprojekter/igangvaerende-udbud-af-28-gw-havvind",
+                                                                            "type":  "tso",
+                                                                            "beskrivelse":  "Energistyrelsens samleside for pågående 2,8 GW-utbud",
+                                                                            "segment":  "havvind-norden"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://northseaenergyisland.dk/en/status",
+                                                                            "type":  "prosjektside",
+                                                                            "beskrivelse":  "Statusoppdateringer for Energiø Nordsøen",
+                                                                            "segment":  "havvind-norden"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.regeringen.se/regeringens-politik/miljo-och-klimat/havsbaserad-vindkraft/",
+                                                                            "type":  "konsesjon",
+                                                                            "beskrivelse":  "Svenska regeringens samleside om havsbasert vindkraft",
+                                                                            "segment":  "havvind-norden"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.metsa.fi/en/responsible-business/wind-power/great-potential-in-offshore-wind-power/next-offshore-projects/",
+                                                                            "type":  "prosjektside",
+                                                                            "beskrivelse":  "Metsähallitus samleside for fremtidige finske havvindprosjekter",
+                                                                            "segment":  "havvind-norden"
+                                                                        },
+                                                                        {
+                                                                            "url":  "https://www.statnett.no/havvind/omrader-for-havvind/",
+                                                                            "type":  "tso",
+                                                                            "beskrivelse":  "Statnett om nettilknytning for havvindområder i Norge",
+                                                                            "segment":  "havvind-norden"
+                                                                        }
+                                                                    ],
+                                             "prosjektkilder":  {
+                                                                    "sorlige-nordsjo-ii":  [
+                                                                                               {
+                                                                                                   "url":  "https://www.regjeringen.no/en/topics/energy/renewable-energy/havvind/sorlige-nordsjo-ii/id2967231",
+                                                                                                   "type":  "konsesjon",
+                                                                                                   "beskrivelse":  "Regjeringens offisielle prosjektside"
+                                                                                               },
+                                                                                               {
+                                                                                                   "url":  "https://ventyrenergy.com/nyheter/snii-q-and-a/",
+                                                                                                   "type":  "prosjektside",
+                                                                                                   "beskrivelse":  "Ventyr Q\u0026A om prosjektstatus"
+                                                                                               },
+                                                                                               {
+                                                                                                   "url":  "https://www.nrk.no/rogaland/ventyr-vil-sette-sorlige-nordsjo-ii-pa-pause-1.17924902",
+                                                                                                   "type":  "presse",
+                                                                                                   "beskrivelse":  "NRK om forsinkelse og lokal motstand"
+                                                                                               }
+                                                                                           ],
+                                                                    "utsira-nord":  [
+                                                                                        {
+                                                                                            "url":  "https://www.nve.no/energi/energisystem/havvind/utsira-nord/",
+                                                                                            "type":  "tso",
+                                                                                            "beskrivelse":  "NVE prosjektside og konsesjonsstatus"
+                                                                                        },
+                                                                                        {
+                                                                                            "url":  "https://www.regjeringen.no/en/whats-new/two-applications-to-participate-in-the-competition-for-floating-offshore-wind-in-utsira-nord/id3118998",
+                                                                                            "type":  "konsesjon",
+                                                                                            "beskrivelse":  "Regjeringen om tildeling av prosjektområder"
+                                                                                        }
+                                                                                    ],
+                                                                    "sorvest-f":  [
+                                                                                      {
+                                                                                          "url":  "https://veiledere.nve.no/havvind/identifisering-av-utredningsomrader-for-havvind/nye-omrader-for-havvind/sorvest-f-inkl-sorlige-nordsjo-ii/",
+                                                                                          "type":  "tso",
+                                                                                          "beskrivelse":  "NVE veileder om Sørvest F"
+                                                                                      }
+                                                                                  ],
+                                                                    "vestavind-b-f-flytende-stotteordning":  [
+                                                                                                                 {
+                                                                                                                     "url":  "https://www.regjeringen.no/no/dokumenter/horing-av-stotteordning-for-flytende-havvind-i-vestavind-b-og-vestavind-f/id3047348/",
+                                                                                                                     "type":  "konsesjon",
+                                                                                                                     "beskrivelse":  "Høringsnotat om støtteordning"
+                                                                                                                 }
+                                                                                                             ],
+                                                                    "thor-havvindmoellepark":  [
+                                                                                                   {
+                                                                                                       "url":  "https://thor.rwe.com/da",
+                                                                                                       "type":  "prosjektside",
+                                                                                                       "beskrivelse":  "RWE prosjektside for Thor"
+                                                                                                   }
+                                                                                               ],
+                                                                    "dk-nordsoeen-midt":  [
+                                                                                              {
+                                                                                                  "url":  "https://www.kefm.dk/aktuelt/nyheder/2026/aug/vattenfall-vindkraft-as-skal-bygge-havvindmoelleparker-i-nordsoeen-og-kattegat",
+                                                                                                  "type":  "konsesjon",
+                                                                                                  "beskrivelse":  "KEFM pressemelding om utbudsresultat"
+                                                                                              },
+                                                                                              {
+                                                                                                  "url":  "https://ens.dk/energikilder/havvindmoeller/kommende-havvindmoelleprojekter/igangvaerende-udbud-af-28-gw-havvind",
+                                                                                                  "type":  "tso",
+                                                                                                  "beskrivelse":  "Energistyrelsen om 2,8 GW-utbudet"
+                                                                                              }
+                                                                                          ],
+                                                                    "dk-nordsoeen-syd":  [
+                                                                                             {
+                                                                                                 "url":  "https://ens.dk/energikilder/nordsoeen-i-syd-og-midt-havvindmoelleparker",
+                                                                                                 "type":  "tso",
+                                                                                                 "beskrivelse":  "Energistyrelsen prosjektside"
+                                                                                             }
+                                                                                         ],
+                                                                    "dk-kriegers-flak-ii":  [
+                                                                                                {
+                                                                                                    "url":  "https://ens.dk/energikilder/kriegers-flak-ii-havvindmoellepark",
+                                                                                                    "type":  "tso",
+                                                                                                    "beskrivelse":  "Energistyrelsens prosjektside"
+                                                                                                }
+                                                                                            ],
+                                                                    "dk-energioe-nordsoeen":  [
+                                                                                                  {
+                                                                                                      "url":  "https://northseaenergyisland.dk/en/status",
+                                                                                                      "type":  "prosjektside",
+                                                                                                      "beskrivelse":  "Offisiell statusside («Postponed by government»)"
+                                                                                                  }
+                                                                                              ],
+                                                                    "dk-energioe-bornholm":  [
+                                                                                                 {
+                                                                                                     "url":  "https://ens.dk/energikilder/energioe-bornholm",
+                                                                                                     "type":  "tso",
+                                                                                                     "beskrivelse":  "Energistyrelsen prosjektside"
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "url":  "https://bornholmenergyisland.eu/en/",
+                                                                                                     "type":  "prosjektside",
+                                                                                                     "beskrivelse":  "Offisiell prosjektside"
+                                                                                                 }
+                                                                                             ],
+                                                                    "se-kattegatt-syd":  [
+                                                                                             {
+                                                                                                 "url":  "https://projekt.vattenfall.se/vindprojekt/projekt/hav/kattegatt-syd",
+                                                                                                 "type":  "prosjektside",
+                                                                                                 "beskrivelse":  "Vattenfalls prosjektside"
+                                                                                             }
+                                                                                         ],
+                                                                    "se-galene":  [
+                                                                                      {
+                                                                                          "url":  "https://www.ox2.com/projects/galatea-galene/",
+                                                                                          "type":  "prosjektside",
+                                                                                          "beskrivelse":  "OX2 prosjektside"
+                                                                                      }
+                                                                                  ],
+                                                                    "se-poseidon":  [
+                                                                                        {
+                                                                                            "url":  "https://projekt.vattenfall.se/vindprojekt/projekt/hav/poseidon/",
+                                                                                            "type":  "prosjektside",
+                                                                                            "beskrivelse":  "Vattenfalls prosjektside"
+                                                                                        }
+                                                                                    ],
+                                                                    "se-ostersjon-13-avslatte-2024":  [
+                                                                                                          {
+                                                                                                              "url":  "https://www.regeringen.se/pressmeddelanden/2024/11/avslag-pa-13-havsbaserade-vindkraftparker-i-ostersjon/",
+                                                                                                              "type":  "konsesjon",
+                                                                                                              "beskrivelse":  "Regeringens pressemelding om avslagene"
+                                                                                                          }
+                                                                                                      ],
+                                                                    "se-fyrskeppet-offshore":  [
+                                                                                                   {
+                                                                                                       "url":  "https://www.regeringen.se/pressmeddelanden/2026/07/nya-beslut-om-havsbaserad-vindkraft/",
+                                                                                                       "type":  "konsesjon",
+                                                                                                       "beskrivelse":  "Regeringens pressemelding juli 2026"
+                                                                                                   }
+                                                                                               ],
+                                                                    "se-vidar":  [
+                                                                                     {
+                                                                                         "url":  "https://www.regeringen.se/pressmeddelanden/2026/07/nya-beslut-om-havsbaserad-vindkraft/",
+                                                                                         "type":  "konsesjon",
+                                                                                         "beskrivelse":  "Regeringens pressemelding"
+                                                                                     }
+                                                                                 ],
+                                                                    "fi-korsnas":  [
+                                                                                       {
+                                                                                           "url":  "https://www.metsa.fi/en/responsible-business/wind-power/korsnas-offshore-wind-farm/",
+                                                                                           "type":  "prosjektside",
+                                                                                           "beskrivelse":  "Metsähallitus prosjektside"
+                                                                                       }
+                                                                                   ],
+                                                                    "fi-tahkoluoto-extension":  [
+                                                                                                    {
+                                                                                                        "url":  "https://tahkoluoto-offshore.fi/en/",
+                                                                                                        "type":  "prosjektside",
+                                                                                                        "beskrivelse":  "Offisiell prosjektside"
+                                                                                                    }
+                                                                                                ],
+                                                                    "fi-statlig-eez-utlysning":  [
+                                                                                                     {
+                                                                                                         "url":  "https://balticwind.eu/finland-announces-offshore-wind-tender-schedule/",
+                                                                                                         "type":  "presse",
+                                                                                                         "beskrivelse":  "Tidsplan for finsk utlysning"
+                                                                                                     }
+                                                                                                 ]
+                                                                }
+                                         },
+                      "kjernekraft":  {
+                                          "overvaakingskilder":  [
+                                                                     {
+                                                                         "url":  "https://www.regjeringen.no/no/dokumenter/nou-2026-4/id3155361/",
+                                                                         "type":  "myndighet",
+                                                                         "beskrivelse":  "NOU 2026:4 Kjernekraft i Norge? – Kjernekraftutvalgets fulle rapport",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.regeringen.se/regeringens-politik/karnkraftsfinansiering/sa-fungerar-stodmodellen-for-finansiering-av-ny-karnkraft/",
+                                                                         "type":  "myndighet",
+                                                                         "beskrivelse":  "Offisiell forklaring av svensk statlig finansieringsmodell for kjernekraft",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://videbergkraft.se/en/project",
+                                                                         "type":  "offisiell",
+                                                                         "beskrivelse":  "Videberg Krafts offisielle prosjektside for Ringhals-utbyggingen",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.studsvik.com/news/",
+                                                                         "type":  "offisiell",
+                                                                         "beskrivelse":  "Studsviks nyhetsside for SMR-søknader (Nyköping, Valdemarsvik)",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.steadyenergy.com/news",
+                                                                         "type":  "offisiell",
+                                                                         "beskrivelse":  "Steady Energys nyhetsside for LDR-50 fjernvarme-SMR",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.norskkjernekraft.com/",
+                                                                         "type":  "offisiell",
+                                                                         "beskrivelse":  "Norsk Kjernekraft AS – offisiell side inkl. Halden-prosjektet",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.greatbritishenergynuclear.uk/",
+                                                                         "type":  "offisiell",
+                                                                         "beskrivelse":  "Great British Energy – Nuclear (britisk SMR- og storskalaprogram)",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.rolls-royce-smr.com/our-progress",
+                                                                         "type":  "offisiell",
+                                                                         "beskrivelse":  "Rolls-Royce SMR fremdriftsoversikt (relevant for UK og Sverige)",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.world-nuclear-news.org/",
+                                                                         "type":  "nyhet",
+                                                                         "beskrivelse":  "World Nuclear News – løpende dekning av europeiske kjernekraftprosjekter",
+                                                                         "segment":  "kjernekraft"
+                                                                     },
+                                                                     {
+                                                                         "url":  "https://www.nucnet.org/news",
+                                                                         "type":  "nyhet",
+                                                                         "beskrivelse":  "NucNet – detaljert dekning av europeiske kjernekraftsøknader og milepæler",
+                                                                         "segment":  "kjernekraft"
+                                                                     }
+                                                                 ],
+                                          "prosjektkilder":  {
+                                                                 "se-ringhals-videberg":  [
+                                                                                              {
+                                                                                                  "url":  "https://group.vattenfall.com/se/var-verksamhet/vara-energislag/karnkraft/ny-karnkraft-vid-ringhals",
+                                                                                                  "type":  "offisiell",
+                                                                                                  "beskrivelse":  "Vattenfalls prosjektside om ny kjernekraft ved Ringhals"
+                                                                                              },
+                                                                                              {
+                                                                                                  "url":  "https://www.regeringen.se/pressmeddelanden/2026/06/nasta-stora-steg-for-ny-karnkraft-i-sverige/",
+                                                                                                  "type":  "myndighet",
+                                                                                                  "beskrivelse":  "Regeringens pressemelding om statlig eierskap i Videberg Kraft"
+                                                                                              },
+                                                                                              {
+                                                                                                  "url":  "https://videbergkraft.se/en/project",
+                                                                                                  "type":  "offisiell",
+                                                                                                  "beskrivelse":  "Videberg Krafts prosjektside"
+                                                                                              }
+                                                                                          ],
+                                                                 "se-statlig-finansieringsmodell":  [
+                                                                                                        {
+                                                                                                            "url":  "https://www.regeringen.se/regeringens-politik/karnkraftsfinansiering/sa-fungerar-stodmodellen-for-finansiering-av-ny-karnkraft/",
+                                                                                                            "type":  "myndighet",
+                                                                                                            "beskrivelse":  "Offisiell beskrivelse av den svenske støttemodellen"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "url":  "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/finansiering-och-riskdelning-vid-investeringar-i_hc01nu20/",
+                                                                                                            "type":  "myndighet",
+                                                                                                            "beskrivelse":  "Riksdagens betänkande om finansiering og risikodeling"
+                                                                                                        }
+                                                                                                    ],
+                                                                 "se-karnfull-valdemarsvik":  [
+                                                                                                  {
+                                                                                                      "url":  "https://tech-insider.org/sv/karnfull-next-smr-valdemarsvik-svensk-karnkraft-2026/",
+                                                                                                      "type":  "nyhet",
+                                                                                                      "beskrivelse":  "Om Kärnfull Next-søknaden i Valdemarsvik"
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "url":  "https://news.cision.com/studsvik-ab/r/studsvik-expands-into-nuclear-project-development-with-karnfull-next-acquisition,c4318381",
+                                                                                                      "type":  "pressemelding",
+                                                                                                      "beskrivelse":  "Studsviks oppkjøp av Kärnfull Next"
+                                                                                                  }
+                                                                                              ],
+                                                                 "se-studsvik-nykoping":  [
+                                                                                              {
+                                                                                                  "url":  "https://www.ans.org/news/2026-06-02/article-8088/studsvik-applies-to-build-more-reactors-sweden-seeks-majority-control-of-smr-company/",
+                                                                                                  "type":  "nyhet",
+                                                                                                  "beskrivelse":  "Om Studsviks Nyköping-søknad"
+                                                                                              }
+                                                                                          ],
+                                                                 "fi-hanhikivi-fennovoima":  [
+                                                                                                 {
+                                                                                                     "url":  "https://fennovoima.fi/",
+                                                                                                     "type":  "offisiell",
+                                                                                                     "beskrivelse":  "Fennovoimas offisielle side"
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "url":  "https://valtioneuvosto.fi/en/-/1410877/fennovoima-cancels-its-construction-licence-application-for-nuclear-power-plant-in-pyhajoki",
+                                                                                                     "type":  "myndighet",
+                                                                                                     "beskrivelse":  "Finsk regjerings kunngjøring om kansellering"
+                                                                                                 }
+                                                                                             ],
+                                                                 "fi-steady-energy-ldr50":  [
+                                                                                                {
+                                                                                                    "url":  "https://www.steadyenergy.com/news",
+                                                                                                    "type":  "offisiell",
+                                                                                                    "beskrivelse":  "Steady Energys nyhetsside"
+                                                                                                },
+                                                                                                {
+                                                                                                    "url":  "https://www.nucnet.org/news/finland-s-regulator-publishes-joint-early-review-of-steady-energy-small-modular-reactor-7-1-2026",
+                                                                                                    "type":  "nyhet",
+                                                                                                    "beskrivelse":  "Om felles regulatorisk tidlig gjennomgang"
+                                                                                                }
+                                                                                            ],
+                                                                 "fi-fortum-loviisa-ny":  [
+                                                                                              {
+                                                                                                  "url":  "https://www.fortum.com/se/om-oss/elproduktion/karnkraft/ny-karnkraft",
+                                                                                                  "type":  "offisiell",
+                                                                                                  "beskrivelse":  "Fortums side om ny kjernekraft"
+                                                                                              }
+                                                                                          ],
+                                                                 "no-halden-kjernekraft":  [
+                                                                                               {
+                                                                                                   "url":  "https://www.norskkjernekraft.com/skal-utrede-kjernekraft-i-halden/",
+                                                                                                   "type":  "offisiell",
+                                                                                                   "beskrivelse":  "Norsk Kjernekraft om Halden-utredningen"
+                                                                                               },
+                                                                                               {
+                                                                                                   "url":  "https://www.nrk.no/nyheter/utvalg_-minst-20-ar-for-det-kan-bli-kjernekraft-i-norge-1.17838022",
+                                                                                                   "type":  "nyhet",
+                                                                                                   "beskrivelse":  "NRK om utvalgets konklusjon"
+                                                                                               }
+                                                                                           ],
+                                                                 "uk-sizewell-c":  [
+                                                                                       {
+                                                                                           "url":  "https://www.sizewellc.com/",
+                                                                                           "type":  "offisiell",
+                                                                                           "beskrivelse":  "Sizewell C offisiell side"
+                                                                                       }
+                                                                                   ],
+                                                                 "uk-wylfa-rr-smr":  [
+                                                                                         {
+                                                                                             "url":  "https://www.rolls-royce-smr.com/our-progress",
+                                                                                             "type":  "offisiell",
+                                                                                             "beskrivelse":  "Rolls-Royce SMR fremdriftsside"
+                                                                                         }
+                                                                                     ],
+                                                                 "uk-gben-large-scale-siting":  [
+                                                                                                    {
+                                                                                                        "url":  "https://www.greatbritishenergynuclear.uk/",
+                                                                                                        "type":  "offisiell",
+                                                                                                        "beskrivelse":  "GBE-N offisiell side"
+                                                                                                    }
+                                                                                                ],
+                                                                 "fr-epr2-programme":  [
+                                                                                           {
+                                                                                               "url":  "https://www.world-nuclear-news.org/articles/edf-estimates-epr2-programme-costs-at-eur728-billion",
+                                                                                               "type":  "nyhet",
+                                                                                               "beskrivelse":  "EDFs kostnadsanslag"
+                                                                                           }
+                                                                                       ],
+                                                                 "pl-lubiatowo-kopalino-ap1000":  [
+                                                                                                      {
+                                                                                                          "url":  "https://pej.pl/en/the-project/key-information/",
+                                                                                                          "type":  "offisiell",
+                                                                                                          "beskrivelse":  "PEJ prosjektinformasjon"
+                                                                                                      }
+                                                                                                  ],
+                                                                 "pl-patnow-apr1400":  [
+                                                                                           {
+                                                                                               "url":  "https://www.world-nuclear-news.org/articles/pge-to-take-full-ownership-of-nuclear-project-company",
+                                                                                               "type":  "nyhet",
+                                                                                               "beskrivelse":  "PGE fullt eierskap"
+                                                                                           }
+                                                                                       ],
+                                                                 "nl-nieuwbouw-kerncentrales":  [
+                                                                                                    {
+                                                                                                        "url":  "https://www.borsele.nl/nieuwbouw-kerncentrales",
+                                                                                                        "type":  "offisiell",
+                                                                                                        "beskrivelse":  "Borsele kommune om nybygging"
+                                                                                                    }
+                                                                                                ]
+                                                             }
+                                      },
+                      "landvind-sol-norden":  {
+                                                  "overvaakingskilder":  [
+                                                                             {
+                                                                                 "url":  "https://www.nve.no/konsesjon/konsesjonssaker/",
+                                                                                 "type":  "myndighet",
+                                                                                 "beskrivelse":  "NVE konsesjonsregister — søkbar database for norske vind-/solkonsesjoner",
+                                                                                 "segment":  "landvind-sol-norden"
+                                                                             },
+                                                                             {
+                                                                                 "url":  "https://svenskvindenergi.org/",
+                                                                                 "type":  "bransjeorganisasjon",
+                                                                                 "beskrivelse":  "Svensk Vindenergi — statistikk og prognoser",
+                                                                                 "segment":  "landvind-sol-norden"
+                                                                             },
+                                                                             {
+                                                                                 "url":  "https://www.energi.se/",
+                                                                                 "type":  "bransjemedie",
+                                                                                 "beskrivelse":  "Energi.se — topplister over Sveriges største vind-, sol- og batteriparker",
+                                                                                 "segment":  "landvind-sol-norden"
+                                                                             },
+                                                                             {
+                                                                                 "url":  "https://suomenuusiutuvat.fi/en/wind-power/projects-and-wind-turbines-in-finland/",
+                                                                                 "type":  "bransjeorganisasjon",
+                                                                                 "beskrivelse":  "Suomen uusiutuvat — halvårlig oppdatert finsk hankeliste (Excel/PDF)",
+                                                                                 "segment":  "landvind-sol-norden"
+                                                                             },
+                                                                             {
+                                                                                 "url":  "https://veprojekter.dk/anlaeg/solcelleanlaeg",
+                                                                                 "type":  "myndighet",
+                                                                                 "beskrivelse":  "Energistyrelsen veprojekter.dk — store danske solanlegg",
+                                                                                 "segment":  "landvind-sol-norden"
+                                                                             },
+                                                                             {
+                                                                                 "url":  "https://magnoraasa.com/company-portfolio/hafslund-magnora-sol/",
+                                                                                 "type":  "eier",
+                                                                                 "beskrivelse":  "Magnora ASA porteføljerapportering for Hafslund Magnora Sol",
+                                                                                 "segment":  "landvind-sol-norden"
+                                                                             },
+                                                                             {
+                                                                                 "url":  "https://www.ox2.com/fi/suomi/",
+                                                                                 "type":  "utbygger",
+                                                                                 "beskrivelse":  "OX2 Finland — store finske vindinvesteringer",
+                                                                                 "segment":  "landvind-sol-norden"
+                                                                             }
+                                                                         ],
+                                                  "prosjektkilder":  {
+                                                                         "no-davvi-vindkraftverk":  [
+                                                                                                        {
+                                                                                                            "url":  "https://www.nve.no/konsesjon/konsesjonssaker/konsesjonssak?id=4606\u0026type=A",
+                                                                                                            "type":  "myndighet",
+                                                                                                            "beskrivelse":  "NVE konsesjonssak Davvi"
+                                                                                                        }
+                                                                                                    ],
+                                                                         "no-oyfjellet-vindkraftverk":  [
+                                                                                                            {
+                                                                                                                "url":  "https://oyfjelletvind.no/en/project-fact-file/",
+                                                                                                                "type":  "utbygger",
+                                                                                                                "beskrivelse":  "Faktaark Øyfjellet"
+                                                                                                            }
+                                                                                                        ],
+                                                                         "no-fosen-vind":  [
+                                                                                               {
+                                                                                                   "url":  "https://www.fosenvind.no/vindparkene/",
+                                                                                                   "type":  "utbygger",
+                                                                                                   "beskrivelse":  "Fosen Vind offisiell side"
+                                                                                               }
+                                                                                           ],
+                                                                         "no-samleobjekt-landvind":  [
+                                                                                                         {
+                                                                                                             "url":  "https://www.nve.no/konsesjon/konsesjonssaker/",
+                                                                                                             "type":  "myndighet",
+                                                                                                             "beskrivelse":  "NVE konsesjonsregister"
+                                                                                                         }
+                                                                                                     ],
+                                                                         "no-hafslund-magnora-sol-portefolje":  [
+                                                                                                                    {
+                                                                                                                        "url":  "https://magnoraasa.com/company-portfolio/hafslund-magnora-sol/",
+                                                                                                                        "type":  "eier",
+                                                                                                                        "beskrivelse":  "Magnora ASA porteføljerapportering"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "url":  "https://www.hafslundmagnorasol.no/",
+                                                                                                                        "type":  "eier",
+                                                                                                                        "beskrivelse":  "Offisiell prosjektside (URL i endring til heliosmagnorasol.no)"
+                                                                                                                    }
+                                                                                                                ],
+                                                                         "se-aura-onusberget":  [
+                                                                                                    {
+                                                                                                        "url":  "https://www.energi.se/artiklar/2026/januari-2026/har-ar-sveriges-storsta-vind--sol--och-batteriparker/",
+                                                                                                        "type":  "bransjemedie",
+                                                                                                        "beskrivelse":  "Oversikt Sveriges største parker"
+                                                                                                    }
+                                                                                                ],
+                                                                         "se-samleobjekt-pipeline":  [
+                                                                                                         {
+                                                                                                             "url":  "https://svenskvindenergi.org/komm-fran-oss/140-miljarder-i-vindkraftsinvesteringar-2020-2026-ger-35-twh-ny-elproduktion",
+                                                                                                             "type":  "bransjeorganisasjon",
+                                                                                                             "beskrivelse":  "Svensk Vindenergi statistikk/prognose"
+                                                                                                         }
+                                                                                                     ],
+                                                                         "se-hultsfred-solpark":  [
+                                                                                                      {
+                                                                                                          "url":  "https://www.alight-energy.com/sv/alight-driftsatter-sveriges-storsta-solpark-i-hultsfred/",
+                                                                                                          "type":  "utbygger",
+                                                                                                          "beskrivelse":  "Alight pressemelding"
+                                                                                                      }
+                                                                                                  ],
+                                                                         "fi-lestijarvi":  [
+                                                                                               {
+                                                                                                   "url":  "https://www.kssenergia.fi/a/ajankohtaista/suomen-suurin-tuulipuisto-valmistui-lestijarvelle-kss-energia-on-mukana",
+                                                                                                   "type":  "eier",
+                                                                                                   "beskrivelse":  "KSS Energia pressemelding"
+                                                                                               }
+                                                                                           ],
+                                                                         "fi-rajamaenkyla":  [
+                                                                                                 {
+                                                                                                     "url":  "https://www.ox2.com/fi/suomi/",
+                                                                                                     "type":  "utbygger",
+                                                                                                     "beskrivelse":  "OX2 Finland"
+                                                                                                 }
+                                                                                             ],
+                                                                         "fi-samleobjekt-pipeline":  [
+                                                                                                         {
+                                                                                                             "url":  "https://suomenuusiutuvat.fi/media/surf-tuulivoimahankkeet-suomessa-talvi-2026_3.2.2026.pdf",
+                                                                                                             "type":  "bransjeorganisasjon",
+                                                                                                             "beskrivelse":  "Suomen uusiutuvat hankelista vinter 2026"
+                                                                                                         }
+                                                                                                     ],
+                                                                         "dk-sol-batteripark-ee":  [
+                                                                                                       {
+                                                                                                           "url":  "https://greenpowerdenmark.dk/nyheder/nordeuropas-stoerste-sol-batteripark-etableret-paa-rekordtid",
+                                                                                                           "type":  "bransjeorganisasjon",
+                                                                                                           "beskrivelse":  "Green Power Denmark"
+                                                                                                       }
+                                                                                                   ],
+                                                                         "dk-samleobjekt-pipeline":  [
+                                                                                                         {
+                                                                                                             "url":  "https://veprojekter.dk/anlaeg/solcelleanlaeg",
+                                                                                                             "type":  "myndighet",
+                                                                                                             "beskrivelse":  "Energistyrelsen veprojekter.dk"
+                                                                                                         }
+                                                                                                     ]
+                                                                     }
+                                              },
+                      "nett-interkonnektorer":  {
+                                                    "overvaakingskilder":  [
+                                                                               {
+                                                                                   "url":  "https://www.statnett.no/globalassets/for-aktorer-i-kraftsystemet/planer-og-analyser/sup/systemutviklingsplan-2025.pdf",
+                                                                                   "type":  "tso",
+                                                                                   "beskrivelse":  "Statnett Systemutviklingsplan 2025 — hovedplan for norsk nettutvikling",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               },
+                                                                               {
+                                                                                   "url":  "https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+                                                                                   "type":  "tso",
+                                                                                   "beskrivelse":  "Statnett områdeplaner (oppdateres årlig)",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               },
+                                                                               {
+                                                                                   "url":  "https://www.entsoe.eu/outlooks/offshore-hub/tyndp-ondp/",
+                                                                                   "type":  "tso",
+                                                                                   "beskrivelse":  "ENTSO-E TYNDP/ONDP — felleseuropeisk kilde for hybride havvindtilknytninger",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               },
+                                                                               {
+                                                                                   "url":  "https://publikasjoner.nve.no/rapport/2026/rapport2026_17.pdf",
+                                                                                   "type":  "annet",
+                                                                                   "beskrivelse":  "NVE-rapport: Status og utvikling i kraftsystemet 2025-2030",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               },
+                                                                               {
+                                                                                   "url":  "https://www.svk.se/utveckling-av-kraftsystemet/transmissionsnatet/",
+                                                                                   "type":  "tso",
+                                                                                   "beskrivelse":  "Svenska kraftnät transmisjonsnettprosjekter",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               },
+                                                                               {
+                                                                                   "url":  "https://www.fingrid.fi/en/grid/construction/",
+                                                                                   "type":  "tso",
+                                                                                   "beskrivelse":  "Fingrid byggeprosjekter",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               },
+                                                                               {
+                                                                                   "url":  "https://www.tennet.eu/de/projekte/suedlink",
+                                                                                   "type":  "tso",
+                                                                                   "beskrivelse":  "TenneT SuedLink",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               },
+                                                                               {
+                                                                                   "url":  "https://cinea.ec.europa.eu/news-events/news_en",
+                                                                                   "type":  "annet",
+                                                                                   "beskrivelse":  "EU CINEA — CEF Energy-finansierte infrastrukturprosjekter",
+                                                                                   "segment":  "nett-interkonnektorer"
+                                                                               }
+                                                                           ],
+                                                    "prosjektkilder":  {
+                                                                           "statnett-420kv-lillehammer-gran-oslo":  [
+                                                                                                                        {
+                                                                                                                            "url":  "https://www.statnett.no/vare-prosjekter/region-ost/faberg-ulven/",
+                                                                                                                            "type":  "tso",
+                                                                                                                            "beskrivelse":  "Statnett prosjektside Lillehammer-Gran"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "url":  "https://www.statnett.no/globalassets/for-aktorer-i-kraftsystemet/planer-og-analyser/omradeplaner/innlandet/omradeplan-innlandet-2025.pdf",
+                                                                                                                            "type":  "tso",
+                                                                                                                            "beskrivelse":  "Områdeplan Innlandet 2025"
+                                                                                                                        }
+                                                                                                                    ],
+                                                                           "statnett-oslo-akershus-ostfold-nettfornyelse":  [
+                                                                                                                                {
+                                                                                                                                    "url":  "https://www.statnett.no/for-aktorer-i-kraftbransjen/planer-og-analyser/omradeplaner/",
+                                                                                                                                    "type":  "tso",
+                                                                                                                                    "beskrivelse":  "Statnett områdeplaner"
+                                                                                                                                }
+                                                                                                                            ],
+                                                                           "statnett-samnanger-oygarden-kollsnes":  [
+                                                                                                                        {
+                                                                                                                            "url":  "https://www.statnett.no/vare-prosjekter/region-vest/sogndal-sauda/samnanger---oygarden/",
+                                                                                                                            "type":  "tso",
+                                                                                                                            "beskrivelse":  "Statnett prosjektside"
+                                                                                                                        }
+                                                                                                                    ],
+                                                                           "statnett-sima-samnanger-forsterkning":  [
+                                                                                                                        {
+                                                                                                                            "url":  "https://www.statnett.no/vare-prosjekter/region-vest/sima---samnanger-forsterkning/",
+                                                                                                                            "type":  "tso",
+                                                                                                                            "beskrivelse":  "Statnett prosjektside"
+                                                                                                                        }
+                                                                                                                    ],
+                                                                           "statnett-sorlige-nordsjo-ii-nettilknytning":  [
+                                                                                                                              {
+                                                                                                                                  "url":  "https://www.statnett.no/havvind/omrader-for-havvind/",
+                                                                                                                                  "type":  "tso",
+                                                                                                                                  "beskrivelse":  "Statnett om havvindområder"
+                                                                                                                              }
+                                                                                                                          ],
+                                                                           "statnett-utsira-nord-nettilknytning":  [
+                                                                                                                       {
+                                                                                                                           "url":  "https://www.statnett.no/vare-prosjekter/region-vest/nettilknytning-utsira-nord/",
+                                                                                                                           "type":  "tso",
+                                                                                                                           "beskrivelse":  "Statnett prosjektside"
+                                                                                                                       }
+                                                                                                                   ],
+                                                                           "skagerrak-1-2-reinvestering":  [
+                                                                                                               {
+                                                                                                                   "url":  "https://www.statnett.no/vare-prosjekter/region-sor/skagerak-1-og-2/",
+                                                                                                                   "type":  "tso",
+                                                                                                                   "beskrivelse":  "Statnett prosjektside SK1/SK2"
+                                                                                                               }
+                                                                                                           ],
+                                                                           "nordsyd":  [
+                                                                                           {
+                                                                                               "url":  "https://www.svk.se/nordsyd",
+                                                                                               "type":  "tso",
+                                                                                               "beskrivelse":  "Svenska kraftnät NordSyd"
+                                                                                           }
+                                                                                       ],
+                                                                           "aurora-line":  [
+                                                                                               {
+                                                                                                   "url":  "https://www.fingrid.fi/en/grid/construction/aurora-line/",
+                                                                                                   "type":  "tso",
+                                                                                                   "beskrivelse":  "Fingrid prosjektside"
+                                                                                               }
+                                                                                           ],
+                                                                           "aurora-line-2":  [
+                                                                                                 {
+                                                                                                     "url":  "https://www.fingrid.fi/en/grid/construction/aurora-line-2/",
+                                                                                                     "type":  "tso",
+                                                                                                     "beskrivelse":  "Fingrid prosjektside"
+                                                                                                 }
+                                                                                             ],
+                                                                           "suedlink":  [
+                                                                                            {
+                                                                                                "url":  "https://www.tennet.eu/de/projekte/suedlink",
+                                                                                                "type":  "tso",
+                                                                                                "beskrivelse":  "TenneT prosjektside"
+                                                                                            }
+                                                                                        ],
+                                                                           "bornholm-energy-island-interconnector":  [
+                                                                                                                         {
+                                                                                                                             "url":  "https://energy.ec.europa.eu/news/energy-highways-germany-and-denmark-agree-joint-development-bornholm-energy-island-offshore-wind-2026-01-26_en",
+                                                                                                                             "type":  "annet",
+                                                                                                                             "beskrivelse":  "EU-kommisjonen om avtalen"
+                                                                                                                         }
+                                                                                                                     ]
+                                                                       }
+                                                },
+                      "regulering-eu":  {
+                                            "overvaakingskilder":  [
+                                                                       {
+                                                                           "url":  "https://eur-lex.europa.eu/eli/dir/2024/1711/oj/eng",
+                                                                           "type":  "primærkilde",
+                                                                           "beskrivelse":  "EMD-reformen, direktivtekst",
+                                                                           "segment":  "regulering-eu"
+                                                                       },
+                                                                       {
+                                                                           "url":  "https://www.miljodirektoratet.no/aktuelt/fagmeldinger/",
+                                                                           "type":  "myndighet",
+                                                                           "beskrivelse":  "Miljødirektoratets fagmeldinger — EØS-status for klimaregelverk",
+                                                                           "segment":  "regulering-eu"
+                                                                       },
+                                                                       {
+                                                                           "url":  "https://fead.be/position/review-of-the-eu-emissions-trading-system/",
+                                                                           "type":  "bransjeorganisasjon",
+                                                                           "beskrivelse":  "FEAD om ETS/avfallsinnlemmelse — kritisk for Celsio",
+                                                                           "segment":  "regulering-eu"
+                                                                       },
+                                                                       {
+                                                                           "url":  "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1596",
+                                                                           "type":  "kommisjonen",
+                                                                           "beskrivelse":  "Elektrifiseringsplan og ETS-revisjon juli 2026",
+                                                                           "segment":  "regulering-eu"
+                                                                       },
+                                                                       {
+                                                                           "url":  "https://www.eftasurv.int/state-aid/clean-industrial-deal-state-aid-framework",
+                                                                           "type":  "ESA",
+                                                                           "beskrivelse":  "CISAF for EØS-EFTA-stater",
+                                                                           "segment":  "regulering-eu"
+                                                                       },
+                                                                       {
+                                                                           "url":  "https://www.regjeringen.no/no/sub/eos-notatbasen/",
+                                                                           "type":  "myndighet",
+                                                                           "beskrivelse":  "EØS-notatbasen — norsk innlemmelsesstatus per rettsakt",
+                                                                           "segment":  "regulering-eu"
+                                                                       },
+                                                                       {
+                                                                           "url":  "https://www.entsoe.eu/european-grids-package/",
+                                                                           "type":  "tso",
+                                                                           "beskrivelse":  "ENTSO-E om Grids Package/TYNDP",
+                                                                           "segment":  "regulering-eu"
+                                                                       },
+                                                                       {
+                                                                           "url":  "https://europalov.no/",
+                                                                           "type":  "annet",
+                                                                           "beskrivelse":  "Europalov — sporing av EØS-prosess for alle EU-rettsakter",
+                                                                           "segment":  "regulering-eu"
+                                                                       }
+                                                                   ],
+                                            "prosjektkilder":  {
+                                                                   "emd-reform":  [
+                                                                                      {
+                                                                                          "url":  "https://energy.ec.europa.eu/topics/markets-and-consumers/electricity-market-design_en",
+                                                                                          "type":  "kommisjonen",
+                                                                                          "beskrivelse":  "Kommisjonens EMD-side"
+                                                                                      }
+                                                                                  ],
+                                                                   "red-iii":  [
+                                                                                   {
+                                                                                       "url":  "https://www.nho.no/tema/energi-miljo-og-klima/eus-klima--og-energisamarbeid/ren-energi-pakken/fornybardirektivet/red-iii/",
+                                                                                       "type":  "næringsorganisasjon",
+                                                                                       "beskrivelse":  "NHO om RED III"
+                                                                                   }
+                                                                               ],
+                                                                   "eed":  [
+                                                                               {
+                                                                                   "url":  "https://eur-lex.europa.eu/eli/dir/2023/1791/oj/eng",
+                                                                                   "type":  "primærkilde",
+                                                                                   "beskrivelse":  "EUR-Lex EED"
+                                                                               }
+                                                                           ],
+                                                                   "ets-revisjon-fase5":  [
+                                                                                              {
+                                                                                                  "url":  "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2026)782615",
+                                                                                                  "type":  "EU-parlamentet",
+                                                                                                  "beskrivelse":  "EPRS-briefing"
+                                                                                              }
+                                                                                          ],
+                                                                   "ets-avfallsforbrenning":  [
+                                                                                                  {
+                                                                                                      "url":  "https://fead.be/position/review-of-the-eu-emissions-trading-system/",
+                                                                                                      "type":  "bransjeorganisasjon",
+                                                                                                      "beskrivelse":  "FEAD om ETS-revisjon og avfallsinnlemmelse"
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "url":  "https://cedelft.eu/publications/waste-incineration-under-the-eu-ets-assessment-of-climate-benefits-update-2025/",
+                                                                                                      "type":  "analyse",
+                                                                                                      "beskrivelse":  "CE Delft-vurdering 2025"
+                                                                                                  }
+                                                                                              ],
+                                                                   "ets2":  [
+                                                                                {
+                                                                                    "url":  "https://climate.ec.europa.eu/areas-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en",
+                                                                                    "type":  "kommisjonen",
+                                                                                    "beskrivelse":  "Kommisjonens ETS2-side"
+                                                                                }
+                                                                            ],
+                                                                   "cbam":  [
+                                                                                {
+                                                                                    "url":  "https://taxation-customs.ec.europa.eu/document/download/918c5629-b1a1-4c4a-9e38-77c1f9e2df12_en?filename=FAQ-electricity-24Mar26.pdf",
+                                                                                    "type":  "kommisjonen",
+                                                                                    "beskrivelse":  "FAQ om CBAM og elektrisitet"
+                                                                                }
+                                                                            ],
+                                                                   "clean-industrial-deal-cisaf":  [
+                                                                                                       {
+                                                                                                           "url":  "https://www.eftasurv.int/state-aid/clean-industrial-deal-state-aid-framework",
+                                                                                                           "type":  "ESA",
+                                                                                                           "beskrivelse":  "ESA om CISAF"
+                                                                                                       }
+                                                                                                   ],
+                                                                   "taksonomien-vannkraft":  [
+                                                                                                 {
+                                                                                                     "url":  "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
+                                                                                                     "type":  "kommisjonen",
+                                                                                                     "beskrivelse":  "Kommisjonens taksonomiside"
+                                                                                                 }
+                                                                                             ],
+                                                                   "vanndirektivet-revisjon":  [
+                                                                                                   {
+                                                                                                       "url":  "https://www.fornybarnorge.no/vi-mener/vanndirektivet-og-revisjon-av-konsesjoner/",
+                                                                                                       "type":  "næringsorganisasjon",
+                                                                                                       "beskrivelse":  "Fornybar Norge om WFD og konsesjonsrevisjon"
+                                                                                                   }
+                                                                                               ],
+                                                                   "grids-package-tyndp":  [
+                                                                                               {
+                                                                                                   "url":  "https://www.entsoe.eu/european-grids-package/",
+                                                                                                   "type":  "ENTSO-E",
+                                                                                                   "beskrivelse":  "ENTSO-E om Grids Package"
+                                                                                               }
+                                                                                           ],
+                                                                   "electrification-action-plan":  [
+                                                                                                       {
+                                                                                                           "url":  "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1596",
+                                                                                                           "type":  "kommisjonen",
+                                                                                                           "beskrivelse":  "Samlet pressemelding"
+                                                                                                       }
+                                                                                                   ],
+                                                                   "remit-revisjon":  [
+                                                                                          {
+                                                                                              "url":  "https://www.nve.no/norwegian-energy-regulatory-authority/market-conduct-rules/",
+                                                                                              "type":  "myndighet",
+                                                                                              "beskrivelse":  "NVE/RME markedsatferdsregler"
+                                                                                          }
+                                                                                      ]
+                                                               }
+                                        },
+                      "regulering-norden":  {
+                                                "overvaakingskilder":  [
+                                                                           {
+                                                                               "url":  "https://www.nve.no/media/19772/aarsrapport-2025-konsesjon-endelig.pdf",
+                                                                               "type":  "myndighet",
+                                                                               "beskrivelse":  "NVE årsrapport 2025 konsesjon — nøkkelkilde for saksbehandlingstider",
+                                                                               "segment":  "regulering-norden"
+                                                                           },
+                                                                           {
+                                                                               "url":  "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/",
+                                                                               "type":  "tso",
+                                                                               "beskrivelse":  "Statnetts nyhetsarkiv — tariffmodell og nettregulering",
+                                                                               "segment":  "regulering-norden"
+                                                                           },
+                                                                           {
+                                                                               "url":  "https://www.regjeringen.no/no/tema/energi/vindkraft-til-havs/id2873850/",
+                                                                               "type":  "myndighet",
+                                                                               "beskrivelse":  "Regjeringens tidslinje for havvindsatsingen",
+                                                                               "segment":  "regulering-norden"
+                                                                           },
+                                                                           {
+                                                                               "url":  "https://www.fjernvarme.no/nve-anbefaler-ny-prisregulering-for-fjernvarme",
+                                                                               "type":  "bransjeside",
+                                                                               "beskrivelse":  "Norsk Fjernvarme følger prisreguleringsprosessen — kritisk for Celsio",
+                                                                               "segment":  "regulering-norden"
+                                                                           },
+                                                                           {
+                                                                               "url":  "https://www.regeringen.se/regeringens-politik/karnkraftsfinansiering/",
+                                                                               "type":  "myndighet",
+                                                                               "beskrivelse":  "Svensk kärnkraftsfinansiering samleside",
+                                                                               "segment":  "regulering-norden"
+                                                                           },
+                                                                           {
+                                                                               "url":  "https://www.miljodirektoratet.no/ansvarsomrader/klima/co2-kompensasjon/",
+                                                                               "type":  "myndighet",
+                                                                               "beskrivelse":  "CO2-kompensasjonsordningen",
+                                                                               "segment":  "regulering-norden"
+                                                                           },
+                                                                           {
+                                                                               "url":  "https://www.rme.no",
+                                                                               "type":  "myndighet",
+                                                                               "beskrivelse":  "RME — tilsyn og vedtak om nettregulering/tariffer",
+                                                                               "segment":  "regulering-norden"
+                                                                           }
+                                                                       ],
+                                                "prosjektkilder":  {
+                                                                       "grunnrenteskatt-vannkraft-terskel":  [
+                                                                                                                 {
+                                                                                                                     "url":  "https://www.regjeringen.no/no/aktuelt/foreslar-flere-forbedringer-i-skattesystemet/id3124552/",
+                                                                                                                     "type":  "myndighet",
+                                                                                                                     "beskrivelse":  "Regjeringens pressemelding om statsbudsjettet 2026"
+                                                                                                                 }
+                                                                                                             ],
+                                                                       "norgespris":  [
+                                                                                          {
+                                                                                              "url":  "https://www.nve.no/reguleringsmyndigheten/kunde/stroem/dette-er-norgespris/",
+                                                                                              "type":  "myndighet",
+                                                                                              "beskrivelse":  "NVE/RME om Norgespris"
+                                                                                          }
+                                                                                      ],
+                                                                       "havvind-rammeverk-no":  [
+                                                                                                    {
+                                                                                                        "url":  "https://www.eftasurv.int/newsroom/updates/esa-approves-norwegian-scheme-floating-offshore-wind-utsira-nord:nb",
+                                                                                                        "type":  "myndighet",
+                                                                                                        "beskrivelse":  "ESA-godkjenning av støtteordning"
+                                                                                                    }
+                                                                                                ],
+                                                                       "statnett-tariffmodell":  [
+                                                                                                     {
+                                                                                                         "url":  "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2026/endringer-i-statnetts-tariffmodell",
+                                                                                                         "type":  "tso",
+                                                                                                         "beskrivelse":  "Statnett om tariffendringer"
+                                                                                                     }
+                                                                                                 ],
+                                                                       "nve-konsesjonskapasitet":  [
+                                                                                                       {
+                                                                                                           "url":  "https://www.nve.no/media/19772/aarsrapport-2025-konsesjon-endelig.pdf",
+                                                                                                           "type":  "myndighet",
+                                                                                                           "beskrivelse":  "NVE årsrapport konsesjon 2025"
+                                                                                                       }
+                                                                                                   ],
+                                                                       "avfallsforbrenning-avgiftsfritak":  [
+                                                                                                                {
+                                                                                                                    "url":  "https://www.regjeringen.no/no/aktuelt/avgiftsfritak-for-kvotepliktige-avfallsforbrenningsanlegg/id3142822/",
+                                                                                                                    "type":  "myndighet",
+                                                                                                                    "beskrivelse":  "Regjeringen om avgiftsfritaket"
+                                                                                                                }
+                                                                                                            ],
+                                                                       "fjernvarme-prisregulering":  [
+                                                                                                         {
+                                                                                                             "url":  "https://www.nve.no/media/19842/presentasjoner-innspillsmoete-prisregulering-fjernvarme.pdf",
+                                                                                                             "type":  "myndighet",
+                                                                                                             "beskrivelse":  "Innspillsmøte inkl. Celsios innspill"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "url":  "https://www.fjernvarme.no/nve-anbefaler-ny-prisregulering-for-fjernvarme",
+                                                                                                             "type":  "bransjeside",
+                                                                                                             "beskrivelse":  "NVE anbefaler ny prisregulering"
+                                                                                                         }
+                                                                                                     ],
+                                                                       "svensk-karnkraft-stod":  [
+                                                                                                     {
+                                                                                                         "url":  "https://www.regeringen.se/regeringens-politik/karnkraftsfinansiering/",
+                                                                                                         "type":  "myndighet",
+                                                                                                         "beskrivelse":  "Regeringskansliet om kärnkraftsfinansiering"
+                                                                                                     }
+                                                                                                 ],
+                                                                       "svensk-havvind-auksjonssystem":  [
+                                                                                                             {
+                                                                                                                 "url":  "https://www.regeringen.se/contentassets/8020a48a0bf840159a83eec1ef219261/vindkraft-i-havet---en-overgang-till-ett-auktionssystem-sou-202489.pdf.pdf",
+                                                                                                                 "type":  "myndighet",
+                                                                                                                 "beskrivelse":  "SOU 2024:89 om auksjonssystem"
+                                                                                                             }
+                                                                                                         ]
+                                                                   }
+                                            },
+                      "vannkraft-pumpekraft":  {
+                                                   "overvaakingskilder":  [
+                                                                              {
+                                                                                  "url":  "https://www.hafslund.no/no/prosjekter",
+                                                                                  "type":  "prosjektside",
+                                                                                  "beskrivelse":  "Hafslunds samlede oversikt over kraftverksprosjekter (O/U og nybygg)",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              },
+                                                                              {
+                                                                                  "url":  "https://www.nve.no/energi/energisystem/vannkraft/opprusting-og-utvidelse-av-vannkraftverk/",
+                                                                                  "type":  "annet",
+                                                                                  "beskrivelse":  "NVEs side om O/U av vannkraftverk med kvartalsrapport om ny produksjon",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              },
+                                                                              {
+                                                                                  "url":  "https://www.statkraft.no/kraftproduksjon/vannkraft/vannkraftprosjekter/",
+                                                                                  "type":  "prosjektside",
+                                                                                  "beskrivelse":  "Statkrafts oversikt over norske vannkraftprosjekter/O/U",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              },
+                                                                              {
+                                                                                  "url":  "https://group.vattenfall.com/se/nyheter-och-press/nyheter/2026/vattenfall-investerar-i-vattenkraften-for-de-kommande-hundra-aren",
+                                                                                  "type":  "presse",
+                                                                                  "beskrivelse":  "Vattenfalls investeringsplan for svensk vattenkraft (Juktan, Harsprånget, Messaure)",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              },
+                                                                              {
+                                                                                  "url":  "https://www.fortum.com/se/forstudie-pumpkraft",
+                                                                                  "type":  "prosjektside",
+                                                                                  "beskrivelse":  "Fortums samleside for forstudier av ny pumpkraft i Sverige",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              },
+                                                                              {
+                                                                                  "url":  "https://www.hydro.com/no/no/om-hydro/hydro-lokasjoner-i-norge/europe/norge/sogn/illvatn-kraftstasjon/",
+                                                                                  "type":  "prosjektside",
+                                                                                  "beskrivelse":  "Hydros prosjektside for Illvatn pumpekraftverk",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              },
+                                                                              {
+                                                                                  "url":  "https://www.verbund.com/en/group/news-press",
+                                                                                  "type":  "prosjektside",
+                                                                                  "beskrivelse":  "Verbunds nyhetsside (Riedl, Limberg III, Reisseck II Plus)",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              },
+                                                                              {
+                                                                                  "url":  "https://www.globalenergymonitor.org/projects/global-hydropower-tracker",
+                                                                                  "type":  "annet",
+                                                                                  "beskrivelse":  "Global Energy Monitor vannkraft-tracker for europeisk oversikt \u003e200 MW",
+                                                                                  "segment":  "vannkraft-pumpekraft"
+                                                                              }
+                                                                          ],
+                                                   "prosjektkilder":  {
+                                                                          "hafslund-lavi":  [
+                                                                                                {
+                                                                                                    "url":  "https://www.hafslund.no/no/prosjekter/laavi",
+                                                                                                    "type":  "prosjektside",
+                                                                                                    "beskrivelse":  "Hafslunds prosjektside for Låvi"
+                                                                                                }
+                                                                                            ],
+                                                                          "hafslund-hemsil3":  [
+                                                                                                   {
+                                                                                                       "url":  "https://www.hafslund.no/no/prosjekter/hemsil-3",
+                                                                                                       "type":  "prosjektside",
+                                                                                                       "beskrivelse":  "Hafslunds prosjektside for Hemsil 3"
+                                                                                                   }
+                                                                                               ],
+                                                                          "hafslund-nes":  [
+                                                                                               {
+                                                                                                   "url":  "https://kommunikasjon.ntb.no/pressemelding/18662492/nve-krever-ikke-konsesjon-for-oppgradering-av-nes-kraftverk?publisherId=89280\u0026lang=no",
+                                                                                                   "type":  "annet",
+                                                                                                   "beskrivelse":  "NVE-pressemelding om Nes kraftverk"
+                                                                                               }
+                                                                                           ],
+                                                                          "hafslund-fkf5":  [
+                                                                                                {
+                                                                                                    "url":  "https://www.hafslund.no/no/prosjekter",
+                                                                                                    "type":  "prosjektside",
+                                                                                                    "beskrivelse":  "Hafslunds prosjektoversikt"
+                                                                                                }
+                                                                                            ],
+                                                                          "hafslund-nye-hol1":  [
+                                                                                                    {
+                                                                                                        "url":  "https://www.hafslund.no/no/prosjekter",
+                                                                                                        "type":  "prosjektside",
+                                                                                                        "beskrivelse":  "Hafslunds prosjektoversikt"
+                                                                                                    }
+                                                                                                ],
+                                                                          "lyse-hydro-roldal-suldal":  [
+                                                                                                           {
+                                                                                                               "url":  "https://www.lysekonsern.no/om-oss/nyhetsarkiv/lyse-og-hydro-soker-konsesjon-for-oppgradering-av-roldal-suldal",
+                                                                                                               "type":  "presse",
+                                                                                                               "beskrivelse":  "Lyse: konsesjonssøknad"
+                                                                                                           }
+                                                                                                       ],
+                                                                          "statkraft-nore":  [
+                                                                                                 {
+                                                                                                     "url":  "https://www.statkraft.no/om-statkraft/hvor-vi-har-virksomhet/norge/nore-redesign/",
+                                                                                                     "type":  "prosjektside",
+                                                                                                     "beskrivelse":  "Statkraft prosjektside Nore"
+                                                                                                 }
+                                                                                             ],
+                                                                          "hydro-illvatn":  [
+                                                                                                {
+                                                                                                    "url":  "https://www.hydro.com/no/no/om-hydro/hydro-lokasjoner-i-norge/europe/norge/sogn/illvatn-kraftstasjon/",
+                                                                                                    "type":  "prosjektside",
+                                                                                                    "beskrivelse":  "Hydro prosjektside Illvatn"
+                                                                                                }
+                                                                                            ],
+                                                                          "vattenfall-juktan":  [
+                                                                                                    {
+                                                                                                        "url":  "https://group.vattenfall.com/se/nyheter-och-press/nyheter/2026/vattenfall-investerar-i-vattenkraften-for-de-kommande-hundra-aren",
+                                                                                                        "type":  "presse",
+                                                                                                        "beskrivelse":  "Vattenfalls investeringsplan svensk vattenkraft"
+                                                                                                    }
+                                                                                                ],
+                                                                          "fortum-bastvalen":  [
+                                                                                                   {
+                                                                                                       "url":  "https://www.fortum.com/en/media/2026/06/fortum-submits-permit-applications-two-pumped-hydro-storage-projects-sweden",
+                                                                                                       "type":  "presse",
+                                                                                                       "beskrivelse":  "Fortum pressemelding om to pumpkraftansökningar"
+                                                                                                   }
+                                                                                               ],
+                                                                          "fortum-lekstjarnen":  [
+                                                                                                     {
+                                                                                                         "url":  "https://www.fortum.com/se/pumpkraftprojektet-lekstjarnen",
+                                                                                                         "type":  "prosjektside",
+                                                                                                         "beskrivelse":  "Fortum prosjektside Lekstjärnen"
+                                                                                                     }
+                                                                                                 ]
+                                                                      }
+                                               }
+                  }
+}
