@@ -1,0 +1,114 @@
+{
+  "segment": "kjernekraft",
+  "kjoringsdato": "2026-08-25",
+  "prosjekter": [
+    {"id": "se-ringhals-videberg", "navn": "Ny kjernekraft ved Ringhals (Videberg Kraft, Väröhalvön)", "land": "SE", "teknologi": "smr", "kapasitet_mw": 1410, "eiere": ["Svenska staten (60%)", "Vattenfall (20%)", "Industrikraft (20%)"], "fase": "konsesjon", "fase_detalj": "Leverandørvalg/statlig kapitalisering, avventer EU-godkjenning av statsstøtte", "modenhet": 3, "forventet_idrift": "2035 (første reaktor), ca. 2040 (alle tre)",
+     "siste_utvikling": {"dato": "2026-06-16", "hendelse": "Videberg Kraft valgte Rolls-Royce SMR som leverandør av tre reaktorer (til sammen 1410 MW); svenske staten ble samtidig majoritetseier (60%). EU-kommisjonens beslutning om statsstøtte forventes høsten 2027.", "kilde_url": "https://group.vattenfall.com/se/nyheter-och-press/nyheter/2026/videberg-kraft-i-ny-fas--driver-karnkraftsprojekt-vidare"},
+     "hafslund_relevans": {"score": 5, "begrunnelse": "Det klart mest fremskredne nye kjernekraftprosjektet i Norden. Direkte relevant for nordisk kraftbalanse, prisnivå og verdien av norsk vannkraftfleksibilitet fra midt på 2030-tallet. Statlig eier- og risikodelingsmodell er også en mal den norske kjernekraftdebatten viser til."},
+     "kilder": [
+       {"url": "https://group.vattenfall.com/se/var-verksamhet/vara-energislag/karnkraft/ny-karnkraft-vid-ringhals", "type": "offisiell", "beskrivelse": "Vattenfalls prosjektside om ny kjernekraft ved Ringhals"},
+       {"url": "https://www.regeringen.se/pressmeddelanden/2026/06/nasta-stora-steg-for-ny-karnkraft-i-sverige/", "type": "myndighet", "beskrivelse": "Regeringens pressemelding om statlig eierskap i Videberg Kraft"},
+       {"url": "https://videbergkraft.se/en/project", "type": "offisiell", "beskrivelse": "Videberg Krafts prosjektside"}
+     ]},
+    {"id": "se-statlig-finansieringsmodell", "navn": "Svensk statlig finansierings- og risikodelingsmodell for ny kjernekraft (lån + toveis differansekontrakt)", "land": "SE", "teknologi": "kjernekraft", "kapasitet_mw": 0, "eiere": ["Svenska staten"], "fase": "konsesjon", "fase_detalj": "Lovregulert og operativ finansieringsordning", "modenhet": 3, "forventet_idrift": null,
+     "siste_utvikling": {"dato": "2026-04-01", "hendelse": "Regjeringen presenterte ny kjernekraft som en samfunnsinvestering som krever en ny statlig rolle; staten tar hoveddelen av finansiell risiko i første storskala-prosjekt (Ringhals) gjennom statslån og topriset differansekontrakt.", "kilde_url": "https://www.regeringen.se/pressmeddelanden/2026/04/ny-karnkraft-ar-en-samhallsinvestering-som-forutsatter-en-ny-roll-for-staten/"},
+     "hafslund_relevans": {"score": 4, "begrunnelse": "Finansieringsmodellen (statslån + differansekontrakt med tak) er mekanismen som gjør svensk ny kjernekraft mulig, og direkte referanse i norsk kjernekraftdebatt (jf. NOU 2026:4)."},
+     "kilder": [
+       {"url": "https://www.regeringen.se/regeringens-politik/karnkraftsfinansiering/sa-fungerar-stodmodellen-for-finansiering-av-ny-karnkraft/", "type": "myndighet", "beskrivelse": "Offisiell beskrivelse av den svenske støttemodellen"},
+       {"url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/finansiering-och-riskdelning-vid-investeringar-i_hc01nu20/", "type": "myndighet", "beskrivelse": "Riksdagens betänkande om finansiering og risikodeling"}
+     ]},
+    {"id": "se-karnfull-valdemarsvik", "navn": "Kärnfull Next SMR-park, Valdemarsvik", "land": "SE", "teknologi": "smr", "kapasitet_mw": 1400, "eiere": ["Studsvik (via oppkjøp av Kärnfull Next, mars 2026)"], "fase": "planlegging", "fase_detalj": "Søknad om statlig tillatelse innsendt", "modenhet": 2, "forventet_idrift": "2030-tallet",
+     "siste_utvikling": {"dato": "2026-03-24", "hendelse": "Kärnfull Next sendte inn Sveriges første nye kjernekraftsøknad på over 50 år og den første under ny kjernekraftlovgivning (i kraft fra 1.8.2025), for en SMR-park på 1200-1600 MWe i Valdemarsvik.", "kilde_url": "https://www.nucnet.org/news/studsvik-applies-for-state-support-for-1-4-gw-smr-programme-in-sweden-6-1-2026"},
+     "hafslund_relevans": {"score": 3, "begrunnelse": "Viser bredden i svensk SMR-satsing utover Ringhals; flere parallelle svenske SMR-parker forsterker forventningen om økt grunnlast og prispress i det nordiske markedet på 2030-tallet."},
+     "kilder": [
+       {"url": "https://tech-insider.org/sv/karnfull-next-smr-valdemarsvik-svensk-karnkraft-2026/", "type": "nyhet", "beskrivelse": "Om Kärnfull Next-søknaden i Valdemarsvik"},
+       {"url": "https://news.cision.com/studsvik-ab/r/studsvik-expands-into-nuclear-project-development-with-karnfull-next-acquisition,c4318381", "type": "pressemelding", "beskrivelse": "Studsviks oppkjøp av Kärnfull Next"}
+     ]},
+    {"id": "se-studsvik-nykoping", "navn": "Studsvik SMR-park, Nyköping", "land": "SE", "teknologi": "smr", "kapasitet_mw": 1400, "eiere": ["Studsvik"], "fase": "planlegging", "fase_detalj": "Søknad om statlig tillatelse innsendt", "modenhet": 2, "forventet_idrift": "2030-tallet",
+     "siste_utvikling": {"dato": "2026-02-05", "hendelse": "Studsvik sendte inn sin andre kjernekraftsøknad i 2026, for en mulig SMR-park på 600-1400 MW ved Nyköping, med mål om første reaktorer i drift på 2030-tallet.", "kilde_url": "https://www.nucnet.org/news/sweden-s-studsvik-submits-second-nuclear-application-this-year-for-potential-smr-park-at-nykoeping-5-2-2026"},
+     "hafslund_relevans": {"score": 3, "begrunnelse": "Ytterligere svensk SMR-kapasitet — mer nordisk grunnlast og press på vannkraftens energipris, men mulig oppside for effekt/fleksibilitetstjenester."},
+     "kilder": [
+       {"url": "https://www.ans.org/news/2026-06-02/article-8088/studsvik-applies-to-build-more-reactors-sweden-seeks-majority-control-of-smr-company/", "type": "nyhet", "beskrivelse": "Om Studsviks Nyköping-søknad"}
+     ]},
+    {"id": "fi-hanhikivi-fennovoima", "navn": "Hanhikivi 1 (Fennovoima), Pyhäjoki", "land": "FI", "teknologi": "kjernekraft", "kapasitet_mw": 1200, "eiere": ["Fennovoima"], "fase": "kansellert", "modenhet": 0, "forventet_idrift": null,
+     "siste_utvikling": {"dato": "2022-05-02", "hendelse": "Fennovoima avsluttet lisensieringsprosessen og kansellerte kontrakten med Rosatom/RAOS Project etter Russlands invasjon av Ukraina; avvikling og salg av Hanhikivi-tomten pågår.", "kilde_url": "https://world-nuclear-news.org/Articles/Fennovoima-ends-Hanhikivi-1-licensing-process"},
+     "hafslund_relevans": {"score": 1, "begrunnelse": "Historisk bakgrunn for det finske kjernekraftmarkedet; ingen direkte pågående effekt."},
+     "kilder": [
+       {"url": "https://fennovoima.fi/", "type": "offisiell", "beskrivelse": "Fennovoimas offisielle side"},
+       {"url": "https://valtioneuvosto.fi/en/-/1410877/fennovoima-cancels-its-construction-licence-application-for-nuclear-power-plant-in-pyhajoki", "type": "myndighet", "beskrivelse": "Finsk regjerings kunngjøring om kansellering"}
+     ]},
+    {"id": "fi-steady-energy-ldr50", "navn": "Steady Energy LDR-50 fjernvarme-SMR (Helsinki/Salmisaari m.fl.)", "land": "FI", "teknologi": "smr", "kapasitet_mw": 50, "eiere": ["Steady Energy", "Fortum (utviklingsinvestor)"], "fase": "planlegging", "fase_detalj": "Teknologiutvikling, tidlig regulatorisk gjennomgang, pilotanlegg planlagt", "modenhet": 2, "forventet_idrift": "2029 (pilotanlegg)",
+     "siste_utvikling": {"dato": "2026-01-02", "hendelse": "Fortum utvidet samarbeidet med Steady Energy og investerte 2,1 mill. euro i utviklingen av LDR-50-fjernvarmereaktoren; internasjonal felles tidlig regulatorisk gjennomgang fant ingen fundamentale sikkerhetshindre. Kerava er tredje finske by som utreder SMR til fjernvarme.", "kilde_url": "https://www.fortum.com/en/media/2026/01/fortum-deepens-its-collaboration-steady-energy-developer-district-heating-reactors"},
+     "hafslund_relevans": {"score": 3, "begrunnelse": "Fjernvarme-SMR er mulig fremtidig konkurrent/erstatning for annen fjernvarmeteknologi i Norden — relevant for Celsio på lang sikt."},
+     "kilder": [
+       {"url": "https://www.steadyenergy.com/news", "type": "offisiell", "beskrivelse": "Steady Energys nyhetsside"},
+       {"url": "https://www.nucnet.org/news/finland-s-regulator-publishes-joint-early-review-of-steady-energy-small-modular-reactor-7-1-2026", "type": "nyhet", "beskrivelse": "Om felles regulatorisk tidlig gjennomgang"}
+     ]},
+    {"id": "fi-fortum-loviisa-ny", "navn": "Fortum – vurdering av ny storskala kjernekraft (Loviisa)", "land": "FI", "teknologi": "kjernekraft", "kapasitet_mw": 0, "eiere": ["Fortum"], "fase": "konsept", "fase_detalj": "Forstudie fullført, dialog med staten om finansieringsmodell", "modenhet": 1, "forventet_idrift": "tidligst andre halvdel av 2030-tallet",
+     "siste_utvikling": {"dato": "2025-03-01", "hendelse": "Fortum avsluttet forstudie og bekreftet videre utvikling av ny kjernekraft som fremtidig alternativ; forhandlinger med staten om finansieringsmodell ventet i 2026.", "kilde_url": "https://www.fortum.com/se/media/2025/03/fortum-klar-med-forstudie-fortsatter-utveckla-karnkraft-som-ett-framtida-alternativ"},
+     "hafslund_relevans": {"score": 4, "begrunnelse": "Nytt storskala finsk kjernekraftverk vil forsterke grunnlast-/pristrenden; finansieringsdialogen er referanse for norsk politikkutforming."},
+     "kilder": [
+       {"url": "https://www.fortum.com/se/om-oss/elproduktion/karnkraft/ny-karnkraft", "type": "offisiell", "beskrivelse": "Fortums side om ny kjernekraft"}
+     ]},
+    {"id": "no-halden-kjernekraft", "navn": "Halden Kjernekraft (Norsk Kjernekraft AS / Østfold Energi) – SMR-utredning", "land": "NO", "teknologi": "smr", "kapasitet_mw": 0, "eiere": ["Norsk Kjernekraft AS", "Østfold Energi"], "fase": "konsept", "fase_detalj": "Utredning, ingen konsesjonssøknad", "modenhet": 1, "forventet_idrift": "tidligst midten av 2040-tallet",
+     "siste_utvikling": {"dato": "2026-04-08", "hendelse": "Kjernekraftutvalgets NOU 2026:4 «Kjernekraft i Norge?» overlevert Energidepartementet: kjernekraft kan integreres i det norske kraftsystemet, men vil ikke være lønnsomt med dagens prisforventninger; anbefaler 'vent og forbered'-strategi. Ikke realistisk før tidligst midten av 2040-tallet.", "kilde_url": "https://www.regjeringen.no/no/dokumenter/nou-2026-4/id3155361/"},
+     "hafslund_relevans": {"score": 5, "begrunnelse": "Direkte norsk konkurranse/komplementaritet til vannkraft. NOU 2026:4 dempet forventningene betydelig og anbefaler ingen umiddelbar satsing — reduserer kortsiktig risiko for Hafslunds vannkraftportefølje, men saken er politisk aktiv."},
+     "kilder": [
+       {"url": "https://www.norskkjernekraft.com/skal-utrede-kjernekraft-i-halden/", "type": "offisiell", "beskrivelse": "Norsk Kjernekraft om Halden-utredningen"},
+       {"url": "https://www.nrk.no/nyheter/utvalg_-minst-20-ar-for-det-kan-bli-kjernekraft-i-norge-1.17838022", "type": "nyhet", "beskrivelse": "NRK om utvalgets konklusjon"}
+     ]},
+    {"id": "no-aker-rr-smr-leveranse", "navn": "Aker Solutions – leveranseavtale med Rolls-Royce SMR", "land": "NO", "teknologi": "smr", "kapasitet_mw": 0, "eiere": ["Aker Solutions"], "fase": "planlegging", "fase_detalj": "Leveranseavtale for komponenter (kontroll- og rørsystemer)", "modenhet": 2, "forventet_idrift": null,
+     "siste_utvikling": {"dato": "2026-04-14", "hendelse": "Aker Solutions inngikk avtale med Rolls-Royce SMR om å levere moduler/systemer (styresystemer, trykkrør) til kjernekraftverk.", "kilde_url": "https://www.nrk.no/vestland/aker-solutions-med-avtale-om-a-bygge-deler-til-kjernekraftverk-pa-vestlandet-1.17864103"},
+     "hafslund_relevans": {"score": 2, "begrunnelse": "Ikke kraftproduksjon, men viser norsk industriell posisjonering i SMR-leverandørkjeden (inkl. mot Ringhals)."},
+     "kilder": []},
+    {"id": "uk-sizewell-c", "navn": "Sizewell C", "land": "UK", "teknologi": "kjernekraft", "kapasitet_mw": 3200, "eiere": ["UK-regjeringen (44,9%)", "La Caisse (20%)", "Centrica (15%)", "EDF (12,5%)", "Amber Infrastructure (7,6%)"], "fase": "bygging", "modenhet": 4, "forventet_idrift": "midt på 2030-tallet",
+     "siste_utvikling": {"dato": "2026-02-01", "hendelse": "Over 2000 i arbeid på anlegget; NAO-rapport om kostnads-/fremdriftsrisiko våren 2026. FID 22. juli 2025, finansiell closing november 2025 (38 mrd GBP-pakke).", "kilde_url": "https://www.nao.org.uk/wp-content/uploads/2026/05/sizewell-c.pdf"},
+     "hafslund_relevans": {"score": 2, "begrunnelse": "Indikator på storskala kjernekraftens kostnads- og gjennomføringsrisiko; sammenligning for Ringhals/norsk debatt."},
+     "kilder": [
+       {"url": "https://www.sizewellc.com/", "type": "offisiell", "beskrivelse": "Sizewell C offisiell side"}
+     ]},
+    {"id": "uk-wylfa-rr-smr", "navn": "Wylfa (Ynys Môn) – Rolls-Royce SMR-flåte", "land": "UK", "teknologi": "smr", "kapasitet_mw": 1500, "eiere": ["Great British Energy – Nuclear (GBE-N)", "Rolls-Royce SMR"], "fase": "FID", "fase_detalj": "Kontrakt signert, tidlige arbeider startet", "modenhet": 4, "forventet_idrift": "midt på 2030-tallet",
+     "siste_utvikling": {"dato": "2026-04-13", "hendelse": "Rolls-Royce og GBE-N signerte kontrakt for opptil tre SMR-enheter på Wylfa (potensial for opptil 8); aktivitet på stedet fra 2026.", "kilde_url": "https://www.rolls-royce.com/media/press-releases/2026/13-04-2026-rr-welcomes-contract-with-uk-government-for-delivery-of-small-modular-reactors.aspx"},
+     "hafslund_relevans": {"score": 2, "begrunnelse": "Første kommersielle Rolls-Royce SMR-utbygging i Europa; samme leverandør som Ringhals — fremdrift her er indikator på leveranserisiko for det svenske prosjektet."},
+     "kilder": [
+       {"url": "https://www.rolls-royce-smr.com/our-progress", "type": "offisiell", "beskrivelse": "Rolls-Royce SMR fremdriftsside"}
+     ]},
+    {"id": "uk-gben-large-scale-siting", "navn": "GBE-N storskala kjernekraft – stedsvalgsprosess", "land": "UK", "teknologi": "kjernekraft", "kapasitet_mw": 0, "eiere": ["Great British Energy – Nuclear"], "fase": "konsept", "modenhet": 1, "forventet_idrift": null,
+     "siste_utvikling": {"dato": "2026-08-21", "hendelse": "GBE-N presenterte tidlig arbeidspakke verdt 730 mill.-1,1 mrd GBP; rapport om potensielle steder (Oldbury, Torness, Hunterston, Dounreay) høsten 2026.", "kilde_url": "https://www.newcivilengineer.com/latest/gbe-n-outlines-730m-1-1bn-early-works-package-21-08-2026/"},
+     "hafslund_relevans": {"score": 1, "begrunnelse": "Tidlig fase, lav direkte relevans for Norden."},
+     "kilder": [{"url": "https://www.greatbritishenergynuclear.uk/", "type": "offisiell", "beskrivelse": "GBE-N offisiell side"}]},
+    {"id": "fr-epr2-programme", "navn": "EPR2-programmet (Penly, Gravelines, Bugey)", "land": "FR", "teknologi": "kjernekraft", "kapasitet_mw": 9700, "eiere": ["EDF"], "fase": "konsesjon", "fase_detalj": "Miljøtillatelse for forberedende arbeid gitt (Gravelines), FID ventet slutten av 2026", "modenhet": 3, "forventet_idrift": "2038 (første par, Penly)",
+     "siste_utvikling": {"dato": "2026-08-22", "hendelse": "Fransk regjering ga EDF miljøtillatelse til forberedende byggearbeid for to EPR2-reaktorer i Gravelines; EDFs kostnadsanslag for hele programmet (6 reaktorer) er 72,8 mrd euro, FID ventet ved utgangen av 2026.", "kilde_url": "https://www.euronews.com/business/2026/08/22/edf-authorised-to-prepare-site-for-two-new-nuclear-reactors-at-gravelines"},
+     "hafslund_relevans": {"score": 2, "begrunnelse": "Påvirker europeisk kraftbalanse og kostnadsnivå for ny kjernekraft; indirekte relevans via prissmitte."},
+     "kilder": [{"url": "https://www.world-nuclear-news.org/articles/edf-estimates-epr2-programme-costs-at-eur728-billion", "type": "nyhet", "beskrivelse": "EDFs kostnadsanslag"}]},
+    {"id": "pl-lubiatowo-kopalino-ap1000", "navn": "Lubiatowo-Kopalino AP1000 (Polens første kjernekraftverk)", "land": "PL", "teknologi": "kjernekraft", "kapasitet_mw": 3750, "eiere": ["Polskie Elektrownie Jądrowe (PEJ)", "Westinghouse", "Bechtel"], "fase": "bygging", "fase_detalj": "Byggetillatelse søkt, tomt overlevert entreprenør, grunnarbeid igangsatt", "modenhet": 4, "forventet_idrift": "tidlig 2030-tallet",
+     "siste_utvikling": {"dato": "2026-08-03", "hendelse": "Tomten i Pommern overlevert Bechtel og grunnarbeid igangsatt; byggetillatelsessøknad levert 31. mars 2026, EPC-kontrakt ventes signert medio 2026.", "kilde_url": "https://www.nucnet.org/news/key-step-for-polish-nuclear-project-as-site-is-handed-over-to-us-contractor-8-3-2026"},
+     "hafslund_relevans": {"score": 1, "begrunnelse": "Lav direkte relevans; referanse for AP1000/EXIM-finansiering i Europa."},
+     "kilder": [{"url": "https://pej.pl/en/the-project/key-information/", "type": "offisiell", "beskrivelse": "PEJ prosjektinformasjon"}]},
+    {"id": "pl-patnow-apr1400", "navn": "Pątnów (Polens andre kjernekraftverk, APR1400)", "land": "PL", "teknologi": "kjernekraft", "kapasitet_mw": 2800, "eiere": ["PGE"], "fase": "planlegging", "fase_detalj": "Usikker fremdrift etter at KHNP trakk seg i 2025", "modenhet": 2, "forventet_idrift": null,
+     "siste_utvikling": {"dato": "2025-08-21", "hendelse": "KHNP trakk seg fra avtalen om to APR1400-reaktorer ved Pątnów; PGE tok fullt eierskap i prosjektselskapet.", "kilde_url": "https://notesfrompoland.com/2025/08/21/south-korean-firm-withdraws-from-nuclear-plant-project-in-poland/"},
+     "hafslund_relevans": {"score": 1, "begrunnelse": "Illustrerer leverandørrisiko i internasjonale kjernekraftprosjekter."},
+     "kilder": [{"url": "https://www.world-nuclear-news.org/articles/pge-to-take-full-ownership-of-nuclear-project-company", "type": "nyhet", "beskrivelse": "PGE fullt eierskap"}]},
+    {"id": "cz-dukovany-apr1000", "navn": "Dukovany nye enheter (APR1000, KHNP)", "land": "CZ", "teknologi": "kjernekraft", "kapasitet_mw": 2400, "eiere": ["CEZ/staten (80%)", "KHNP"], "fase": "konsesjon", "fase_detalj": "Kontrakt inngått, geologiske undersøkelser fullført, byggestart 2029", "modenhet": 3, "forventet_idrift": "2036 (prøvedrift)",
+     "siste_utvikling": {"dato": "2026-06-01", "hendelse": "Geologiske undersøkelser fullført, prosjekt i rute for byggestart 2029; tsjekkisk stat tar 80% eierandel.", "kilde_url": "https://www.world-nuclear-news.org/articles/czechs-report-on-progress-in-first-year-of-dukovany-project"},
+     "hafslund_relevans": {"score": 1, "begrunnelse": "Lav direkte relevans; referanse for APR-teknologi og statlig eierskapsmodell."},
+     "kilder": []},
+    {"id": "nl-nieuwbouw-kerncentrales", "navn": "Nederlandsk nybygging av kjernekraft (lokasjonsprosess)", "land": "NL", "teknologi": "kjernekraft", "kapasitet_mw": 3200, "eiere": ["Nederlandske staten"], "fase": "konsept", "fase_detalj": "Lokasjonsvalg pågår etter at Borssele ble tatt ut", "modenhet": 1, "forventet_idrift": null,
+     "siste_utvikling": {"dato": "2026-06-01", "hendelse": "Borsele kommune vurderes ikke lenger; sju alternative lokasjoner utredes, formelt lokasjonsvedtak ventet etter sommeren 2026.", "kilde_url": "https://www.gemeentewestland.nl/actueel/nieuws/volgende-stap-bouw-nieuwe-kerncentrales-onderzoeksplan-locaties-bekend-en-studies-in-borssele-afgerond"},
+     "hafslund_relevans": {"score": 1, "begrunnelse": "Illustrerer generell forsinkelsesrisiko i europeisk kjernekraftutbygging."},
+     "kilder": [{"url": "https://www.borsele.nl/nieuwbouw-kerncentrales", "type": "offisiell", "beskrivelse": "Borsele kommune om nybygging"}]}
+  ],
+  "nye_kilder": [
+    {"url": "https://www.regjeringen.no/no/dokumenter/nou-2026-4/id3155361/", "type": "myndighet", "beskrivelse": "NOU 2026:4 Kjernekraft i Norge? – Kjernekraftutvalgets fulle rapport", "segment": "kjernekraft"},
+    {"url": "https://www.regeringen.se/regeringens-politik/karnkraftsfinansiering/sa-fungerar-stodmodellen-for-finansiering-av-ny-karnkraft/", "type": "myndighet", "beskrivelse": "Offisiell forklaring av svensk statlig finansieringsmodell for kjernekraft", "segment": "kjernekraft"},
+    {"url": "https://videbergkraft.se/en/project", "type": "offisiell", "beskrivelse": "Videberg Krafts offisielle prosjektside for Ringhals-utbyggingen", "segment": "kjernekraft"},
+    {"url": "https://www.studsvik.com/news/", "type": "offisiell", "beskrivelse": "Studsviks nyhetsside for SMR-søknader (Nyköping, Valdemarsvik)", "segment": "kjernekraft"},
+    {"url": "https://www.steadyenergy.com/news", "type": "offisiell", "beskrivelse": "Steady Energys nyhetsside for LDR-50 fjernvarme-SMR", "segment": "kjernekraft"},
+    {"url": "https://www.norskkjernekraft.com/", "type": "offisiell", "beskrivelse": "Norsk Kjernekraft AS – offisiell side inkl. Halden-prosjektet", "segment": "kjernekraft"},
+    {"url": "https://www.greatbritishenergynuclear.uk/", "type": "offisiell", "beskrivelse": "Great British Energy – Nuclear (britisk SMR- og storskalaprogram)", "segment": "kjernekraft"},
+    {"url": "https://www.rolls-royce-smr.com/our-progress", "type": "offisiell", "beskrivelse": "Rolls-Royce SMR fremdriftsoversikt (relevant for UK og Sverige)", "segment": "kjernekraft"},
+    {"url": "https://www.world-nuclear-news.org/", "type": "nyhet", "beskrivelse": "World Nuclear News – løpende dekning av europeiske kjernekraftprosjekter", "segment": "kjernekraft"},
+    {"url": "https://www.nucnet.org/news", "type": "nyhet", "beskrivelse": "NucNet – detaljert dekning av europeiske kjernekraftsøknader og milepæler", "segment": "kjernekraft"}
+  ],
+  "vurdering": "Det mest tidskritiske for Hafslund er den svenske Ringhals-utbyggingen (Videberg Kraft, 1410 MW SMR fra Rolls-Royce, statlig majoritetseid), som med EU-godkjenning høsten 2027 kan gi mer nordisk grunnlast fra midten av 2030-tallet — lavere/flatere priser, men økt verdi på vannkraftens effekt/fleksibilitet. Norsk kjernekraft er skjøvet ut i tid: NOU 2026:4 anbefaler «vent og forbered», realistisk tidligst midten av 2040-tallet. Finland bygger sakte videre på SMR-siden. De store europeiske programmene (UK, Frankrike, Polen, Tsjekkia, Nederland) er kostnads- og gjennomføringsreferanser med begrenset direkte nordisk effekt på kort sikt."
+}

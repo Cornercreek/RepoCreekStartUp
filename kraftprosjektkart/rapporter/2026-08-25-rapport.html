@@ -1,0 +1,267 @@
+<title>Kraftprosjektkartet</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F5F8F7; --panel:#FFFFFF; --ink:#152A2E; --ink-2:#44605F; --ink-3:#6E8584;
+  --line:#D7E2E0; --accent:#0F6E63; --accent-soft:#DCEBE7; --amber:#B26B15; --amber-soft:#F4E5D2;
+  --red:#A63B2E; --red-soft:#F1DDD9; --chip-bygg:#0F6E63; --chip-plan:#5A7A8C; --chip-kans:#A63B2E;
+  --mod-fill:#0F6E63; --mod-empty:#D7E2E0; --hafslund:#0D4F73; --hafslund-soft:#DCE9F1;
+}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#101B1D; --panel:#182728; --ink:#E4EEEC; --ink-2:#A9BFBC; --ink-3:#7E9694;
+    --line:#2A3D3D; --accent:#4FB3A4; --accent-soft:#1C3532; --amber:#D99A4E; --amber-soft:#3A2C18;
+    --red:#D4796B; --red-soft:#3B2320; --chip-bygg:#4FB3A4; --chip-plan:#8FAAB8; --chip-kans:#D4796B;
+    --mod-fill:#4FB3A4; --mod-empty:#2A3D3D; --hafslund:#6FAFD4; --hafslund-soft:#1B2F3B;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101B1D; --panel:#182728; --ink:#E4EEEC; --ink-2:#A9BFBC; --ink-3:#7E9694;
+  --line:#2A3D3D; --accent:#4FB3A4; --accent-soft:#1C3532; --amber:#D99A4E; --amber-soft:#3A2C18;
+  --red:#D4796B; --red-soft:#3B2320; --chip-bygg:#4FB3A4; --chip-plan:#8FAAB8; --chip-kans:#D4796B;
+  --mod-fill:#4FB3A4; --mod-empty:#2A3D3D; --hafslund:#6FAFD4; --hafslund-soft:#1B2F3B;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Public Sans',system-ui,sans-serif;font-size:15px;line-height:1.55}
+.wrap{max-width:1060px;margin:0 auto;padding:40px 28px 72px}
+header.hero{border-bottom:3px solid var(--accent);padding-bottom:26px;margin-bottom:34px}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+h1{font-family:'Bricolage Grotesque','Public Sans',sans-serif;font-weight:700;font-size:clamp(30px,4.5vw,44px);line-height:1.05;margin:0 0 12px;text-wrap:balance}
+.lede{max-width:66ch;color:var(--ink-2);margin:0}
+.kpis{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 18px;min-width:130px}
+.kpi b{display:block;font-family:'IBM Plex Mono',monospace;font-size:26px;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.08em}
+h2{font-family:'Bricolage Grotesque','Public Sans',sans-serif;font-weight:600;font-size:24px;margin:52px 0 6px;text-wrap:balance}
+h2 .idx{font-family:'IBM Plex Mono',monospace;font-size:14px;color:var(--accent);margin-right:10px}
+.sub{color:var(--ink-3);font-size:13.5px;margin:0 0 18px;max-width:72ch}
+h3{font-family:'Bricolage Grotesque','Public Sans',sans-serif;font-weight:600;font-size:17px;margin:30px 0 10px}
+.finding{display:grid;grid-template-columns:44px 1fr;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px 20px;margin-bottom:12px}
+.finding .n{font-family:'IBM Plex Mono',monospace;font-size:24px;font-weight:600;color:var(--accent);line-height:1.1}
+.finding h4{margin:0 0 6px;font-size:15.5px;font-weight:700}
+.finding p{margin:0;color:var(--ink-2);font-size:14px;max-width:88ch}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;min-width:860px;font-size:13.5px}
+th{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);text-align:left;padding:10px 12px;border-bottom:2px solid var(--line);white-space:nowrap}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.num{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.name{font-weight:600;min-width:170px}
+td.name small{display:block;font-weight:400;color:var(--ink-3)}
+td.dev{color:var(--ink-2);min-width:280px;max-width:420px}
+.chip{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;padding:2px 8px;border-radius:4px;white-space:nowrap}
+.c-bygg{background:var(--accent-soft);color:var(--accent)}
+.c-drift{background:var(--accent-soft);color:var(--accent);outline:1px solid var(--accent)}
+.c-kons{background:var(--hafslund-soft);color:var(--hafslund)}
+.c-plan{background:var(--line);color:var(--ink-2)}
+.c-kans{background:var(--red-soft);color:var(--red)}
+.c-forslag{background:var(--amber-soft);color:var(--amber)}
+.mod{display:inline-flex;gap:2px;align-items:center}
+.mod i{width:9px;height:9px;border-radius:2px;background:var(--mod-empty)}
+.mod i.f{background:var(--mod-fill)}
+.mod.kans i{background:var(--red-soft)}
+.rel{font-family:'IBM Plex Mono',monospace;font-weight:600;white-space:nowrap}
+.rel.r5{color:var(--hafslund)} .rel.r4{color:var(--accent)} .rel.r3{color:var(--ink-2)}
+.egen{background:var(--hafslund-soft)}
+.rest{font-size:13px;color:var(--ink-3);margin:10px 2px 0;max-width:100ch}
+.rest b{color:var(--ink-2);font-weight:600}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px 20px}
+.card.warn{border-top:3px solid var(--amber)} .card.opp{border-top:3px solid var(--accent)} .card.pris{border-top:3px solid var(--hafslund)}
+.card h4{margin:0 0 8px;font-size:15px}
+.card p, .card li{color:var(--ink-2);font-size:13.5px;margin:0}
+.card ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:12.5px;color:var(--ink-3);margin:14px 2px 24px;align-items:center}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;color:var(--ink-3);max-width:80ch}
+footer code{font-family:'IBM Plex Mono',monospace;font-size:12px;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+@media (max-width:640px){.finding{grid-template-columns:1fr}.finding .n{font-size:18px}}
+</style>
+
+<div class="wrap">
+<header class="hero">
+  <p class="eyebrow">Hafslund · Agentisk overvåkningsloop · Initiell kartlegging · 25. august 2026</p>
+  <h1>Kraftprosjektkartet</h1>
+  <p class="lede">Masterliste over fremtidige europeiske kraftprosjekter og reguleringer som påvirker Hafslund — kartlagt av 10 parallelle researchagenter, med modenhetsgrad per prosjekt og kildegraf for inkrementelle oppdateringer via <b>/kraftprosjekt-loop</b>.</p>
+  <div class="kpis">
+    <div class="kpi"><b>155</b><span>prosjekter</span></div>
+    <div class="kpi"><b>32</b><span>reguleringer</span></div>
+    <div class="kpi"><b>10</b><span>segmenter</span></div>
+    <div class="kpi"><b>16</b><span>Hafslund-egne (rel. 5)</span></div>
+  </div>
+</header>
+
+<h2><span class="idx">01</span>De fem viktigste funnene</h2>
+<p class="sub">Rangert etter forretningsmessig betydning for Hafslund. Detaljer og kilder per prosjekt ligger i masterlisten.</p>
+
+<div class="finding"><div class="n">1</div><div>
+<h4>Svensk kjernekraft er Nordens viktigste strukturelle prisdriver på 2030-tallet</h4>
+<p>Videberg Kraft (staten 60&nbsp;%, Vattenfall 20&nbsp;%) valgte i juni 2026 Rolls-Royce SMR for tre reaktorer (1410&nbsp;MW) ved Ringhals — Nordens klart mest fremskredne nye kjernekraft. EU-statsstøttebeslutning ventes høsten 2027, første reaktor ~2035. To Studsvik-SMR-parker (2800&nbsp;MW) er også søkt. Mer grunnlast gir lavere og flatere energipriser, men <b>høyere verdi på effekt og fleksibilitet</b> — kjernen i Hafslunds vannkraftportefølje. Norsk kjernekraft er parkert: NOU 2026:4 anbefaler «vent og forbered», tidligst midten av 2040-tallet.</p></div></div>
+
+<div class="finding"><div class="n">2</div><div>
+<h4>Havvind bremser i hele Europa — mindre prispress enn tidligere antatt</h4>
+<p>Ørsted kansellerte CfD-sikrede Hornsea&nbsp;4 (2,4&nbsp;GW), Tysklands nullsubsidie-auksjoner fikk null bud, Sverige avslo 13 Østersjø-prosjekter (~30&nbsp;GW) av forsvarshensyn, Danmark fikk ingen bud på Kriegers Flak&nbsp;II, og Sørlige Nordsjø&nbsp;II er forsinket mot 2027. Unntakene: UKs rekordauksjon AR7 (8,4&nbsp;GW til £91,20/MWh) og dansk suksess med ny tosidig CfD (Vattenfall vant 1,8&nbsp;GW i august 2026). Netto: ny nordisk havvind kommer senere og dyrere — <b>regulerbar vannkraft beholder verdien lenger</b>.</p></div></div>
+
+<div class="finding"><div class="n">3</div><div>
+<h4>Skagerrak 1/2-reinvesteringen er det mest tidskritiske nettspørsmålet</h4>
+<p>Kablene (1976/77) forventes driftbare til ~2026; uten reinvestering (10–16&nbsp;mrd. kr, konsesjonssøknad tidligst 2027) faller NO2–DK1-kapasiteten fra ~1700 til 1200&nbsp;MW — direkte utslag i NO2-prisdifferanser. NorthConnect og Hansa PowerBridge er avslått, og Statnetts 420&nbsp;kV-løft Lillehammer–Gran–Oslo (melding H1 2026) avgjør flaskehalsene inn mot NO1.</p></div></div>
+
+<div class="finding"><div class="n">4</div><div>
+<h4>Regulatorisk dobbeltsignal for Celsio — to avgjørelser i 2026</h4>
+<p>(a) EU-kommisjonens art. 30-rapport (frist 31. juli 2026) om avfallsforbrenning i ETS med kvoteplikt fra 2028: gir kvotekostnad på fossilt CO2 fra avfall, men styrker CCS-økonomien på Klemetsrud. (b) Ny norsk fjernvarme-prisregulering (maksimalpris = spotpris + konstantledd) på høring <b>høsten 2026</b> — direkte inntektspåvirkning. Positivt: avgiftsfritak for kvotepliktige anlegg fra 1.1.2026, og Northern Lights fase 2 (FID mars 2026) sikrer lagringskapasitet. Varsel: BIR pauset Rådalen-CCS pga. manglende statsstøtte — modellen som reddet Klemetsrud er ikke en selvfølge.</p></div></div>
+
+<div class="finding"><div class="n">5</div><div>
+<h4>Batterier angriper fleksibilitetsverdien; hydrogen er død; datasentre er den nye etterspørselen</h4>
+<p>Finland er i batteriboom (Neoen Yllikkälä&nbsp;II 56&nbsp;MW/113&nbsp;MWh — Nordens største; Merus Power bygger 3×30&nbsp;MW), og tyske gigawattprosjekter viser hvor kapitalen går — direkte press på FCR/aFRR/mFRR-verdien av vannkraft. Statkraft har stanset all ny grønn hydrogenutvikling. Statnett har reservert 3,4&nbsp;GW til datasentre (4,5&nbsp;GW i kø); NVE venter forbruksvekst fra 3 til 8&nbsp;TWh innen 2030.</p></div></div>
+
+<h2><span class="idx">02</span>Prosjekter per segment</h2>
+<p class="sub">Tabellene viser prosjekter med Hafslund-relevans 4–5 (R4/R5). Øvrige kartlagte prosjekter er listet under hver tabell og ligger komplett i masterlisten.</p>
+<div class="legend">
+  <span><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span>&nbsp;Modenhet 0–5 (1 konsept · 2 planlegging · 3 konsesjon/auksjon · 4 FID/bygging · 5 i drift)</span>
+  <span class="chip c-kans">kansellert</span>
+  <span>Blå rader = Hafslunds egne prosjekter</span>
+</div>
+
+<h3>Havvind Norden</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>MW</th><th>Fase</th><th>Modenhet</th><th>Idrift</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr><td class="name">Sørlige Nordsjø II<small>Ventyr (Parkwind/Ingka)</small></td><td>NO</td><td class="num">1 500</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">2030→?</td><td class="rel r5">R5</td><td class="dev">Ventyr ber om å skyve konsesjonssøknadsfristen til høsten 2027 etter motstand mot kabelføring/landfall i Agder (aug. 2026).</td></tr>
+<tr><td class="name">Utsira Nord<small>Equinor/Vårgrønn + DWO/EDF</small></td><td>NO</td><td class="num">1 500</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">NVE avsluttet høring av forhåndsmeldingene juni 2026; utredningsprogram fastsettes. Statsstøttekonkurranse ventet 2028/29 (maks 35 mrd. kr, én vinner).</td></tr>
+<tr><td class="name">Poseidon (flytende)<small>Vattenfall/Zephyr</small></td><td>SE</td><td class="num">1 400</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Tillstånd gitt nov. 2024 i södra Skagerrak — kan bli Sveriges første flytende park; nær NO2-grensen.</td></tr>
+<tr><td class="name">Vidar<small>norra Skagerrak</small></td><td>SE</td><td class="num">1 200</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Tillstånd gitt 23. juli 2026 (ca. 8 TWh/år), 3,5 mil fra Strömstad — rett ved norskegrensen.</td></tr>
+<tr><td class="name">13 avslåtte Østersjø-parker<small>OX2, Vattenfall m.fl.</small></td><td>SE</td><td class="num">~30 000</td><td><span class="chip c-kans">kansellert</span></td><td><span class="mod kans"><i></i><i></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Samtlige gjenværende Østersjø-søknader avslått av forsvarshensyn (nov. 2024; ytterligere 11 avslått juli 2026). Demper svensk havvindvekst massivt.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (18):</b> Sørvest F og Vestavind B/F (NO, planlegging), Thor 1 000 MW (DK, bygging — første strøm mars 2026), Nordsøen Midt og Hesselø (DK — Vattenfall foretrukket budgiver aug. 2026, ny tosidig CfD), Nordsøen Syd, Kriegers Flak II (ingen bud), Energiøyene Nordsøen/Bornholm (forsinket), Kattegatt Syd og Galene (SE, godkjent men pauset), Najaderna, Fyrskeppet, Korsnäs 2 000 MW (FI), Tahkoluoto-utvidelsen, Ebba/Edith (mislykket utlysning), finsk EEZ-lovverk.</p>
+
+<h3>Havvind Europa</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>MW</th><th>Fase</th><th>Modenhet</th><th>Idrift</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr><td class="name">Dogger Bank A/B/C<small>SSE/Equinor/Vårgrønn</small></td><td>UK</td><td class="num">3 600</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2027</td><td class="rel r5">R5</td><td class="dev">Verdens største havvindpark; A ferdig installert, kommisjonering pågår. Påvirker NO2 via North Sea Link.</td></tr>
+<tr><td class="name">UK CfD AR7 (runde)<small>RWE ~6,9 GW m.fl.</small></td><td>UK</td><td class="num">8 400</td><td><span class="chip c-kons">auksjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">Europas største havvindauksjon (jan. 2026): 8,4 GW til £91,20/MWh — ny referansepris for Nordsjøen.</td></tr>
+<tr><td class="name">Hornsea 4<small>Ørsted</small></td><td>UK</td><td class="num">2 400</td><td><span class="chip c-kans">kansellert</span></td><td><span class="mod kans"><i></i><i></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">Stanset i 2025 tross sikret CfD — kostnadsvekst, renter og byggerisiko. Sterkt signal om kostnadspresset i havvind.</td></tr>
+<tr><td class="name">Tysk nullsubsidie-auksjon 2025<small>ingen budgivere</small></td><td>DE</td><td class="num">—</td><td><span class="chip c-kans">kollaps</span></td><td><span class="mod kans"><i></i><i></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">Null bud i andre 2025-runde; Bundestag kuttet 2026-volumet fra 6 til 2,5–5 GW. Markedsmodellen for havvind under press.</td></tr>
+<tr><td class="name">Dogger Bank South<small>RWE/Masdar</small></td><td>UK</td><td class="num">3 000</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">2031</td><td class="rel r4">R4</td><td class="dev">DCO godkjent mai 2026; CfD sikret i AR7. FID planlagt 2027.</td></tr>
+<tr><td class="name">Hornsea 3<small>Ørsted</small></td><td>UK</td><td class="num">2 900</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2028</td><td class="rel r4">R4</td><td class="dev">Første eksportkabel i drift; nettforsinkelse skjøv COD til Q4 2027/Q1 2028.</td></tr>
+<tr><td class="name">IJmuiden Ver Alpha/Beta<small>SSE/APG, Vattenfall m.fl.</small></td><td>NL</td><td class="num">4 000</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">2029</td><td class="rel r4">R4</td><td class="dev">TenneT bygger 3×2 GW HVDC-tilkoblinger — første DC-tilkoblede parker i Nederland.</td></tr>
+<tr><td class="name">Berwick Bank B<small>SSE Renewables</small></td><td>UK</td><td class="num">1 380</td><td><span class="chip c-kons">auksjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">2031</td><td class="rel r4">R4</td><td class="dev">CfD sikret i AR7 (£89,49/MWh); FID ventet 2027.</td></tr>
+<tr><td class="name">Fransk storauksjon 2026<small>7 flytende + 4 bunnfaste</small></td><td>FR</td><td class="num">10 000</td><td><span class="chip c-plan">auksjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Lansert juni 2026 — storskala flytende kan bli europeisk kostnadsreferanse.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (11):</b> He Dreiht 960 MW (DE, i drift sommer 2026), IJmuiden Ver Gamma/Nederwiek (NL-auksjon nov. 2026, nå subsidiestøttet), Princess Elisabeth Zone 1 (BE, relansert etter kansellering), Baltic Power og Baltica 2 (PL, bygging), Litauens 2. auksjon, ELWIND (EE/LV), ORESS 2.1 (IE, €98,72/MWh), Pentland/Erebus (flytende UK), EolMed og Provence Grand Large (FR, flytende i drift).</p>
+
+<h3>Vannkraft og pumpekraft</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>MW</th><th>Fase</th><th>Modenhet</th><th>Idrift</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr class="egen"><td class="name">Låvi (Aurland)<small>Hafslund</small></td><td>NO</td><td class="num">610</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">Konsesjonssøkt vinter 2026; NVE-høring frist 28.8.2026. Med Aurland 1: Norges største kraftstasjon (1450 MW). ~4,5 mrd. kr.</td></tr>
+<tr class="egen"><td class="name">Hemsil 3<small>Hafslund/Eidsiva</small></td><td>NO</td><td class="num">181</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2029</td><td class="rel r5">R5</td><td class="dev">Byggestart nov. 2025 (LNS-kontrakt). 98→181 MW, 2,5 mrd. kr — største utbygging i Hallingdal på 60 år.</td></tr>
+<tr class="egen"><td class="name">Nes-oppgradering<small>Hafslund</small></td><td>NO</td><td class="num">332</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">NVE (mai 2026): ikke konsesjonspliktig — 252→332 MW kan gjennomføres innenfor gjeldende konsesjon.</td></tr>
+<tr class="egen"><td class="name">FKF5 · Nye Hol 1 · Vamma 11 · Braskereidfoss<small>Hafslund</small></td><td>NO</td><td class="num">—</td><td><span class="chip c-plan">plan/bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">Øvrige egne O/U- og reinvesteringsprosjekter i Glomma/Hallingdal. FKF5/Nye Hol 1 mangler MW-tall i åpne kilder — verifiser mot NVE.</td></tr>
+<tr><td class="name">Røldal-Suldal O/U<small>Lyse/Hydro</small></td><td>NO</td><td class="num">1 320</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Justert løsning til NVE mai 2026. 620→1320 MW (+700 MW effekt), 7–8 mrd. kr, byggestart tidligst 2027 — Norges største vannkraftoppgradering på 40 år.</td></tr>
+<tr><td class="name">Nore I/II-modernisering<small>Statkraft</small></td><td>NO</td><td class="num">500</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Plan innsendt mai 2025: +220 MW og +200 GWh/år for 4 mrd. kr.</td></tr>
+<tr><td class="name">Illvatn pumpekraft<small>Norsk Hydro</small></td><td>NO</td><td class="num">—</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2030</td><td class="rel r4">R4</td><td class="dev">FID nov. 2025 — Hydros største vannkraftutbygging på 20 år; referanse for pumpekraftøkonomi under kontantstrømskatt.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (16):</b> Statkraft Høyanger K5 (konsesjonssøkt 21.8.2026, 109→257 MW), Nea/Tya (+14 MW uten ny konsesjon), Bjølsegrø-damsikkerhet, Tonstad pumpekraft 960 MW (datert status — verifiser), Vattenfall Juktan 330 MW / Harsprånget / Messaure, Fortum Untra + Bastvålen 514 MW + Lekstjärnen 350 MW (864 MW pumpekraft søkt juni 2026), Kaunertal (AT), Riedl 300 MW (DE, byggestart 2026/27), Limberg III og Tâmega (i drift, referanser).</p>
+
+<h3>Kjernekraft og SMR</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>MW</th><th>Fase</th><th>Modenhet</th><th>Idrift</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr><td class="name">Ringhals SMR (Videberg Kraft)<small>Staten 60 % / Vattenfall / Industrikraft</small></td><td>SE</td><td class="num">1 410</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">2035</td><td class="rel r5">R5</td><td class="dev">Rolls-Royce SMR valgt juni 2026; staten inn som majoritetseier. EU-statsstøttebeslutning ventes høsten 2027. Mest fremskredne nye kjernekraft i Norden.</td></tr>
+<tr><td class="name">Halden SMR / NOU 2026:4<small>Norsk Kjernekraft/Østfold Energi</small></td><td>NO</td><td class="num">—</td><td><span class="chip c-plan">konsept</span></td><td><span class="mod"><i class="f"></i><i></i><i></i><i></i><i></i></span></td><td class="num">2045+</td><td class="rel r5">R5</td><td class="dev">NOU 2026:4 (8. april): kjernekraft ikke lønnsomt med dagens prisforventninger — «vent og forbered», tidligst midten av 2040-tallet.</td></tr>
+<tr><td class="name">Svensk statlig finansieringsmodell<small>statslån + toveis CfD, 400 mrd. SEK garantier</small></td><td>SE</td><td class="num">—</td><td><span class="chip c-kons">operativ</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Mekanismen som gjør svensk kjernekraft mulig; referanse i norsk debatt og for nordiske kraftprisbaner.</td></tr>
+<tr><td class="name">Fortum – ny storskala (Loviisa)<small>Fortum</small></td><td>FI</td><td class="num">—</td><td><span class="chip c-plan">konsept</span></td><td><span class="mod"><i class="f"></i><i></i><i></i><i></i><i></i></span></td><td class="num">2035+</td><td class="rel r4">R4</td><td class="dev">Forstudie fullført; finansieringsdialog med staten ventet i 2026.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (13):</b> Kärnfull Next Valdemarsvik og Studsvik Nyköping (2×1400 MW SMR søkt 2026), Steady Energy fjernvarme-SMR (pilot 2029), Hanhikivi (kansellert), Aker Solutions–Rolls-Royce-leveranse, Sizewell C 3200 MW (bygging), Wylfa SMR (kontrakt apr. 2026), GBE-N stedsvalg, EPR2 9700 MW (FID ventet ult. 2026), Polen AP1000 (grunnarbeid) og Pątnów, Dukovany, Nederland (lokasjonsvalg).</p>
+
+<h3>Nett og mellomlandsforbindelser</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>MW</th><th>Fase</th><th>Modenhet</th><th>Idrift</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr><td class="name">Skagerrak 1/2-reinvestering<small>Statnett/Energinet</small></td><td>NO/DK</td><td class="num">500</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">Utredningsprogram fra NVE apr. 2025; søknad tidligst 2027. Uten reinvestering: NO2–DK1 faller ~1700→1200 MW. 10–16 mrd. kr.</td></tr>
+<tr><td class="name">420 kV Lillehammer–Gran–Oslo<small>Statnett</small></td><td>NO</td><td class="num">—</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r5">R5</td><td class="dev">Melding for Gran–Oslo ventet H1 2026, søknad 2027. Avgjør flaskehalser inn mot NO1/Oslo.</td></tr>
+<tr><td class="name">Nettfornyelse Oslo/Akershus/Østfold<small>Statnett</small></td><td>NO</td><td class="num">—</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">2040</td><td class="rel r4">R4</td><td class="dev">Fornyelse innen 2035, 420 kV-heving mot 2040 — Hafslunds kjerneområde.</td></tr>
+<tr><td class="name">Nettilknytning Sørlige Nordsjø II<small>Statnett</small></td><td>NO</td><td class="num">1 500</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">KU pågår; konkurrerer om nettkapasitet i NO2 med mellomlandsforbindelsene.</td></tr>
+<tr><td class="name">NorthConnect<small>Statkraft/SSE/Vattenfall</small></td><td>NO/UK</td><td class="num">1 400</td><td><span class="chip c-kans">avslått</span></td><td><span class="mod kans"><i></i><i></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Konsesjon avslått 2023; politisk debatt om gjenoppliving som EU-prosjekt pågår fortsatt.</td></tr>
+<tr><td class="name">NordLink + North Sea Link<small>Statnett m.fl.</small></td><td>NO</td><td class="num">2×1 400</td><td><span class="chip c-drift">i drift</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span></td><td class="num">2021</td><td class="rel r4">R4</td><td class="dev">Hovedeksponeringen mot tyske/britiske priser — baseline for NO2-prisdannelsen.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (13):</b> Samnanger–Øygarden (NO5), Sima–Samnanger (ferdig 2026), Utsira Nord-tilknytning, Hansa PowerBridge (kansellert), NordSyd-programmet (SE, 2033–35), Aurora Line (i drift) + Aurora Line 2 (konsept), NeuConnect UK–DE (2028), SuedLink 4 GW (2028) og SuedOstLink (2027), Bornholm-interconnector 3 GW (avtale jan. 2026, EU-støtte €645 mill.), Viking Link.</p>
+
+<h3>Batterier, hydrogen og fleksibilitet</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>MW</th><th>Fase</th><th>Modenhet</th><th>Idrift</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr class="egen"><td class="name">Dingelsundet BESS<small>Hafslund Vekst/Cloudberry</small></td><td>SE</td><td class="num">24</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2026</td><td class="rel r5">R5</td><td class="dev">FID juli 2025; 24 MW/48 MWh, drift Q3 2026 — ett av de første prosjektfinansierte nordiske BESS.</td></tr>
+<tr><td class="name">Yllikkälä BESS II<small>Neoen</small></td><td>FI</td><td class="num">56</td><td><span class="chip c-drift">i drift</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span></td><td class="num">2026</td><td class="rel r4">R4</td><td class="dev">Nordens største BESS (56 MW/113 MWh) innviet jan. 2026; markedet skifter til 2-timers systemer.</td></tr>
+<tr><td class="name">Statkraft hydrogen Mo i Rana<small>Statkraft</small></td><td>NO</td><td class="num">40</td><td><span class="chip c-kans">kansellert</span></td><td><span class="mod kans"><i></i><i></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Skrinlagt mai 2025; Statkraft stanset samtidig ALL ny grønn hydrogenutvikling — hydrogen bortfaller som etterspørselsdriver.</td></tr>
+<tr><td class="name">Datasenter-etterspørsel Norge<small>samleobjekt, Statnett-kø</small></td><td>NO</td><td class="num">3 363</td><td><span class="chip c-plan">kø/plan</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">3,4 GW reservert + 4,5 GW i kø (des. 2025); NVE venter 3→8 TWh forbruk innen 2030 — ny strukturell prisdriver.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (16):</b> Merus Power 3×30 MW (FI, bygging), Måkaknuten 11,3 MW og Aneo 22 MW (NO), Vattenfall Bruzaholm vind+batteri (Volvo-PPA), Kvosted 50 MW/200 MWh (DK), tyske gigawattprosjekter BW ESS og LEAG (2×1000 MW), Blackhillock 300 MW (UK, nettformende), Fortum Kalla H2-pilot, HØST PtX Esbjerg 1 GW (FID skjøvet til 2027), Everfuel HySynergy + Frigg (EU-subsidiert), P2X Harjavalta, dansk datasenterkø 60 GW (tilkoblingsstopp).</p>
+
+<h3>Fjernvarme og CCS</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>Fase</th><th>Modenhet</th><th>Idrift</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr class="egen"><td class="name">Klemetsrud CCS<small>Hafslund Celsio / Oslo kommune</small></td><td>NO</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2029</td><td class="rel r5">R5</td><td class="dev">Bygging fra høsten 2025 (FID jan. 2025). Fangstmål justert til 350 000 t/år; ramme 9,5 mrd. kr; oppstart Q3 2029.</td></tr>
+<tr class="egen"><td class="name">Celsio varmepumper/fjernvarme<small>Hafslund Celsio</small></td><td>NO</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="num">2029</td><td class="rel r5">R5</td><td class="dev">NVE-tillatelse feb. 2026 (Ulven 5→10 MW); konsesjon forlenget til 2075; Haraldrud-datasenterbeslutning ventet Q1 2026.</td></tr>
+<tr><td class="name">Northern Lights fase 1 + 2<small>Equinor/Shell/TotalEnergies</small></td><td>NO</td><td><span class="chip c-bygg">drift + bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span></td><td class="num">2028</td><td class="rel r4">R4</td><td class="dev">Første injeksjon aug. 2025; 1,5 Mt/år fullbooket. Fase 2 (FID mars 2026) utvider til min. 5 Mt/år fra H2 2028 — kjeden Klemetsrud avhenger av.</td></tr>
+<tr><td class="name">Stockholm Exergi BECCS<small>Stockholm Exergi</small></td><td>SE</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2028</td><td class="rel r4">R4</td><td class="dev">Verdens første storskala BECCS (FID mars 2025): 800 000 t/år fra 2028, offtake med Microsoft/Frontier — forretningsmodell-referanse.</td></tr>
+<tr><td class="name">Ørsted Kalundborg CO2 Hub<small>Ørsted</small></td><td>DK</td><td><span class="chip c-bygg">bygging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="num">2026</td><td class="rel r4">R4</td><td class="dev">430 000 t/år fra Asnæs/Avedøre, oppstart tidlig 2026 — leverer til Northern Lights.</td></tr>
+<tr><td class="name">BIR Rådalen CCS<small>BIR (Bergen)</small></td><td>NO</td><td><span class="chip c-forslag">pauset</span></td><td><span class="mod"><i class="f"></i><i></i><i></i><i></i><i></i></span></td><td class="num">—</td><td class="rel r4">R4</td><td class="dev">Pauset nov. 2025 — statsbudsjettet 2026 manglet støtteordning. Varsel: Klemetsrud-modellen er ikke en selvfølge for neste generasjon.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (11):</b> Vantaan Energia CCS (FI, KU-høring, FID 2027), Returkraft CCS (konseptstudie), CO2-lagrene Smeaheia 20 Mt/år, Luna, Greensand Future (DK, drift 2026 — EUs første offshore-lager), Bifrost, Porthos (NL, 2026), UK-klyngene HyNet/East Coast (GBP 21,7 mrd. statsstøtte), Esbjerg havvannsvarmepumpe, Helen Salmisaari-kullutfasing, datasenter-spillvarme (Google Skien m.fl.).</p>
+
+<h3>Landvind og sol Norden</h3>
+<div class="tablewrap"><table>
+<tr><th>Prosjekt</th><th>Land</th><th>MW</th><th>Fase</th><th>Modenhet</th><th>Rel.</th><th>Siste utvikling</th></tr>
+<tr class="egen"><td class="name">Hafslund Magnora Sol<small>Hafslund 40 % / Magnora 40 % / Helios 20 %</small></td><td>NO</td><td class="num">~2 000</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span></td><td class="rel r5">R5</td><td class="dev">Portefølje ~2000 MW (Eggemoen, Wold m.fl.); ambisjon 1000 MW utbygd. NVEs solkø kan forsinke — følg konsesjonstempoet.</td></tr>
+<tr><td class="name">Finsk landvind-pipeline<small>samleobjekt, 401 prosjekter</small></td><td>FI</td><td class="num">56 300</td><td><span class="chip c-plan">planlegging</span></td><td><span class="mod"><i class="f"></i><i></i><i></i><i></i><i></i></span></td><td class="rel r4">R4</td><td class="dev">56,3 GW i planlegging, 4+ GW med byggetillatelse — strukturell driver for lave nordiske priser.</td></tr>
+<tr><td class="name">Svensk tillståndsgiven pipeline<small>samleobjekt</small></td><td>SE</td><td class="num">—</td><td><span class="chip c-kons">konsesjon</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span></td><td class="rel r4">R4</td><td class="dev">55 TWh vind i 2026 + 22 TWh tillståndsgivet (12,8 land / 9,4 hav) realiserbart før 2030.</td></tr>
+<tr><td class="name">Aura/Önusberget + Markbygden Ett<small>Luxcara; Svevind</small></td><td>SE</td><td class="num">1 398</td><td><span class="chip c-bygg">bygg/drift</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span></td><td class="rel r4">R4</td><td class="dev">Sveriges to største parker (Piteå) — kjernen i det nordiske kraftoverskuddet.</td></tr>
+<tr><td class="name">Lestijärvi<small>Kymppivoima m.fl.</small></td><td>FI</td><td class="num">455</td><td><span class="chip c-drift">i drift</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span></td><td class="rel r4">R4</td><td class="dev">Finlands største vindpark fullført januar 2026.</td></tr>
+<tr><td class="name">Hultsfred Solpark<small>Alight/Neoen</small></td><td>SE</td><td class="num">100</td><td><span class="chip c-drift">i drift</span></td><td><span class="mod"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span></td><td class="rel r4">R4</td><td class="dev">Sveriges største solpark (okt. 2025) — direkte skala-/kostnadsreferanse for Hafslund Magnora Sol.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige i masterlisten (10):</b> Davvi 800 MW (NVE-avslag opprettholdt mars 2026 — til Energidepartementet), Øyfjellet (konsesjon kjent ugyldig av lagmannsretten, anket), Fosen (referanse), norsk konsesjonspipeline (760+ NVE-saker i 2025), Nysäter, Rajamäenkylä/Honkakangas (bygging), Kassø PtX-solpark, dansk sol+batteripark (i drift jan. 2026), dansk lokalplan-pipeline 3,9 GW.</p>
+
+<h2><span class="idx">03</span>Regulatorisk status</h2>
+<p class="sub">32 reguleringer er kartlagt med tidslinje og Hafslund-konsekvens. Under: de mest forretningskritiske. EØS-etterslepet er en gjennomgående risiko — konsekvensen for Hafslund avhenger ofte mer av når Norge innlemmer et regelverk enn av selve EU-vedtaket.</p>
+<div class="tablewrap"><table>
+<tr><th>Regulering</th><th>Nivå</th><th>Status</th><th>Nøkkeldato</th><th>Konsekvens for Hafslund</th></tr>
+<tr><td class="name">Avfallsforbrenning inn i ETS (art. 30)</td><td>EU</td><td><span class="chip c-forslag">forhandling</span></td><td class="num">rapport 31.7.2026</td><td class="dev"><b>Kritisk for Celsio:</b> kvoteplikt fra 2028 gir kvotekostnad på fossilt CO2 fra avfall — men styrker CCS-økonomien. Følg opt-out-muligheten (til 2030).</td></tr>
+<tr><td class="name">Ny fjernvarme-prisregulering</td><td>NO</td><td><span class="chip c-forslag">forslag</span></td><td class="num">høring H2 2026</td><td class="dev"><b>Direkte inntektspåvirkning for Celsio:</b> maksimalpris = spotpris + 50 øre, dempet gjennomslag over 100 øre og under 0 øre. Krever lovendring.</td></tr>
+<tr><td class="name">Statnetts nye tariffmodell</td><td>NO</td><td><span class="chip c-kons">vedtatt</span></td><td class="num">fra 2027</td><td class="dev">Ny effektkomponent + industrirabatt 50→20 %: økte nettkostnader for kraftkrevende anlegg og batterier — inn i alle nye investeringskalkyler.</td></tr>
+<tr><td class="name">Grunnrenteskatt: senket terskel (10 000→1 500 kVA)</td><td>NO</td><td><span class="chip c-forslag">forslag</span></td><td class="num">fra 1.1.2027</td><td class="dev">Flere små Hafslund-aggregater kan bli grunnrenteskattepliktige — porteføljegjennomgang anbefales.</td></tr>
+<tr><td class="name">Avgiftsfritak avfallsforbrenning (kvotepliktige)</td><td>NO</td><td><span class="chip c-bygg">i kraft</span></td><td class="num">1.1.2026</td><td class="dev">Positivt: lavere driftskostnader for Klemetsrud, styrket CCS-økonomi. ESA-godkjent.</td></tr>
+<tr><td class="name">EUs Elektrifiseringsplan + ETS fase 5</td><td>EU</td><td><span class="chip c-forslag">forslag</span></td><td class="num">17.7.2026</td><td class="dev">Medvind: 200 GW lagringsmål 2030 (500 GW 2040) støtter batterisatsingen; Industrial Decarbonisation Bank (100 mrd. euro) mulig CCS-finansiering.</td></tr>
+<tr><td class="name">CISAF-statsstøtterammeverk</td><td>EU/EØS</td><td><span class="chip c-bygg">i kraft</span></td><td class="num">ESA 9.7.2025</td><td class="dev">Forenklede og mer generøse støtteregler for fornybar, CCS og batterier — allerede brukt på norske ordninger.</td></tr>
+<tr><td class="name">EED art. 26 («efficient district heating»)</td><td>EU</td><td><span class="chip c-forslag">implementering</span></td><td class="num">frist 11.10.2025</td><td class="dev">Fjernvarmeanlegg over 5 MW må ha effektiviseringsplan; CCS-spillvarme kan styrke Celsios klassifisering.</td></tr>
+<tr><td class="name">EU-taksonomien: vannkraftkriterier</td><td>EU</td><td><span class="chip c-forslag">revisjon</span></td><td class="num">i kraft 1.1.2027</td><td class="dev">Avgjør klassifiseringen av 13,7 TWh vannkraft i CSRD-rapportering og grønn finansiering.</td></tr>
+<tr><td class="name">Norgespris</td><td>NO</td><td><span class="chip c-bygg">i kraft</span></td><td class="num">ut 2026</td><td class="dev">40 øre/kWh-tak demper prissignaler til husholdninger — kan svekke etterspørselsrespons og fleksibilitetsverdi.</td></tr>
+</table></div>
+<p class="rest"><b>Øvrige kartlagte (22):</b> EMD-reformen, RED III (EØS-uavklart), ETS2 (utsatt til 2028), CBAM (Norge unntatt — betinget av ETS-kobling), NZIA, Grids Package/TYNDP (forhandling), vanndirektiv-revisjon (forslag Q2 2026), REMIT II, 4. energimarkedspakke (EØS-uavklart), vindkraft kommunal aksept, havvind-rammeverk NO, RME-anleggsbidrag, NVE-kapasitet, CO2-kompensasjon, Klemetsrud-tilskudd, høyprisbidrag (avviklet), grunnrente vindkraft, svensk kjernekraftfinansiering, svensk havvind-auksjonssystem, dansk CfD-reform, finsk kraftverksbeskatning.</p>
+
+<h2><span class="idx">04</span>Konsekvensbilde</h2>
+<div class="cards">
+<div class="card pris"><h4>Priser</h4><p>Tre motstridende krefter mot 2030: svensk/finsk vind- og kjernekraftvekst presser energiprisen ned; havvind-bremsen og interkonnektor-stillstand demper nedsiden; datasenter-etterspørsel (3→8 TWh) løfter den. Nettosignal: <b>mindre nedsiderisiko enn 2024/25-konsensus, og strukturelt stigende verdi på effekt og fleksibilitet</b> — men batterikonkurransen om balansemarkedene kommer raskt.</p></div>
+<div class="card opp"><h4>Muligheter</h4><ul>
+<li>O/U-vinduet: NVE prioriterer vannkraft med effektbidrag, og Nes/Nea-praksis viser rask vei innenfor eksisterende konsesjon — momentum for Låvi/Hemsil/Nes-porteføljen.</li>
+<li>EUs lagringsmål (200 GW/2030) + CISAF-støtteregler er direkte medvind for å skalere BESS-porteføljen utover Dingelsundet.</li>
+<li>ETS-kvoteplikt på avfall (2028) og Northern Lights fase 2 styrker Klemetsrud-CCS sin forretningslogikk.</li></ul></div>
+<div class="card warn"><h4>Trusler</h4><ul>
+<li>Fjernvarme-prisreguleringen (høring H2 2026) kan endre Celsios inntektsstruktur vesentlig.</li>
+<li>Statnett-tariffen (2027) og RME-anleggsbidragspraksis øker kostnadene for nye tilknytninger og batterier.</li>
+<li>Senket grunnrenteterskel (2027) kan treffe små aggregater.</li>
+<li>Røldal-Suldal (+700 MW effekt) og Fortums 864 MW svenske pumpekraft konkurrerer om fleksibilitetsverdien; finsk BESS presser reservemarkedene alt nå.</li></ul></div>
+</div>
+
+<h2><span class="idx">05</span>Datagap og neste kjøring</h2>
+<div class="cards">
+<div class="card"><h4>Verifiser</h4><ul>
+<li>FKF5 og Nye Hol 1: MW-tall mangler i åpne kilder — sjekk NVE-registeret.</li>
+<li>Tonstad pumpekraft: status er datert (2008) — avklar med Sira-Kvina/NVE.</li>
+<li>EMD-direktivets gjennomføringsfrist: kildene spriker (jan./juli 2026).</li></ul></div>
+<div class="card"><h4>Følg tett mot neste kjøring</h4><ul>
+<li>ETS art. 30-rapporten (frist passert 31.7.2026 — let etter publisering).</li>
+<li>Fjernvarmepris-høringen (H2 2026) og RME-avklaring om anleggsbidrag.</li>
+<li>Statnett-melding Gran–Oslo; Ventyr-frist for Sørlige Nordsjø II; dansk kontraktsignering (Vattenfall).</li></ul></div>
+<div class="card"><h4>Loopen</h4><p>Kjør <b>/kraftprosjekt-loop</b> månedlig (ukentlig i høringsperioder). Loopen gjenbruker kildegrafen per segment, oppdaterer modenhetsgrad inkrementelt og kjører discovery av nye prosjekter — alle researchagenter på Sonnet.</p></div>
+</div>
+
+<footer>
+Initiell kartlegging 25. august 2026 · 10 Sonnet-researchagenter · Tilstand: <code>kraftprosjektkart/masterliste.json</code> (155 prosjekter, 32 reguleringer) · Kilder: <code>kraftprosjektkart/kildegraf.json</code> · Rå agentfunn: <code>kraftprosjektkart/logg/2026-08-25/</code>. Modenhetsskala: 0 kansellert · 1 konsept · 2 planlegging · 3 konsesjon/auksjon · 4 FID/bygging · 5 i drift.
+</footer>
+</div>

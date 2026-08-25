@@ -1,0 +1,489 @@
+{
+  "segment": "havvind-europa",
+  "kjoringsdato": "2026-08-25",
+  "prosjekter": [
+    {
+      "id": "uk-dogger-bank-abc",
+      "navn": "Dogger Bank A/B/C",
+      "land": "UK",
+      "teknologi": "havvind",
+      "kapasitet_mw": 3600,
+      "eiere": ["SSE Renewables", "Equinor", "Vårgrønn (ex-Eni)"],
+      "fase": "bygging",
+      "modenhet": 4,
+      "forventet_idrift": "2027",
+      "siste_utvikling": {
+        "dato": "2026-07-01",
+        "hendelse": "Alle turbiner og interne kabler installert på Dogger Bank A; kommisjonering pågår på A og B, Dogger Bank C forventes ferdig kommisjonert etter B i 2027. Verdens største havvindpark.",
+        "kilde_url": "https://www.energyvoice.com/renewables-energy-transition/wind/595345/dogger-bank-wind-farm-timeline/"
+      },
+      "hafslund_relevans": {
+        "score": 5,
+        "begrunnelse": "Verdens største havvindpark; volumet påvirker britiske kraftpriser og dermed NO2/kontinentets priskobling via mellomlandsforbindelser (North Sea Link)."
+      },
+      "kilder": [
+        {"url": "https://doggerbanksouth.co.uk/", "type": "offisiell", "beskrivelse": "RWE/DBS prosjektside"},
+        {"url": "https://www.energyvoice.com/renewables-energy-transition/wind/595345/dogger-bank-wind-farm-timeline/", "type": "nyhet", "beskrivelse": "Tidslinje og status"}
+      ]
+    },
+    {
+      "id": "uk-dogger-bank-south",
+      "navn": "Dogger Bank South East / South West",
+      "land": "UK",
+      "teknologi": "havvind",
+      "kapasitet_mw": 3000,
+      "eiere": ["RWE (51%)", "Masdar (49%)"],
+      "fase": "konsesjon",
+      "modenhet": 3,
+      "forventet_idrift": "2031",
+      "siste_utvikling": {
+        "dato": "2026-05-14",
+        "hendelse": "Development Consent Order (DCO) godkjent 14. mai 2026 etter forsinkelse fra januar 2026. Sikret CfD i AR7 (januar 2026) til £91,20/MWh. FID planlagt 2027.",
+        "kilde_url": "https://www.offshorewind.biz/2026/05/15/uk-grants-development-consent-for-3-gw-dogger-bank-south-offshore-wind-project/"
+      },
+      "hafslund_relevans": {
+        "score": 4,
+        "begrunnelse": "Nytt 3 GW-tillegg til Dogger Bank-komplekset; en av de store AR7-vinnerne som setter referansepris (£91,20/MWh) for britisk havvind."
+      },
+      "kilder": [
+        {"url": "https://www.offshorewind.biz/2026/05/15/uk-grants-development-consent-for-3-gw-dogger-bank-south-offshore-wind-project/", "type": "nyhet", "beskrivelse": "DCO-godkjenning"},
+        {"url": "https://www.offshorewind.biz/2026/01/08/development-consent-decision-on-3-gw-dogger-bank-south-project-postponed/", "type": "nyhet", "beskrivelse": "Tidligere forsinkelse av konsesjon"}
+      ]
+    },
+    {
+      "id": "uk-hornsea-3",
+      "navn": "Hornsea 3",
+      "land": "UK",
+      "teknologi": "havvind",
+      "kapasitet_mw": 2900,
+      "eiere": ["Ørsted"],
+      "fase": "bygging",
+      "modenhet": 4,
+      "forventet_idrift": "2028",
+      "siste_utvikling": {
+        "dato": "2026-04-01",
+        "hendelse": "Første eksportkabel satt i drift; National Grid varslet 2 måneders forsinkelse på nettforbindelse, COD flyttet fra H2 2027 til Q4 2027/Q1 2028.",
+        "kilde_url": "https://dailygalaxy.com/2026/04/hornsea-3-offshore-wind-farm-export-first-cable-uk/"
+      },
+      "hafslund_relevans": {
+        "score": 4,
+        "begrunnelse": "Verdens største enkeltprosjekt fra Ørsted; forsinkelser illustrerer kostnads-/leverandørkjederisiko som er relevant for Hafslunds egne kraftprisprognoser."
+      },
+      "kilder": [
+        {"url": "https://hornseaproject3.co.uk/construction-updates", "type": "offisiell", "beskrivelse": "Ørsted byggeoppdateringer"},
+        {"url": "https://renews.biz/111435/orsted-hits-delays-on-hornsea-3-riffgrund-3/", "type": "nyhet", "beskrivelse": "Forsinkelser Hornsea 3/Riffgrund 3"}
+      ]
+    },
+    {
+      "id": "uk-hornsea-4",
+      "navn": "Hornsea 4",
+      "land": "UK",
+      "teknologi": "havvind",
+      "kapasitet_mw": 2400,
+      "eiere": ["Ørsted"],
+      "fase": "kansellert",
+      "modenhet": 0,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2025-05-01",
+        "hendelse": "Ørsted stanset prosjektet i sin nåværende form etter CfD-tildeling i AR6 (september 2024); avsluttet leverandørkontrakter pga. kostnadsøkning, høyere renter og byggerisiko.",
+        "kilde_url": "https://orsted.com/en/company-announcement-list/2025/05/orsted-to-discontinue-the-hornsea-4-offshore-wind--143901911"
+      },
+      "hafslund_relevans": {
+        "score": 5,
+        "begrunnelse": "Viktig kanselleringssignal: selv et CfD-sikret prosjekt fra en av de største utbyggerne ble stanset pga. kostnadsvekst — sterk indikator på kostnadspress som også påvirker nordisk havvindøkonomi."
+      },
+      "kilder": [
+        {"url": "https://orsted.com/en/company-announcement-list/2025/05/orsted-to-discontinue-the-hornsea-4-offshore-wind--143901911", "type": "offisiell", "beskrivelse": "Ørsted børsmelding om kansellering"}
+      ]
+    },
+    {
+      "id": "uk-berwick-bank-b",
+      "navn": "Berwick Bank Phase B",
+      "land": "UK",
+      "teknologi": "havvind",
+      "kapasitet_mw": 1380,
+      "eiere": ["SSE Renewables"],
+      "fase": "auksjon",
+      "modenhet": 3,
+      "forventet_idrift": "2031",
+      "siste_utvikling": {
+        "dato": "2026-01-14",
+        "hendelse": "Sikret 20-års CfD i AR7 til £89,49/MWh; eneste vinnende skotske fixed-bottom-prosjekt i runden. FID forventet 2027, kommisjonering målsatt mars 2031.",
+        "kilde_url": "https://www.sserenewables.com/news-and-views/2026/03/sse-renewables-signs-cfd-for-berwick-bank-phase-b/"
+      },
+      "hafslund_relevans": {
+        "score": 4,
+        "begrunnelse": "Skotsk havvind påvirker NO2-priskobling via mellomlandsforbindelser; del av SSEs 4,1 GW Berwick Bank-satsing."
+      },
+      "kilder": [
+        {"url": "https://www.sse.com/news-and-views/2026/01/sse-secures-cfd-for-berwick-bank-wind-farm/", "type": "offisiell", "beskrivelse": "SSE CfD-melding"},
+        {"url": "https://www.berwickbank.com/news/sse-secures-14gw-cfd-for-berwick-bank-wind-farm", "type": "offisiell", "beskrivelse": "Prosjektside"}
+      ]
+    },
+    {
+      "id": "uk-ar7-floating-pentland-erebus",
+      "navn": "Pentland (flytende demo) og Erebus",
+      "land": "UK",
+      "teknologi": "havvind (flytende)",
+      "kapasitet_mw": 192,
+      "eiere": ["CIP / GB Energy (Pentland)", "Blue Gem Wind (Erebus)"],
+      "fase": "auksjon",
+      "modenhet": 3,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2026-01-14",
+        "hendelse": "AR7 tildelte 92,5 MW til Pentland-testanlegg og 100 MW til Erebus i Celtic Sea — første flytende havvind-CfD-tildelinger i AR7.",
+        "kilde_url": "https://www.aegirinsights.com/uks-cfd-ar7-results-are-out-announcing-the-biggest-cfd-award-in-uk-offshore-wind-history"
+      },
+      "hafslund_relevans": {
+        "score": 2,
+        "begrunnelse": "Small-scale, men first-of-a-kind flytende referanse for kostnadsbane på flytende havvind som er relevant for norsk flytende havvind-strategi."
+      },
+      "kilder": [
+        {"url": "https://ore.catapult.org.uk/resource-hub/blog/allocation-round-7-ar7-results-and-analysis", "type": "analyse", "beskrivelse": "AR7 resultatanalyse"}
+      ]
+    },
+    {
+      "id": "uk-ar7-general",
+      "navn": "UK CfD AR7 (samlet auksjonsrunde)",
+      "land": "UK",
+      "teknologi": "havvind",
+      "kapasitet_mw": 8400,
+      "eiere": ["RWE (~6,9 GW)", "SSE", "CIP", "Blue Gem Wind", "flere"],
+      "fase": "auksjon",
+      "modenhet": 3,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2026-01-14",
+        "hendelse": "Rekordstor CfD-auksjon: 8,4 GW havvind tildelt til £91,20/MWh (fixed-bottom), budsjett hevet fra £900m til nær £1800m under runden. Størst havvindauksjon i Europas historie ifølge WindEurope.",
+        "kilde_url": "https://www.aegirinsights.com/uks-cfd-ar7-results-are-out-announcing-the-biggest-cfd-award-in-uk-offshore-wind-history"
+      },
+      "hafslund_relevans": {
+        "score": 5,
+        "begrunnelse": "Setter ny referansepris for havvind i Nordsjøen (£91,20/MWh) som direkte påvirker forventninger til kostnadsbane og priskobling mot Norge via NSL/North Sea Link."
+      },
+      "kilder": [
+        {"url": "https://www.osborneclarke.com/insights/energy-transition-uk-government-announces-results-record-breaking-cfd-ar7-auction", "type": "juridisk analyse", "beskrivelse": "Osborne Clarke AR7-oversikt"},
+        {"url": "https://www.offshorewind.biz/2026/01/14/rwe-secures-almost-7-gw-as-uk-awards-8-4-gw-in-europes-biggest-ever-offshore-wind-auction/", "type": "nyhet", "beskrivelse": "RWE vinner nesten 7 GW"}
+      ]
+    },
+    {
+      "id": "de-hedreiht",
+      "navn": "He Dreiht",
+      "land": "DE",
+      "teknologi": "havvind",
+      "kapasitet_mw": 960,
+      "eiere": ["EnBW (50,1%)", "Allianz Capital Partners/AIP/Norges Bank (49,9%)"],
+      "fase": "bygging",
+      "modenhet": 4,
+      "forventet_idrift": "2026",
+      "siste_utvikling": {
+        "dato": "2026-07-28",
+        "hendelse": "Alle 64 turbiner (Vestas V236-15MW) skal være i drift sommeren 2026; første kraft november 2025. Federal Police hentet inn en avbrutt turbinblad i juli 2026 (hendelse under drift).",
+        "kilde_url": "https://www.offshorewind.biz/2026/07/28/german-federal-police-recovers-broken-off-he-dreiht-wind-turbine-blade/"
+      },
+      "hafslund_relevans": {
+        "score": 3,
+        "begrunnelse": "Første store subsidiefrie tyske havvindpark inkludert Norges Bank som medinvestor via AIP-konsortiet — relevant referanse for ikke-subsidiert havvindøkonomi."
+      },
+      "kilder": [
+        {"url": "https://www.enbw.com/company/topics/wind-power/offshore-wind-farm-he-dreiht/", "type": "offisiell", "beskrivelse": "EnBW prosjektside"},
+        {"url": "https://www.offshorewind.biz/2025/11/26/first-power-flows-from-enbws-960-mw-he-dreiht-offshore-wind-farm-in-germany/", "type": "nyhet", "beskrivelse": "Første kraft"}
+      ]
+    },
+    {
+      "id": "de-auction-2025-zero-bid",
+      "navn": "Tysk havvindauksjon 2025 (nullsubsidie-flopp)",
+      "land": "DE",
+      "teknologi": "havvind",
+      "kapasitet_mw": 0,
+      "eiere": [],
+      "fase": "kansellert",
+      "modenhet": 0,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2025-08-06",
+        "hendelse": "Tysklands andre nullsubsidie-auksjon i 2025 fikk ingen bud. Tidligere runde (tidlig 2025) hadde negativ budgivning der TotalEnergies betalte €180m for byggerett. Bundestag vedtok å redusere 2026-auksjonsvolum fra 6 GW til 2,5–5 GW.",
+        "kilde_url": "https://www.bloomberg.com/news/articles/2025-08-06/germany-gets-no-bidders-in-zero-subsidy-offshore-wind-auction"
+      },
+      "hafslund_relevans": {
+        "score": 5,
+        "begrunnelse": "Kritisk signal: tysk havvindmarked har gått fra negativ budgivning (2023) til null bud i 2025 — kostnadsoppgang og markedsrisiko overstiger nå betalingsvilje for konsesjoner, med direkte relevans for forventet havvindtempo i Nordsjøen/Østersjøen."
+      },
+      "kilder": [
+        {"url": "https://www.offshore-mag.com/renewable-energy/news/55308675/germany-receives-no-bids-in-zero-subsidy-offshore-wind-auction", "type": "nyhet", "beskrivelse": "Nullbud-auksjon"},
+        {"url": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Scales-Back-Offshore-Wind-Auctions-After-Latest-Flop.html", "type": "nyhet", "beskrivelse": "Tyskland reduserer 2026-volum"},
+        {"url": "https://www.offshorewind.biz/2023/06/15/german-offshore-wind-auction-enters-negative-bidding-stage/", "type": "nyhet", "beskrivelse": "2023-runden med negativ budgivning (BP/TotalEnergies)"}
+      ]
+    },
+    {
+      "id": "nl-ijmuiden-ver-alpha-beta",
+      "navn": "IJmuiden Ver Alpha og Beta",
+      "land": "NL",
+      "teknologi": "havvind",
+      "kapasitet_mw": 4000,
+      "eiere": ["SSE Renewables/APG (Alpha, Noordzeker)", "Vattenfall/RWE m.fl. (Beta)"],
+      "fase": "konsesjon",
+      "modenhet": 3,
+      "forventet_idrift": "2029",
+      "siste_utvikling": {
+        "dato": "2025-12-01",
+        "hendelse": "Tillatelser utstedt 2024; leverandørkjede-aktivitet pågår. TenneT bygger 3 x 2GW HVDC-tilkoblinger — de første DC-tilkoblede havvindparkene i Nederland.",
+        "kilde_url": "https://english.rvo.nl/subsidies-financing/offshore-wind-energy/ijmuiden-ver"
+      },
+      "hafslund_relevans": {
+        "score": 4,
+        "begrunnelse": "En av de største nederlandske havvindsonene (4 GW), med ny HVDC-teknologi som kan sette standard for fremtidig integrasjon mot kontinentet/Norden."
+      },
+      "kilder": [
+        {"url": "https://www.gem.wiki/IJmuiden_Ver_Alpha_Offshore_wind_farm", "type": "database", "beskrivelse": "Global Energy Monitor"},
+        {"url": "https://www.nsenergybusiness.com/company-news/sse-and-apg-advance-ijmuiden-ver-alpha-offshore-wind-project-in-netherlands/", "type": "nyhet", "beskrivelse": "SSE/APG fremdrift"}
+      ]
+    },
+    {
+      "id": "nl-ijmuiden-ver-gamma-nederwiek",
+      "navn": "IJmuiden Ver Gamma-A/B og Nederwiek IB/II/III",
+      "land": "NL",
+      "teknologi": "havvind",
+      "kapasitet_mw": 2000,
+      "eiere": ["Ikke tildelt (auksjon 2026)"],
+      "fase": "auksjon",
+      "modenhet": 2,
+      "forventet_idrift": "2032",
+      "siste_utvikling": {
+        "dato": "2026-04-06",
+        "hendelse": "Nederland la til andre lokasjon (Gamma-B) til 2026-auksjonen, samlet 2 GW under SDE++-rammeverk med €4,75 mrd. i subsidiepott. Søknadsvindu 26. nov–10. des 2026, tillatelse forventet Q1 2027, idrift 2032.",
+        "kilde_url": "https://www.offshorewind.biz/2026/04/06/dutch-govt-adds-second-site-to-2026-offshore-wind-tender/"
+      },
+      "hafslund_relevans": {
+        "score": 3,
+        "begrunnelse": "Nederland gikk fra subsidiefri til subsidiestøttet tender (SDE++, maks €104/MWh) — speiler samme kostnadstrend som i Tyskland og påvirker referansepriser for havvind i Nordsjøen."
+      },
+      "kilder": [
+        {"url": "https://www.windpowermonthly.com/article/1945498/netherlands-lowers-2026-offshore-wind-auction-ambition", "type": "nyhet", "beskrivelse": "Nederland reduserer ambisjonsnivå"},
+        {"url": "https://windpowernl.com/2026/01/19/upcoming-dutch-offshore-wind-tender-to-be-subsidy-backed/", "type": "nyhet", "beskrivelse": "Subsidiestøttet tender"}
+      ]
+    },
+    {
+      "id": "be-princess-elisabeth-zone-1",
+      "navn": "Princess Elisabeth Zone 1 (PEZ 1)",
+      "land": "BE",
+      "teknologi": "havvind",
+      "kapasitet_mw": 700,
+      "eiere": ["Ikke tildelt (relansert tender)"],
+      "fase": "planlegging",
+      "modenhet": 2,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2026-07-24",
+        "hendelse": "Belgia godkjente nytt tenderrammeverk for PEZ 1 etter at opprinnelig tender ble kansellert juli 2025 pga. juridisk/regulatorisk usikkerhet om støtteordning, statsstøttegodkjenning og energiøy-tidsplan. Byggeperiode utvidet fra 4 til 5 år, maks budpris fjernet. Frist for idrift av energiøyfase 1 (MOG II) satt til 1. okt. 2031.",
+        "kilde_url": "https://www.offshorewind.biz/2026/07/24/belgium-approves-new-tender-framework-for-first-princess-elisabeth-zone-offshore-wind-site/"
+      },
+      "hafslund_relevans": {
+        "score": 3,
+        "begrunnelse": "Viktig kanselleringscase: første PEZ-tender ble avlyst i 2025 pga. regulatorisk usikkerhet, og illustrerer risikoen ved hybridprosjekter koblet til energiøyer/flere land."
+      },
+      "kilder": [
+        {"url": "https://www.offshorewind.biz/2025/07/01/belgium-delays-tender-for-offshore-wind-farm-in-princess-elisabeth-zone-until-2026/", "type": "nyhet", "beskrivelse": "Kansellering 2025"},
+        {"url": "https://www.aegirinsights.com/has-the-belgian-princess-returned", "type": "analyse", "beskrivelse": "Analyse av relansering"}
+      ]
+    },
+    {
+      "id": "fr-eolmed",
+      "navn": "EolMed",
+      "land": "FR",
+      "teknologi": "havvind (flytende)",
+      "kapasitet_mw": 30,
+      "eiere": ["Qair", "TotalEnergies", "BW Ideol"],
+      "fase": "idrift",
+      "modenhet": 5,
+      "forventet_idrift": "2026",
+      "siste_utvikling": {
+        "dato": "2026-05-01",
+        "hendelse": "Første elektroner til RTE-nettet april 2026, full kapasitet nådd mai 2026. 3 turbiner, 15 km utenfor Gruissan i Middelhavet, BW Ideols Damping Pool-teknologi.",
+        "kilde_url": "https://www.bw-ideol.com/en/eolmed-project"
+      },
+      "hafslund_relevans": {
+        "score": 2,
+        "begrunnelse": "First-of-a-kind flytende havvind-referanse i Middelhavet; liten skala men viktig teknologivalidering for flytende fundamenter."
+      },
+      "kilder": [
+        {"url": "https://www.renewable-energy-industry.com/news/world/article-7409", "type": "nyhet", "beskrivelse": "Kommisjonering EolMed"}
+      ]
+    },
+    {
+      "id": "fr-provence-grand-large",
+      "navn": "Provence Grand Large",
+      "land": "FR",
+      "teknologi": "havvind (flytende)",
+      "kapasitet_mw": 25,
+      "eiere": ["EDPR", "Engie", "CPP Investments"],
+      "fase": "idrift",
+      "modenhet": 5,
+      "forventet_idrift": "2025",
+      "siste_utvikling": {
+        "dato": "2025-12-01",
+        "hendelse": "Frankrikes første flytende havvindpark fullkommisjonert (25 MW, 3 x 8,4 MW Siemens Gamesa-turbiner), 17 km utenfor Port Saint Louis du Rhône.",
+        "kilde_url": "https://www.cppinvestments.com/newsroom/provence-grand-large-full-commissioning-of-the-first-french-floating-offshore-wind-farm/"
+      },
+      "hafslund_relevans": {
+        "score": 2,
+        "begrunnelse": "Første franske flytende havvindpark i full drift; referansepunkt for flytende teknologikostnader relevant for norsk flytende havvind-satsing."
+      },
+      "kilder": [
+        {"url": "https://provencegrandlarge.fr/en/the-floating-offshore-park/discover-the-park/", "type": "offisiell", "beskrivelse": "Prosjektside"}
+      ]
+    },
+    {
+      "id": "fr-tender-2026-large",
+      "navn": "Fransk storauksjon 2026 (7 flytende + 4 bunnfaste)",
+      "land": "FR",
+      "teknologi": "havvind",
+      "kapasitet_mw": 10000,
+      "eiere": ["Ikke tildelt"],
+      "fase": "auksjon",
+      "modenhet": 2,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2026-06-12",
+        "hendelse": "Frankrike lanserte massiv tender for syv flytende og fire bunnfaste havvindparker, samtidig med at Nederland satte av €3,9 mrd til IJmuiden Ver Gamma.",
+        "kilde_url": "https://www.offshorewind.biz/2026/06/12/france-launches-massive-tender-for-seven-floating-four-fixed-bottom-offshore-wind-farms/"
+      },
+      "hafslund_relevans": {
+        "score": 4,
+        "begrunnelse": "Betydelig opptrapping av fransk havvindpipeline (10 GW), inkludert storskala flytende teknologi som kan bli europeisk kostnadsreferanse for flytende havvind."
+      },
+      "kilder": [
+        {"url": "https://constructionreviewonline.com/netherlands-sets-aside-e3-9-billion-for-ijmuiden-ver-gamma-offshore-wind-as-france-simultaneously-launches-10-gw-tender/", "type": "nyhet", "beskrivelse": "Samtidig NL/FR-tender"}
+      ]
+    },
+    {
+      "id": "pl-baltic-power",
+      "navn": "Baltic Power",
+      "land": "PL",
+      "teknologi": "havvind",
+      "kapasitet_mw": 1200,
+      "eiere": ["Orlen", "Northland Power"],
+      "fase": "bygging",
+      "modenhet": 4,
+      "forventet_idrift": "2026",
+      "siste_utvikling": {
+        "dato": "2026-07-10",
+        "hendelse": "Første kraft levert 10. juli 2026 med 54 av 76 turbiner installert; installasjonskampanje ventet ferdig H2 2026. Polens første havvindpark.",
+        "kilde_url": "https://balticpower.pl/news/baltic-power-embarks-on-construction-of-central-europe-s-largest-green-energy-project/"
+      },
+      "hafslund_relevans": {
+        "score": 3,
+        "begrunnelse": "Polens første havvindpark, viktig milepæl for Østersjøen-utbygging som gradvis kan påvirke regional kraftbalanse mot Baltikum/Norden."
+      },
+      "kilder": [
+        {"url": "https://balticpower.pl/about-the-project/", "type": "offisiell", "beskrivelse": "Prosjektside"},
+        {"url": "https://www.northlandpower.com/en/projects-and-updates/baltic-power-polish-offshore-wind.aspx", "type": "offisiell", "beskrivelse": "Northland Power"}
+      ]
+    },
+    {
+      "id": "pl-baltica-2",
+      "navn": "Baltica 2",
+      "land": "PL",
+      "teknologi": "havvind",
+      "kapasitet_mw": 1500,
+      "eiere": ["PGE (50%)", "Ørsted (50%)"],
+      "fase": "bygging",
+      "modenhet": 4,
+      "forventet_idrift": "2027",
+      "siste_utvikling": {
+        "dato": "2026-05-01",
+        "hendelse": "FID tatt 29. januar 2025; offshore-installasjonskampanje for 111 monopiler startet mai 2026, ca. 40 km utenfor Ustka. Full kommisjonering forventet 2027.",
+        "kilde_url": "https://orsted.com/en/media/news/2026/05/orsted-and-pge-kick-off-offshore-installation-of-b-14922371"
+      },
+      "hafslund_relevans": {
+        "score": 3,
+        "begrunnelse": "Nest største polske havvindprosjekt med Ørsted som partner; forsterker Østersjø-utbyggingstrend."
+      },
+      "kilder": [
+        {"url": "https://pgebaltica.pl/en/press-office/press-releases/fid_eng", "type": "offisiell", "beskrivelse": "FID-melding"}
+      ]
+    },
+    {
+      "id": "baltic-lithuania-second-auction",
+      "navn": "Litauens andre havvindauksjon",
+      "land": "LT",
+      "teknologi": "havvind",
+      "kapasitet_mw": 700,
+      "eiere": ["Ikke avklart (relansert etter svak interesse)"],
+      "fase": "auksjon",
+      "modenhet": 2,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2025-12-01",
+        "hendelse": "Andre kombinerte leie- og støtteauksjon, opprinnelig planlagt tildelt innen utgangen av 2025, relansert etter svak interesse i første runde.",
+        "kilde_url": "https://windeurope.org/news/lithuania-kicks-off-offshore-wind-with-first-700-mw-auction/"
+      },
+      "hafslund_relevans": {
+        "score": 2,
+        "begrunnelse": "Tidlig baltisk havvindmarked; lav umiddelbar relevans men indikerer regional utbyggingsrisiko/-interesse i Østersjøen."
+      },
+      "kilder": [
+        {"url": "https://www.aegirinsights.com/uptake-in-offshore-wind-efforts-in-the-baltic-states-with-multiple-projects-applications-auctions-and-initial-permits", "type": "analyse", "beskrivelse": "Baltisk havvindstatus"}
+      ]
+    },
+    {
+      "id": "baltic-elwind-estonia-latvia",
+      "navn": "ELWIND (Estland-Latvia felles havvindprosjekt)",
+      "land": "EE/LV",
+      "teknologi": "havvind",
+      "kapasitet_mw": 1000,
+      "eiere": ["Ikke tildelt (felles estisk-latvisk utvikling)"],
+      "fase": "planlegging",
+      "modenhet": 2,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2026-01-01",
+        "hendelse": "Estland og Latvia planlegger felles auksjon i 2026 for det grensekryssende 1 GW ELWIND-prosjektet; mottok €18,7m i EU-finansiering til mulighetsstudier. Estlands egen 2025-støtteauksjon ble kansellert, skaper offtake-usikkerhet.",
+        "kilde_url": "https://windeurope.org/news/significant-developments-on-offshore-wind-in-the-baltic-sea/"
+      },
+      "hafslund_relevans": {
+        "score": 2,
+        "begrunnelse": "First-of-a-kind grensekryssende havvindprosjekt i Baltikum; kanselleringen av Estlands nasjonale auksjon viser markedsrisiko i regionen."
+      },
+      "kilder": [
+        {"url": "https://www.rvo.nl/files/file/2023-07/2023-Export-Markets-Offshore-Wind-in-the-Baltic-States.pdf", "type": "rapport", "beskrivelse": "Baltikum havvind markedsrapport"}
+      ]
+    },
+    {
+      "id": "ie-oress-2-tonn-nua",
+      "navn": "ORESS 2.1 / Tonn Nua",
+      "land": "IE",
+      "teknologi": "havvind",
+      "kapasitet_mw": 900,
+      "eiere": ["Helvic Head Offshore Wind (ESB + Ørsted JV)"],
+      "fase": "auksjon",
+      "modenhet": 3,
+      "forventet_idrift": null,
+      "siste_utvikling": {
+        "dato": "2025-11-01",
+        "hendelse": "Irlands andre havvindauksjon fullført november 2025; Helvic Head (ESB/Ørsted) vant med tilbud på €98,72/MWh for 900 MW-prosjekt utenfor County Waterford (South Coast DMAP).",
+        "kilde_url": "https://www.aegirinsights.com/irelands-oress-2-1-auction-awarded"
+      },
+      "hafslund_relevans": {
+        "score": 2,
+        "begrunnelse": "Irland bygger opp en ~4 GW pipeline i 2026; relevant som ytterligere europeisk referansepris (€98,7/MWh) for havvindauksjoner."
+      },
+      "kilder": [
+        {"url": "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-welcomes-successful-result-of-states-second-offshore-wind-auction/", "type": "offisiell", "beskrivelse": "Irsk regjeringsmelding"}
+      ]
+    }
+  ],
+  "nye_kilder": [
+    {"url": "https://ore.catapult.org.uk/resource-hub/blog/allocation-round-7-ar7-results-and-analysis", "type": "analyse", "beskrivelse": "Detaljert analyse av AR7-resultater, ORE Catapult", "segment": "havvind-europa"},
+    {"url": "https://www.aegirinsights.com/", "type": "analysebyrå", "beskrivelse": "Aegir Insights — løpende havvindanalyser for Europa, god kilde for auksjons- og FID-oppdateringer", "segment": "havvind-europa"},
+    {"url": "https://windeurope.org/newsroom/", "type": "bransjeorganisasjon", "beskrivelse": "WindEurope pressemeldinger — offisielle uttalelser om auksjonsresultater og bransjestatus", "segment": "havvind-europa"},
+    {"url": "https://www.offshorewind.biz/", "type": "nyhet", "beskrivelse": "Offshorewind.biz — daglig nyhetskilde med god dekning av FID/konsesjon/kansellering for alle europeiske havvindmarkeder", "segment": "havvind-europa"},
+    {"url": "https://www.cleanenergywire.org/", "type": "nyhet", "beskrivelse": "Clean Energy Wire — god dekning av tysk energipolitikk inkl. havvindauksjoner", "segment": "havvind-europa"},
+    {"url": "https://balticwind.eu/", "type": "nyhet", "beskrivelse": "Baltic Wind — spesialisert dekning av Østersjø/Baltikum havvindutvikling", "segment": "havvind-europa"},
+    {"url": "https://english.rvo.nl/subsidies-financing/offshore-wind-energy", "type": "offisiell", "beskrivelse": "Nederlandsk RVO — offisiell status på nederlandske havvindtildelinger", "segment": "havvind-europa"},
+    {"url": "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/", "type": "offisiell", "beskrivelse": "Irsk klima-/energidepartement — ORESS-auksjonsresultater", "segment": "havvind-europa"}
+  ],
+  "vurdering": "Bildet i 2025-2026 er delt: UKs AR7 satte ny europeisk rekord (8,4 GW til £91,20/MWh) og viser fortsatt investeringsvilje, mens Tyskland opplevde full kollaps i nullsubsidie-auksjoner og Ørsted kansellerte det CfD-sikrede Hornsea 4 — begge signalerer at kostnadspresset nå er så høyt at markedsmodellen for havvind må justeres. For Hafslund er dette relevant på to måter: britisk/nordsjø-volumvekst (Dogger Bank-komplekset når snart 6,6 GW) påvirker kraftprisdynamikk via mellomlandsforbindelser, mens de tyske/belgiske auksjonskollapsene og forsinkelsene tyder på at havvindutbygging i Nordsjøen/Østersjøen kan bli tregere og dyrere enn tidligere lagt til grunn, noe som demper nedsidepress på nordiske priser på mellomlang sikt. Polens og Irlands fremgang (Baltic Power, Baltica 2, ORESS 2.1) bygger sakte en ny Østersjø/vestlig-atlantisk kraftkorridor som bør følges videre."
+}
