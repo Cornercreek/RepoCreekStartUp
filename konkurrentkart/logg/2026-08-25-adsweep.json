@@ -1,0 +1,28 @@
+{
+  "kjoringsdato": "2026-08-25",
+  "metode": "Manuell browser-sweep (Claude Code browser-pane). Google Ads Transparency Center: adstransparency.google.com/?region=NO&domain=<domene>, periode 'Når som helst'. Meta Ad Library: facebook.com/ads/library, country=NO, active_status=active, keyword-søk. Merk: WebFetch fungerer IKKE mot disse kildene (JS-rendring / HTTP 403) — bruk alltid browser.",
+  "google_ads_transparency": {
+    "hafslund.no": {"antall_annonser": 39, "annonsorer": ["Trakken GmbH", "Channel Factory Nordics AB"], "notat": "Kjøres via byråkontoer, mest videoformat (YouTube). Ingen 'Bekreftet'-merket egen konto."},
+    "statkraft.com": {"antall_annonser": 20, "annonsorer": ["OMD AS"], "notat": "Via mediebyrå OMD."},
+    "lyse.no": {"antall_annonser": 75, "annonsorer": ["LYSE MARKED AS (Bekreftet)"], "notat": "Egen verifisert annonsørkonto, inkl. video."},
+    "eviny.no": {"antall_annonser": 25, "annonsorer": ["Eviny AS (Bekreftet)"], "notat": "Egen verifisert konto."},
+    "aenergi.no": {"antall_annonser": 1, "annonsorer": ["Å ENERGI AS (Bekreftet)"], "notat": "Minimal Google-annonsering."},
+    "fortum.no": {"antall_annonser": 81, "annonsorer": ["Fortum Markets AB (Bekreftet)"], "notat": "Størst volum i sweepen — aggressiv strømsalg-annonsering."},
+    "statkraft.no": {"antall_annonser": "~400", "annonsorer": ["OMD AS (Bekreftet)"], "notat": "Langt større volum enn statkraft.com (20) — Statkraft annonserer tungt mot norsk publikum via OMD. Tall er kumulative ('Når som helst'), ikke nødvendigvis aktive nå."},
+    "nte.no": {"antall_annonser": "~200", "annonsorer": ["NTE Telekom AS (Bekreftet)", "NTE Marked AS (Bekreftet)"], "notat": "Hoveddelen ser ut til å være telekom/bredbånd-annonsering, ikke kraft."},
+    "hydro.com": {"antall_annonser": 64, "annonsorer": ["Norsk Hydro ASA (Bekreftet)", "Hydro Extrusion Spain S.A.U. (Bekreftet)"], "notat": "Mest konsern/aluminium, ikke energisegmentet."},
+    "celsio.no": {"antall_annonser": 0},
+    "aneo.com": {"antall_annonser": 0},
+    "vattenfall.no": {"antall_annonser": 0},
+    "skagerakenergi.no": {"antall_annonser": 0},
+    "cloudberry.no": {"antall_annonser": 0}
+  },
+  "merknad": "Antall i Google Ads Transparency er kumulative for perioden 'Når som helst' — bruk datofilter i fremtidige kjøringer for å isolere nye annonser siden forrige kjøring.",
+  "meta_ad_library": {
+    "Hafslund": {"aktive_annonser_egne": 0, "notat": "Ingen egne aktive Meta-annonser. Tredjepartsfunn: SEO-byrået Solid Media kjører aktive annonser med Hafslund som kundecase ('snittposisjon fra 17 til 8', '85,7% mer trafikk', '19 av 21 søkeord på førstesiden') — bekrefter at Hafslund kjøper SEO-tjenester og at byrået eksponerer resultatene offentlig. Ruukki kjører annonse om Celsios akkumulatortank i Oslo (partneromtale)."},
+    "Statkraft": {"aktive_annonser": "~5", "notat": "Inkl. annonsørinnhold i Dagens Næringsliv om Statkrafts energidebatt på ONS 26. aug 2026 (hall 10, stand 1100)."},
+    "Eviny": {"aktive_annonser": 0},
+    "Fortum": {"aktive_annonser": "~97", "notat": "Tung B2C-annonsering for strømavtaler ('Bytt til Fortum på 1 minutt', 'Norges beste service i strømbransjen 2026') + B2B-innhold om kraftsystem/elektrifisering."},
+    "Lyse": {"aktive_annonser": "ukjent", "notat": "METODEPUNKT: søkeordet 'Lyse' er for generisk (treffer adjektivet). Må søkes via annonsørside (Page), ikke nøkkelord. Gjelder alle konkurrenter med generiske navn."}
+  }
+}
